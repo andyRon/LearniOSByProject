@@ -7,3 +7,11 @@
 ### QRCodeReader 
 - 扫描二维码or条形码，[原文](http://www.appcoda.com/barcode-reader-swift/)
 - **AVFoundation framework**
+
+### Detector
+Face Detection in iOS Using Core Image
+
+-  Core Image and UIView (or UIKit) use two different coordinate systems
+
+
+        
