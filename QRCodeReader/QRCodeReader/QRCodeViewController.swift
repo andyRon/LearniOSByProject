@@ -31,5 +31,10 @@ class QRCodeViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    @IBAction func unwindToHomeScreen(segue: UIStoryboardSegue) {
+        //去除模态视图
+        dismiss(animated: true, completion: nil)
+    }
 
 }

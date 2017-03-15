@@ -4,6 +4,6 @@
 - 点击按钮然后改变字体
 
 
-### 
-http://www.appcoda.com/barcode-reader-swift/
-**AVFoundation framework**
+### QRCodeReader 
+- 扫描二维码or条形码，[原文](http://www.appcoda.com/barcode-reader-swift/)
+- **AVFoundation framework**
