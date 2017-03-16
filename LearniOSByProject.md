@@ -18,3 +18,10 @@ Face Detection in iOS Using Core Image
 - 语音识别[参考文章](http://www.appcoda.com/siri-speech-framework/)
 - **Speech framework**
 - `Locale`的 identifier可参考 https://gist.github.com/jacobbubu/1836273
+- https://developer.apple.com/videos/play/wwdc2016/509/
+
+### 6 RequestingPermission
+- [请求定位权限](http://swift.gg/2017/02/13/requesting-permissions-core-location-tutorial/)
+- `CoreLocation`
+
+
