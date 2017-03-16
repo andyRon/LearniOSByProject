@@ -9,11 +9,12 @@
 - **AVFoundation framework**
 
 ### 4 Detector
-http://www.appcoda.com/face-detection-core-image/
+- [参考文章](http://www.appcoda.com/face-detection-core-image/)
 Face Detection in iOS Using Core Image
 
 -  Core Image and UIView (or UIKit) use two different coordinate systems
 
-### 5 
-Speech framework
-http://www.appcoda.com/siri-speech-framework/
+### 5 SpeechToTextDemo
+- 语音识别[参考文章](http://www.appcoda.com/siri-speech-framework/)
+- **Speech framework**
+- `Locale`的 identifier可参考 https://gist.github.com/jacobbubu/1836273
