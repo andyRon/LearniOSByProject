@@ -24,4 +24,20 @@ Face Detection in iOS Using Core Image
 - [请求定位权限](http://swift.gg/2017/02/13/requesting-permissions-core-location-tutorial/)
 - `CoreLocation`
 
+### 7 LocalNotification
+- http://swift.gg/2017/01/04/local-notification-tutorial-ios10/
+- iOS账号续费及证书更新流程 ??
+http://www.cnblogs.com/chimianduofangcong/p/5798657.html
+http://zltunes.com/ios-10-tong-zhi-geng-xin-xiang-jie/
+
+### 8 CAGradientLayer 
+- [颜色渐变](http://www.appcoda.com/cagradientlayer/)
+- Core Graphics 功能复杂一点
+- CAGradientLayer 简单适合新手， radial gradient is not supported
+- Gradient Direction
+    + 这边的坐标系比较特殊： 左上角点是(0.0, 0.0)，右下角是(1.0, 1.0).
+    + Mac系统的是: 左下角点是(0.0, 0.0)，右上角是(1.0, 1.0)
+
+
+
 
