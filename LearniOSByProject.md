@@ -1,4 +1,8 @@
 
+-------
+
+Third目录是第三方库和包的使用情况
+-------
 ### 1 StopWatch
 
 ### 2 project-2-CunstomFont
@@ -40,6 +44,15 @@ http://zltunes.com/ios-10-tong-zhi-geng-xin-xiang-jie/
 
 ### 9 
 ?? http://www.appcoda.com/healthkit-introduction/
+
+
+
+
+
+### tips
+-  Mixpanel is one of the mobile analytics platform which focuses on tracking user action rather than just their page views. 
+
+
 
 
 

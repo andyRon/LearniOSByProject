@@ -1,0 +1,12 @@
+PODS:
+  - WCLShineButton (1.0.2)
+
+DEPENDENCIES:
+  - WCLShineButton
+
+SPEC CHECKSUMS:
+  WCLShineButton: 8d19aebd14274b96a8ffb8f4ebd93c16a4c2c943
+
+PODFILE CHECKSUM: e4537b9bf8add644e29f01657613521ea9ccbbee
+
+COCOAPODS: 1.2.0.beta.3

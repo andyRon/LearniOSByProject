@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF3982CC1E83B5CE002DA568 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3982CB1E83B5CE002DA568 /* AppDelegate.swift */; };
+		EF3982CE1E83B5CE002DA568 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3982CD1E83B5CE002DA568 /* ViewController.swift */; };
+		EF3982D11E83B5CE002DA568 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3982CF1E83B5CE002DA568 /* Main.storyboard */; };
+		EF3982D31E83B5CE002DA568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3982D21E83B5CE002DA568 /* Assets.xcassets */; };
+		EF3982D61E83B5CE002DA568 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3982D41E83B5CE002DA568 /* LaunchScreen.storyboard */; };
+		FDB6FD93D575346A2819DC21 /* Pods_WCLShineButtonDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C860CEE2782501E15805CC /* Pods_WCLShineButtonDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03C860CEE2782501E15805CC /* Pods_WCLShineButtonDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WCLShineButtonDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2402F55609F27E8D3D9A7987 /* Pods-WCLShineButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCLShineButtonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WCLShineButtonDemo/Pods-WCLShineButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		ACFE0EF564E90DBD578F1726 /* Pods-WCLShineButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCLShineButtonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WCLShineButtonDemo/Pods-WCLShineButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EF3982C81E83B5CE002DA568 /* WCLShineButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WCLShineButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3982CB1E83B5CE002DA568 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF3982CD1E83B5CE002DA568 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF3982D01E83B5CE002DA568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF3982D21E83B5CE002DA568 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF3982D51E83B5CE002DA568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF3982D71E83B5CE002DA568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF3982C51E83B5CE002DA568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB6FD93D575346A2819DC21 /* Pods_WCLShineButtonDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31A53C6AEB8778059E06548F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03C860CEE2782501E15805CC /* Pods_WCLShineButtonDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90C7CB01D5F3173BDAE73C27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACFE0EF564E90DBD578F1726 /* Pods-WCLShineButtonDemo.debug.xcconfig */,
+				2402F55609F27E8D3D9A7987 /* Pods-WCLShineButtonDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF3982BF1E83B5CE002DA568 = {
+			isa = PBXGroup;
+			children = (
+				EF3982CA1E83B5CE002DA568 /* WCLShineButtonDemo */,
+				EF3982C91E83B5CE002DA568 /* Products */,
+				90C7CB01D5F3173BDAE73C27 /* Pods */,
+				31A53C6AEB8778059E06548F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF3982C91E83B5CE002DA568 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF3982C81E83B5CE002DA568 /* WCLShineButtonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF3982CA1E83B5CE002DA568 /* WCLShineButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EF3982CB1E83B5CE002DA568 /* AppDelegate.swift */,
+				EF3982CD1E83B5CE002DA568 /* ViewController.swift */,
+				EF3982CF1E83B5CE002DA568 /* Main.storyboard */,
+				EF3982D21E83B5CE002DA568 /* Assets.xcassets */,
+				EF3982D41E83B5CE002DA568 /* LaunchScreen.storyboard */,
+				EF3982D71E83B5CE002DA568 /* Info.plist */,
+			);
+			path = WCLShineButtonDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF3982C71E83B5CE002DA568 /* WCLShineButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3982DA1E83B5CE002DA568 /* Build configuration list for PBXNativeTarget "WCLShineButtonDemo" */;
+			buildPhases = (
+				F4E7C251D78AD0D4886F116E /* [CP] Check Pods Manifest.lock */,
+				EF3982C41E83B5CE002DA568 /* Sources */,
+				EF3982C51E83B5CE002DA568 /* Frameworks */,
+				EF3982C61E83B5CE002DA568 /* Resources */,
+				26ADEC49903BF20D8E429D95 /* [CP] Embed Pods Frameworks */,
+				49845BAC76EDBB2B3BDA548E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WCLShineButtonDemo;
+			productName = WCLShineButtonDemo;
+			productReference = EF3982C81E83B5CE002DA568 /* WCLShineButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF3982C01E83B5CE002DA568 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = andyron;
+				TargetAttributes = {
+					EF3982C71E83B5CE002DA568 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZHNA975N38;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF3982C31E83B5CE002DA568 /* Build configuration list for PBXProject "WCLShineButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF3982BF1E83B5CE002DA568;
+			productRefGroup = EF3982C91E83B5CE002DA568 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF3982C71E83B5CE002DA568 /* WCLShineButtonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF3982C61E83B5CE002DA568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3982D61E83B5CE002DA568 /* LaunchScreen.storyboard in Resources */,
+				EF3982D31E83B5CE002DA568 /* Assets.xcassets in Resources */,
+				EF3982D11E83B5CE002DA568 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26ADEC49903BF20D8E429D95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WCLShineButtonDemo/Pods-WCLShineButtonDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49845BAC76EDBB2B3BDA548E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WCLShineButtonDemo/Pods-WCLShineButtonDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4E7C251D78AD0D4886F116E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF3982C41E83B5CE002DA568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3982CE1E83B5CE002DA568 /* ViewController.swift in Sources */,
+				EF3982CC1E83B5CE002DA568 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF3982CF1E83B5CE002DA568 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3982D01E83B5CE002DA568 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF3982D41E83B5CE002DA568 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3982D51E83B5CE002DA568 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF3982D81E83B5CE002DA568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF3982D91E83B5CE002DA568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF3982DB1E83B5CE002DA568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACFE0EF564E90DBD578F1726 /* Pods-WCLShineButtonDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHNA975N38;
+				INFOPLIST_FILE = WCLShineButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.andyron.WCLShineButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF3982DC1E83B5CE002DA568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2402F55609F27E8D3D9A7987 /* Pods-WCLShineButtonDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHNA975N38;
+				INFOPLIST_FILE = WCLShineButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.andyron.WCLShineButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF3982C31E83B5CE002DA568 /* Build configuration list for PBXProject "WCLShineButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3982D81E83B5CE002DA568 /* Debug */,
+				EF3982D91E83B5CE002DA568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF3982DA1E83B5CE002DA568 /* Build configuration list for PBXNativeTarget "WCLShineButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3982DB1E83B5CE002DA568 /* Debug */,
+				EF3982DC1E83B5CE002DA568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF3982C01E83B5CE002DA568 /* Project object */;
+}
