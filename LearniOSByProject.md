@@ -96,9 +96,18 @@ http://zltunes.com/ios-10-tong-zhi-geng-xin-xiang-jie/
 - 知识点
     + `UINavigationBar` 
 
-### 12 ShadowButtonTutorial
+### 12 ShadowButtonTutorial button的阴影
 
 ### 13 FadeMusicTutorial  音乐的声音的渐变
+- 知识点
+    + `AVFoundation` `AVAudioPlayer`
+
+### 14 DatePickerTutorial 
+- 知识点
+    + `UIDatePicker`
+    + `DateFormatter`
+
+
 
 
 ### tips
