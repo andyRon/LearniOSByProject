@@ -91,11 +91,15 @@ http://zltunes.com/ios-10-tong-zhi-geng-xin-xiang-jie/
     ```
     12. 实现代理方法`imagePickerController:didFinishPickingMediaWithInfo`
     13. 在**Inof.plist**中添加图库或相机使用key
-    
+
+### 11 CustomizeNavBarTutorial
+- 知识点
+    + `UINavigationBar` 
 
 
 ### tips
 -  Mixpanel is one of the mobile analytics platform which focuses on tracking user action rather than just their page views. 
+- UIViewContentMode
 
 ### 学习来源
 - http://www.appcoda.com/
