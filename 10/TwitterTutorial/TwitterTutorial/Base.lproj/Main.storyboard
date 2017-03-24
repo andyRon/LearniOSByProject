@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TwitterTutorial" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,46 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a2C-dl-HmM">
+                                <rect key="frame" x="30" y="28" width="315" height="204"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="204" id="YAV-hu-Nmg"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wQc-Rk-XS6">
+                                <rect key="frame" x="30" y="263" width="99" height="30"/>
+                                <state key="normal" title="Choose Image"/>
+                                <connections>
+                                    <action selector="chooseImagePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d2A-SH-RS6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2OB-f2-E0V">
+                                <rect key="frame" x="303" y="263" width="42" height="30"/>
+                                <state key="normal" title="Tweet"/>
+                                <connections>
+                                    <action selector="tweetButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MLi-d4-v5J"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="a2C-dl-HmM" secondAttribute="trailing" constant="14" id="2kv-vg-EMW"/>
+                            <constraint firstItem="wQc-Rk-XS6" firstAttribute="baseline" secondItem="2OB-f2-E0V" secondAttribute="baseline" id="Hor-5c-joG"/>
+                            <constraint firstItem="a2C-dl-HmM" firstAttribute="trailing" secondItem="2OB-f2-E0V" secondAttribute="trailing" id="fMe-Vh-S0m"/>
+                            <constraint firstItem="2OB-f2-E0V" firstAttribute="top" secondItem="a2C-dl-HmM" secondAttribute="bottom" constant="31" id="gb3-nP-mbu"/>
+                            <constraint firstItem="a2C-dl-HmM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="14" id="lOP-gn-og8"/>
+                            <constraint firstItem="a2C-dl-HmM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="nBV-hJ-XiD"/>
+                            <constraint firstItem="a2C-dl-HmM" firstAttribute="leading" secondItem="wQc-Rk-XS6" secondAttribute="leading" id="ovh-MW-XPK"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="a2C-dl-HmM" id="FLK-8t-e1h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
     </scenes>
 </document>
