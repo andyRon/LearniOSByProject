@@ -111,6 +111,8 @@ http://zltunes.com/ios-10-tong-zhi-geng-xin-xiang-jie/
 - 知识点
     + `UIStepper`
 
+### 16 SpriteKitBackgroundTutorial
+
 
 
 ### tips
