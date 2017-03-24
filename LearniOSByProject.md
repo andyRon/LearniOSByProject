@@ -46,13 +46,26 @@ http://zltunes.com/ios-10-tong-zhi-geng-xin-xiang-jie/
 ?? http://www.appcoda.com/healthkit-introduction/
 
 
+### 10 
+
+- 步骤
+    1. 建立类型为**Single View Application**， product name为****
+    2. 添加一个 **Image View**，属性**Content Mode**设置为*Aspect Fit*
+    3. 添加两个按钮，*title*分别为"Choose Image" and "Tweet"
+    4. 给**Image View**添加限制
+    5. 给两个按钮添加一定限制
+    6. 在**ViewController.swift**中，为**Image View**添加outlet，为两个按钮添加Action
+    7. 使用**Social framework** : `import Social` 
+
 
 
 
 ### tips
 -  Mixpanel is one of the mobile analytics platform which focuses on tracking user action rather than just their page views. 
 
-
+### 学习来源
+- http://www.appcoda.com/
+- https://www.ioscreator.com
 
 
 
