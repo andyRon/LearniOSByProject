@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF7A43361E865A6900E3C17A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A43351E865A6900E3C17A /* AppDelegate.swift */; };
+		EF7A43381E865A6900E3C17A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A43371E865A6900E3C17A /* ViewController.swift */; };
+		EF7A433B1E865A6900E3C17A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7A43391E865A6900E3C17A /* Main.storyboard */; };
+		EF7A433D1E865A6900E3C17A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7A433C1E865A6900E3C17A /* Assets.xcassets */; };
+		EF7A43401E865A6900E3C17A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7A433E1E865A6900E3C17A /* LaunchScreen.storyboard */; };
+		EF8A343A1E865DF700374204 /* test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EF8A34391E865DF700374204 /* test.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF7A43321E865A6900E3C17A /* OpenPDFTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenPDFTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7A43351E865A6900E3C17A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF7A43371E865A6900E3C17A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF7A433A1E865A6900E3C17A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF7A433C1E865A6900E3C17A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF7A433F1E865A6900E3C17A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF7A43411E865A6900E3C17A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8A34391E865DF700374204 /* test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = test.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF7A432F1E865A6900E3C17A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF7A43291E865A6900E3C17A = {
+			isa = PBXGroup;
+			children = (
+				EF7A43341E865A6900E3C17A /* OpenPDFTutorial */,
+				EF7A43331E865A6900E3C17A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7A43331E865A6900E3C17A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7A43321E865A6900E3C17A /* OpenPDFTutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7A43341E865A6900E3C17A /* OpenPDFTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				EF8A34391E865DF700374204 /* test.pdf */,
+				EF7A43351E865A6900E3C17A /* AppDelegate.swift */,
+				EF7A43371E865A6900E3C17A /* ViewController.swift */,
+				EF7A43391E865A6900E3C17A /* Main.storyboard */,
+				EF7A433C1E865A6900E3C17A /* Assets.xcassets */,
+				EF7A433E1E865A6900E3C17A /* LaunchScreen.storyboard */,
+				EF7A43411E865A6900E3C17A /* Info.plist */,
+			);
+			path = OpenPDFTutorial;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF7A43311E865A6900E3C17A /* OpenPDFTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7A43441E865A6900E3C17A /* Build configuration list for PBXNativeTarget "OpenPDFTutorial" */;
+			buildPhases = (
+				EF7A432E1E865A6900E3C17A /* Sources */,
+				EF7A432F1E865A6900E3C17A /* Frameworks */,
+				EF7A43301E865A6900E3C17A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenPDFTutorial;
+			productName = OpenPDFTutorial;
+			productReference = EF7A43321E865A6900E3C17A /* OpenPDFTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF7A432A1E865A6900E3C17A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = andyron;
+				TargetAttributes = {
+					EF7A43311E865A6900E3C17A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZHNA975N38;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF7A432D1E865A6900E3C17A /* Build configuration list for PBXProject "OpenPDFTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF7A43291E865A6900E3C17A;
+			productRefGroup = EF7A43331E865A6900E3C17A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7A43311E865A6900E3C17A /* OpenPDFTutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF7A43301E865A6900E3C17A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8A343A1E865DF700374204 /* test.pdf in Resources */,
+				EF7A43401E865A6900E3C17A /* LaunchScreen.storyboard in Resources */,
+				EF7A433D1E865A6900E3C17A /* Assets.xcassets in Resources */,
+				EF7A433B1E865A6900E3C17A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF7A432E1E865A6900E3C17A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7A43381E865A6900E3C17A /* ViewController.swift in Sources */,
+				EF7A43361E865A6900E3C17A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF7A43391E865A6900E3C17A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7A433A1E865A6900E3C17A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF7A433E1E865A6900E3C17A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7A433F1E865A6900E3C17A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7A43421E865A6900E3C17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF7A43431E865A6900E3C17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF7A43451E865A6900E3C17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHNA975N38;
+				INFOPLIST_FILE = OpenPDFTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.andyron.OpenPDFTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF7A43461E865A6900E3C17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHNA975N38;
+				INFOPLIST_FILE = OpenPDFTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.andyron.OpenPDFTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7A432D1E865A6900E3C17A /* Build configuration list for PBXProject "OpenPDFTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7A43421E865A6900E3C17A /* Debug */,
+				EF7A43431E865A6900E3C17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7A43441E865A6900E3C17A /* Build configuration list for PBXNativeTarget "OpenPDFTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7A43451E865A6900E3C17A /* Debug */,
+				EF7A43461E865A6900E3C17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF7A432A1E865A6900E3C17A /* Project object */;
+}
