@@ -125,6 +125,19 @@ http://zltunes.com/ios-10-tong-zhi-geng-xin-xiang-jie/
 - 知识点
     + `UITabBarController`
 
+### 20 ChangeDisplayNameTutorial  改变app在Home screen时的显示名
+- 知识点
+    +  **info.plist**中 **Bundle display name**,
+
+### 21 OpenPDFTutorial
+
+
+### 22 SpellingCheckerTutorial
+- 知识点
+    + Double-click on the Navigation Bar in The Table View Controller and set the title to "Choose the right spelling". 
+    + `UITextChecker`  `rangeOfMisspelledWord()`
+
+
 
  
 
@@ -134,6 +147,7 @@ http://zltunes.com/ios-10-tong-zhi-geng-xin-xiang-jie/
 - UIViewContentMode
 - CGColor UIColor
 - 19 UITabBarController 的两个向上的tabBar样式怎么控制
+- `Bundle` 方法总结，获得各种地址
 
 ### 学习来源
 - http://www.appcoda.com/

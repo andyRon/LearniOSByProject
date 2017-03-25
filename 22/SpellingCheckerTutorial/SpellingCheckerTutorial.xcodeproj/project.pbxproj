@@ -7,27 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF7A43361E865A6900E3C17A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A43351E865A6900E3C17A /* AppDelegate.swift */; };
-		EF7A43381E865A6900E3C17A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A43371E865A6900E3C17A /* ViewController.swift */; };
-		EF7A433B1E865A6900E3C17A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7A43391E865A6900E3C17A /* Main.storyboard */; };
-		EF7A433D1E865A6900E3C17A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7A433C1E865A6900E3C17A /* Assets.xcassets */; };
-		EF7A43401E865A6900E3C17A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7A433E1E865A6900E3C17A /* LaunchScreen.storyboard */; };
-		EFD734701E866078008B2527 /* test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EFD7346F1E866078008B2527 /* test.pdf */; };
+		EF8A34481E865EA900374204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A34471E865EA900374204 /* AppDelegate.swift */; };
+		EF8A344D1E865EA900374204 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8A344B1E865EA900374204 /* Main.storyboard */; };
+		EF8A344F1E865EA900374204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8A344E1E865EA900374204 /* Assets.xcassets */; };
+		EF8A34521E865EA900374204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8A34501E865EA900374204 /* LaunchScreen.storyboard */; };
+		EFD734721E8662B6008B2527 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD734711E8662B6008B2527 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EF7A43321E865A6900E3C17A /* OpenPDFTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenPDFTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF7A43351E865A6900E3C17A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF7A43371E865A6900E3C17A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF7A433A1E865A6900E3C17A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EF7A433C1E865A6900E3C17A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EF7A433F1E865A6900E3C17A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EF7A43411E865A6900E3C17A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EFD7346F1E866078008B2527 /* test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = test.pdf; sourceTree = "<group>"; };
+		EF8A34441E865EA900374204 /* SpellingCheckerTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpellingCheckerTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8A34471E865EA900374204 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF8A344C1E865EA900374204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF8A344E1E865EA900374204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF8A34511E865EA900374204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF8A34531E865EA900374204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD734711E8662B6008B2527 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EF7A432F1E865A6900E3C17A /* Frameworks */ = {
+		EF8A34411E865EA900374204 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,74 +35,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EF7A43291E865A6900E3C17A = {
+		EF8A343B1E865EA900374204 = {
 			isa = PBXGroup;
 			children = (
-				EF7A43341E865A6900E3C17A /* OpenPDFTutorial */,
-				EF7A43331E865A6900E3C17A /* Products */,
+				EF8A34461E865EA900374204 /* SpellingCheckerTutorial */,
+				EF8A34451E865EA900374204 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EF7A43331E865A6900E3C17A /* Products */ = {
+		EF8A34451E865EA900374204 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF7A43321E865A6900E3C17A /* OpenPDFTutorial.app */,
+				EF8A34441E865EA900374204 /* SpellingCheckerTutorial.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EF7A43341E865A6900E3C17A /* OpenPDFTutorial */ = {
+		EF8A34461E865EA900374204 /* SpellingCheckerTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				EFD7346F1E866078008B2527 /* test.pdf */,
-				EF7A43351E865A6900E3C17A /* AppDelegate.swift */,
-				EF7A43371E865A6900E3C17A /* ViewController.swift */,
-				EF7A43391E865A6900E3C17A /* Main.storyboard */,
-				EF7A433C1E865A6900E3C17A /* Assets.xcassets */,
-				EF7A433E1E865A6900E3C17A /* LaunchScreen.storyboard */,
-				EF7A43411E865A6900E3C17A /* Info.plist */,
+				EF8A34471E865EA900374204 /* AppDelegate.swift */,
+				EF8A344B1E865EA900374204 /* Main.storyboard */,
+				EF8A344E1E865EA900374204 /* Assets.xcassets */,
+				EF8A34501E865EA900374204 /* LaunchScreen.storyboard */,
+				EF8A34531E865EA900374204 /* Info.plist */,
+				EFD734711E8662B6008B2527 /* TableViewController.swift */,
 			);
-			path = OpenPDFTutorial;
+			path = SpellingCheckerTutorial;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF7A43311E865A6900E3C17A /* OpenPDFTutorial */ = {
+		EF8A34431E865EA900374204 /* SpellingCheckerTutorial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF7A43441E865A6900E3C17A /* Build configuration list for PBXNativeTarget "OpenPDFTutorial" */;
+			buildConfigurationList = EF8A34561E865EA900374204 /* Build configuration list for PBXNativeTarget "SpellingCheckerTutorial" */;
 			buildPhases = (
-				EF7A432E1E865A6900E3C17A /* Sources */,
-				EF7A432F1E865A6900E3C17A /* Frameworks */,
-				EF7A43301E865A6900E3C17A /* Resources */,
+				EF8A34401E865EA900374204 /* Sources */,
+				EF8A34411E865EA900374204 /* Frameworks */,
+				EF8A34421E865EA900374204 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = OpenPDFTutorial;
-			productName = OpenPDFTutorial;
-			productReference = EF7A43321E865A6900E3C17A /* OpenPDFTutorial.app */;
+			name = SpellingCheckerTutorial;
+			productName = SpellingCheckerTutorial;
+			productReference = EF8A34441E865EA900374204 /* SpellingCheckerTutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EF7A432A1E865A6900E3C17A /* Project object */ = {
+		EF8A343C1E865EA900374204 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = andyron;
 				TargetAttributes = {
-					EF7A43311E865A6900E3C17A = {
+					EF8A34431E865EA900374204 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = ZHNA975N38;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = EF7A432D1E865A6900E3C17A /* Build configuration list for PBXProject "OpenPDFTutorial" */;
+			buildConfigurationList = EF8A343F1E865EA900374204 /* Build configuration list for PBXProject "SpellingCheckerTutorial" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,55 +109,54 @@
 				en,
 				Base,
 			);
-			mainGroup = EF7A43291E865A6900E3C17A;
-			productRefGroup = EF7A43331E865A6900E3C17A /* Products */;
+			mainGroup = EF8A343B1E865EA900374204;
+			productRefGroup = EF8A34451E865EA900374204 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF7A43311E865A6900E3C17A /* OpenPDFTutorial */,
+				EF8A34431E865EA900374204 /* SpellingCheckerTutorial */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EF7A43301E865A6900E3C17A /* Resources */ = {
+		EF8A34421E865EA900374204 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFD734701E866078008B2527 /* test.pdf in Resources */,
-				EF7A43401E865A6900E3C17A /* LaunchScreen.storyboard in Resources */,
-				EF7A433D1E865A6900E3C17A /* Assets.xcassets in Resources */,
-				EF7A433B1E865A6900E3C17A /* Main.storyboard in Resources */,
+				EF8A34521E865EA900374204 /* LaunchScreen.storyboard in Resources */,
+				EF8A344F1E865EA900374204 /* Assets.xcassets in Resources */,
+				EF8A344D1E865EA900374204 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EF7A432E1E865A6900E3C17A /* Sources */ = {
+		EF8A34401E865EA900374204 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF7A43381E865A6900E3C17A /* ViewController.swift in Sources */,
-				EF7A43361E865A6900E3C17A /* AppDelegate.swift in Sources */,
+				EF8A34481E865EA900374204 /* AppDelegate.swift in Sources */,
+				EFD734721E8662B6008B2527 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EF7A43391E865A6900E3C17A /* Main.storyboard */ = {
+		EF8A344B1E865EA900374204 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EF7A433A1E865A6900E3C17A /* Base */,
+				EF8A344C1E865EA900374204 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EF7A433E1E865A6900E3C17A /* LaunchScreen.storyboard */ = {
+		EF8A34501E865EA900374204 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EF7A433F1E865A6900E3C17A /* Base */,
+				EF8A34511E865EA900374204 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -168,7 +164,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EF7A43421E865A6900E3C17A /* Debug */ = {
+		EF8A34541E865EA900374204 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +213,7 @@
 			};
 			name = Debug;
 		};
-		EF7A43431E865A6900E3C17A /* Release */ = {
+		EF8A34551E865EA900374204 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,27 +255,27 @@
 			};
 			name = Release;
 		};
-		EF7A43451E865A6900E3C17A /* Debug */ = {
+		EF8A34571E865EA900374204 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZHNA975N38;
-				INFOPLIST_FILE = OpenPDFTutorial/Info.plist;
+				INFOPLIST_FILE = SpellingCheckerTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.andyron.OpenPDFTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.andyron.SpellingCheckerTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		EF7A43461E865A6900E3C17A /* Release */ = {
+		EF8A34581E865EA900374204 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZHNA975N38;
-				INFOPLIST_FILE = OpenPDFTutorial/Info.plist;
+				INFOPLIST_FILE = SpellingCheckerTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.andyron.OpenPDFTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.andyron.SpellingCheckerTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -288,25 +284,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF7A432D1E865A6900E3C17A /* Build configuration list for PBXProject "OpenPDFTutorial" */ = {
+		EF8A343F1E865EA900374204 /* Build configuration list for PBXProject "SpellingCheckerTutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF7A43421E865A6900E3C17A /* Debug */,
-				EF7A43431E865A6900E3C17A /* Release */,
+				EF8A34541E865EA900374204 /* Debug */,
+				EF8A34551E865EA900374204 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF7A43441E865A6900E3C17A /* Build configuration list for PBXNativeTarget "OpenPDFTutorial" */ = {
+		EF8A34561E865EA900374204 /* Build configuration list for PBXNativeTarget "SpellingCheckerTutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF7A43451E865A6900E3C17A /* Debug */,
-				EF7A43461E865A6900E3C17A /* Release */,
+				EF8A34571E865EA900374204 /* Debug */,
+				EF8A34581E865EA900374204 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EF7A432A1E865A6900E3C17A /* Project object */;
+	rootObject = EF8A343C1E865EA900374204 /* Project object */;
 }
