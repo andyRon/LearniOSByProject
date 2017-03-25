@@ -119,14 +119,21 @@ http://zltunes.com/ios-10-tong-zhi-geng-xin-xiang-jie/
 
 ### 18 DrawGradientsTutorial
 - 知识点
-    + CGGradient
+    + `CGGradient`
 
+### 19 TabBarCustomizationTutorial
+- 知识点
+    + `UITabBarController`
+
+
+ 
 
 
 ### tips
 -  Mixpanel is one of the mobile analytics platform which focuses on tracking user action rather than just their page views. 
 - UIViewContentMode
 - CGColor UIColor
+- 19 UITabBarController 的两个向上的tabBar样式怎么控制
 
 ### 学习来源
 - http://www.appcoda.com/
