@@ -117,6 +117,10 @@ http://zltunes.com/ios-10-tong-zhi-geng-xin-xiang-jie/
 - 知识点
     + `CGContext`   `UIGraphicsGetCurrentContext()`
 
+### 18 DrawGradientsTutorial
+- 知识点
+    + CGGradient
+
 
 
 ### tips
