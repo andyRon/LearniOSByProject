@@ -137,6 +137,8 @@ http://zltunes.com/ios-10-tong-zhi-geng-xin-xiang-jie/
     + Double-click on the Navigation Bar in The Table View Controller and set the title to "Choose the right spelling". 
     + `UITextChecker`  `rangeOfMisspelledWord()`
 
+### 23 DraggingViewsTutorial
+
 
 
  
