@@ -138,7 +138,12 @@ http://zltunes.com/ios-10-tong-zhi-geng-xin-xiang-jie/
     + `UITextChecker`  `rangeOfMisspelledWord()`
 
 ### 23 DraggingViewsTutorial
+- 知识点
+    + `UIPanGestureRecognizer`
+    + `insetBy()`
 
+
+### 24 VibrationTutorial   震动 
 
 
  

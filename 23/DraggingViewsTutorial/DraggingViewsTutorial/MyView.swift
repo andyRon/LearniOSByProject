@@ -41,8 +41,9 @@ class MyView: UIView {
         let translation = recognizer.translation(in: self.superview)
         self.center = CGPoint(x: lastLocation.x + translation.x, y: lastLocation.y + translation.y)
     }
-    
+    // 被touch时调用
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        print(touches.count)
         self.superview?.bringSubview(toFront: self)
         
         lastLocation = self.center
