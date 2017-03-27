@@ -167,7 +167,13 @@ http://zltunes.com/ios-10-tong-zhi-geng-xin-xiang-jie/
 
 ### 31 SwiftFileManagementTutorial  ?? 
 try? ?
+- [参考](https://www.ioscreator.com/tutorials/file-management-tutorial-ios8-swift)
 
+
+### 32 SwiftCoreImageTutorial  图片滤镜
+- 知识点
+    + `CIImage`   保存图像数据的类
+    + `CIFilter`   滤镜类 图片属性进行细节处理的类 它对所有的像素进行操作 用键-值 （KVC）来设置
 
 
 
