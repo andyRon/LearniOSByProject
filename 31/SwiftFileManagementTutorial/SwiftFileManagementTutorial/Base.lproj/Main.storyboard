@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftFileManagementTutorial" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KQX-Nz-CaO">
+                                <rect key="frame" x="16" y="48" width="74" height="30"/>
+                                <state key="normal" title="Create File"/>
+                                <connections>
+                                    <action selector="createFile:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eT8-AI-mC3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CwM-Aj-bwZ">
+                                <rect key="frame" x="267" y="48" width="92" height="30"/>
+                                <state key="normal" title="List Directory"/>
+                                <connections>
+                                    <action selector="listDirectory:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b4j-ER-PSy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MN3-fW-bli">
+                                <rect key="frame" x="16" y="171" width="120" height="30"/>
+                                <state key="normal" title="View File Content"/>
+                                <connections>
+                                    <action selector="viewFileContent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dKi-wN-xhD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UKd-KF-kej">
+                                <rect key="frame" x="287" y="171" width="72" height="30"/>
+                                <state key="normal" title="Delete File"/>
+                                <connections>
+                                    <action selector="deleteFile:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zIr-7X-QkU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KQX-Nz-CaO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="28" id="5xz-72-uyv"/>
+                            <constraint firstItem="CwM-Aj-bwZ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="7Xy-WV-QKS"/>
+                            <constraint firstItem="KQX-Nz-CaO" firstAttribute="baseline" secondItem="CwM-Aj-bwZ" secondAttribute="baseline" id="8Xv-oP-7zB"/>
+                            <constraint firstItem="CwM-Aj-bwZ" firstAttribute="trailing" secondItem="UKd-KF-kej" secondAttribute="trailing" id="8rB-OQ-z6d"/>
+                            <constraint firstItem="MN3-fW-bli" firstAttribute="baseline" secondItem="UKd-KF-kej" secondAttribute="baseline" id="PX5-Pf-Ij7"/>
+                            <constraint firstItem="KQX-Nz-CaO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="U3f-JE-ps4"/>
+                            <constraint firstItem="KQX-Nz-CaO" firstAttribute="leading" secondItem="MN3-fW-bli" secondAttribute="leading" id="ebD-yP-KeY"/>
+                            <constraint firstItem="MN3-fW-bli" firstAttribute="top" secondItem="KQX-Nz-CaO" secondAttribute="bottom" constant="93" id="udi-Ye-5X2"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
