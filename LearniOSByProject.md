@@ -142,8 +142,12 @@ http://zltunes.com/ios-10-tong-zhi-geng-xin-xiang-jie/
     + `UIPanGestureRecognizer`
     + `insetBy()`
 
-
 ### 24 VibrationTutorial   震动 
+
+### 25 XMLParserTutorial
+- 知识点
+    + `XMLParser`
+
 
 
  
