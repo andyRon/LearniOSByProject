@@ -153,6 +153,10 @@ http://zltunes.com/ios-10-tong-zhi-geng-xin-xiang-jie/
     + `` 
 - [参考](https://www.ioscreator.com/tutorials/draw-route-mapkit-tutorial)
 
+### 27 MultipleOutletsTutorial
+- 知识点
+    + `UIView.subviews`
+    + `UIControl.addTarget()`
 
  
 
