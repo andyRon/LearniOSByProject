@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF1F84651E8AAE5E00C32F52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1F84641E8AAE5E00C32F52 /* AppDelegate.swift */; };
+		EF1F84671E8AAE5E00C32F52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1F84661E8AAE5E00C32F52 /* ViewController.swift */; };
+		EF1F846A1E8AAE5E00C32F52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1F84681E8AAE5E00C32F52 /* Main.storyboard */; };
+		EF1F846C1E8AAE5E00C32F52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1F846B1E8AAE5E00C32F52 /* Assets.xcassets */; };
+		EF1F846F1E8AAE5E00C32F52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1F846D1E8AAE5E00C32F52 /* LaunchScreen.storyboard */; };
+		EF1F84771E8AAF4A00C32F52 /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF1F84761E8AAF4A00C32F52 /* dog.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF1F84611E8AAE5D00C32F52 /* AirdropTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirdropTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1F84641E8AAE5E00C32F52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF1F84661E8AAE5E00C32F52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF1F84691E8AAE5E00C32F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF1F846B1E8AAE5E00C32F52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF1F846E1E8AAE5E00C32F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF1F84701E8AAE5E00C32F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1F84761E8AAF4A00C32F52 /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF1F845E1E8AAE5D00C32F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF1F84581E8AAE5D00C32F52 = {
+			isa = PBXGroup;
+			children = (
+				EF1F84631E8AAE5D00C32F52 /* AirdropTutorial */,
+				EF1F84621E8AAE5D00C32F52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF1F84621E8AAE5D00C32F52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF1F84611E8AAE5D00C32F52 /* AirdropTutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF1F84631E8AAE5D00C32F52 /* AirdropTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				EF1F84761E8AAF4A00C32F52 /* dog.jpg */,
+				EF1F84641E8AAE5E00C32F52 /* AppDelegate.swift */,
+				EF1F84661E8AAE5E00C32F52 /* ViewController.swift */,
+				EF1F84681E8AAE5E00C32F52 /* Main.storyboard */,
+				EF1F846B1E8AAE5E00C32F52 /* Assets.xcassets */,
+				EF1F846D1E8AAE5E00C32F52 /* LaunchScreen.storyboard */,
+				EF1F84701E8AAE5E00C32F52 /* Info.plist */,
+			);
+			path = AirdropTutorial;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF1F84601E8AAE5D00C32F52 /* AirdropTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1F84731E8AAE5E00C32F52 /* Build configuration list for PBXNativeTarget "AirdropTutorial" */;
+			buildPhases = (
+				EF1F845D1E8AAE5D00C32F52 /* Sources */,
+				EF1F845E1E8AAE5D00C32F52 /* Frameworks */,
+				EF1F845F1E8AAE5D00C32F52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirdropTutorial;
+			productName = AirdropTutorial;
+			productReference = EF1F84611E8AAE5D00C32F52 /* AirdropTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF1F84591E8AAE5D00C32F52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = andyron;
+				TargetAttributes = {
+					EF1F84601E8AAE5D00C32F52 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZHNA975N38;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF1F845C1E8AAE5D00C32F52 /* Build configuration list for PBXProject "AirdropTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF1F84581E8AAE5D00C32F52;
+			productRefGroup = EF1F84621E8AAE5D00C32F52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF1F84601E8AAE5D00C32F52 /* AirdropTutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF1F845F1E8AAE5D00C32F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1F84771E8AAF4A00C32F52 /* dog.jpg in Resources */,
+				EF1F846F1E8AAE5E00C32F52 /* LaunchScreen.storyboard in Resources */,
+				EF1F846C1E8AAE5E00C32F52 /* Assets.xcassets in Resources */,
+				EF1F846A1E8AAE5E00C32F52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF1F845D1E8AAE5D00C32F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1F84671E8AAE5E00C32F52 /* ViewController.swift in Sources */,
+				EF1F84651E8AAE5E00C32F52 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF1F84681E8AAE5E00C32F52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1F84691E8AAE5E00C32F52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF1F846D1E8AAE5E00C32F52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1F846E1E8AAE5E00C32F52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF1F84711E8AAE5E00C32F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF1F84721E8AAE5E00C32F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF1F84741E8AAE5E00C32F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHNA975N38;
+				INFOPLIST_FILE = AirdropTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.andyron.AirdropTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF1F84751E8AAE5E00C32F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHNA975N38;
+				INFOPLIST_FILE = AirdropTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.andyron.AirdropTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF1F845C1E8AAE5D00C32F52 /* Build configuration list for PBXProject "AirdropTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1F84711E8AAE5E00C32F52 /* Debug */,
+				EF1F84721E8AAE5E00C32F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1F84731E8AAE5E00C32F52 /* Build configuration list for PBXNativeTarget "AirdropTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1F84741E8AAE5E00C32F52 /* Debug */,
+				EF1F84751E8AAE5E00C32F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF1F84591E8AAE5D00C32F52 /* Project object */;
+}
