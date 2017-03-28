@@ -188,6 +188,8 @@ try? ?
     + `UIImagePickerControllerMediaType`
     + `Photos`框架 ??
 
+### 36 SearchMapTutorial
+
 
 
 
@@ -197,6 +199,8 @@ try? ?
 - CGColor UIColor
 - 19 UITabBarController 的两个向上的tabBar样式怎么控制
 - `Bundle` 方法总结，获得各种地址
+- iOS 动画  QuartzCore
+- 多进程
 
 ### 学习来源
 - http://www.appcoda.com/

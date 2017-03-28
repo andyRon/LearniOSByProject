@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SearchMapTutorial" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="HP3-DQ-1iz">
+                                <rect key="frame" x="0.0" y="28" width="375" height="550"/>
+                            </mapView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="wzh-za-Vws">
+                                <rect key="frame" x="127" y="610" width="121" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="121" id="B3n-2n-WfO"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Hotel"/>
+                                    <segment title="Museum"/>
+                                </segments>
+                                <connections>
+                                    <action selector="searchOnValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="o5n-W0-OEs"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wzh-za-Vws" secondAttribute="bottom" constant="29" id="4sf-pb-o2G"/>
+                            <constraint firstItem="HP3-DQ-1iz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Sgm-sG-W8G"/>
+                            <constraint firstItem="HP3-DQ-1iz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="fyX-9D-0l7"/>
+                            <constraint firstItem="HP3-DQ-1iz" firstAttribute="centerX" secondItem="wzh-za-Vws" secondAttribute="centerX" id="oLq-Vn-qYd"/>
+                            <constraint firstAttribute="trailing" secondItem="HP3-DQ-1iz" secondAttribute="trailing" id="uU2-0a-z4V"/>
+                            <constraint firstItem="wzh-za-Vws" firstAttribute="top" secondItem="HP3-DQ-1iz" secondAttribute="bottom" constant="32" id="xuq-ri-1I2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="HP3-DQ-1iz" id="b6G-6n-5MK"/>
+                        <outlet property="segmentedControl" destination="wzh-za-Vws" id="J9U-j3-huW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125.59999999999999" y="56.221889055472268"/>
+        </scene>
+    </scenes>
+</document>
