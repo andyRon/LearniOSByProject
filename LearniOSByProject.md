@@ -183,6 +183,11 @@ try? ?
 
 ### 34 TextFieldAlertControllerTutorial
 
+### 35 TakeVideoPlayerTutorial
+- 知识点
+    + `UIImagePickerControllerMediaType`
+    + `Photos`框架 ??
+
 
 
 
