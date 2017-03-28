@@ -175,6 +175,14 @@ try? ?
     + `CIImage`   保存图像数据的类
     + `CIFilter`   滤镜类 图片属性进行细节处理的类 它对所有的像素进行操作 用键-值 （KVC）来设置
 
+### 33 ContextMenuTableViewTutorial   table的 cut/copy/paste操作
+- 知识点
+    + `UIResponderStandardEditActions`
+    +  `tableView:shouldShowMenuForRowAtIndexPath`    `tableView:canPerformAction:forRowAtIndexPath`   `tableView:performAction:forRowAtIndexPath:withSender` 
+    + `textFieldShouldReturn`
+
+
+
 
 
 ### tips
