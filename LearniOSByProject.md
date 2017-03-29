@@ -196,8 +196,11 @@ try? ?
 - 知识点
     + `UIActivityViewController`
  
+### 38 ReorderingCollectionViewTutorial
 
-
+### 39 ScaleImagesTutorial
+- 知识点
+    + `UIPinchGestureRecognizer`  `CGAffineTransform`
 
 
 
@@ -213,6 +216,7 @@ try? ?
 ### 学习来源
 - http://www.appcoda.com/
 - https://www.ioscreator.com
+- https://www.raywenderlich.com
 
 
 

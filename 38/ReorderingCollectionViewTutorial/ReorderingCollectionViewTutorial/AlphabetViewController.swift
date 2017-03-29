@@ -57,7 +57,7 @@ class AlphabetViewController: UICollectionViewController {
     }
 
 
-    // cell 长按拖动时调用
+    // cell 长按拖动使两个cell互换位置后调用
     override func collectionView(_ collectionView: UICollectionView, moveItemAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
         let temp = characterArray[sourceIndexPath.row]
         characterArray[sourceIndexPath.row] = characterArray[destinationIndexPath.row]
