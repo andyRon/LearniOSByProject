@@ -202,7 +202,9 @@ try? ?
 - 知识点
     + `UIPinchGestureRecognizer`  `CGAffineTransform`
 
-
+### 40 NSUserDefaultsTutorial  程序被杀掉后数据还能保存
+- 知识点
+    + `UserDefaults`
 
 ### tips
 -  Mixpanel is one of the mobile analytics platform which focuses on tracking user action rather than just their page views. 
