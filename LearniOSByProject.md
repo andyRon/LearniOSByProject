@@ -202,7 +202,7 @@ try? ?
 - 知识点
     + `UIPinchGestureRecognizer`  `CGAffineTransform`
 
-### 40 NSUserDefaultsTutorial  程序被杀掉后数据还能保存
+### 40 UserDefaultsTutorial  程序被杀掉后数据还能保存
 - 知识点
     + `UserDefaults`
 
