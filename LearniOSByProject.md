@@ -206,6 +206,8 @@ try? ?
 - 知识点
     + `UserDefaults`
 
+### 41 ScreenEdgePanGesturesTutorial 
+
 ### tips
 -  Mixpanel is one of the mobile analytics platform which focuses on tracking user action rather than just their page views. 
 - UIViewContentMode
@@ -217,8 +219,8 @@ try? ?
 
 ### 学习来源
 - http://www.appcoda.com/
-- https://www.ioscreator.com
-- https://www.raywenderlich.com
+- https://www.ioscreator.com/
+- https://www.raywenderlich.com/
 
 
 
