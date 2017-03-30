@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        screenEgeRecognizer = UIScreenEdgePanGestureRecognizer(target: self, action: "rotateBall:")
+        screenEgeRecognizer = UIScreenEdgePanGestureRecognizer(target: self, action: #selector(ViewController.rotateBall(sender:)))
         screenEgeRecognizer.edges = .left
         view.addGestureRecognizer(screenEgeRecognizer)
     }

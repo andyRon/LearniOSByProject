@@ -206,8 +206,21 @@ try? ?
 - 知识点
     + `UserDefaults`
 
-### 41 ScreenEdgePanGesturesTutorial 
+### 41 ScreenEdgePanGesturesTutorial 屏幕边缘手势
+- 知识点
+    + `UIScreenEdgePanGestureRecognizer`
 
+### 42 AddEventTutorial
+- 知识点
+    + `EventKit`  `EKEventStore`
+    + 向日历中添加事件
+
+### 43 ToadyExtension
+- 知识点
+    + `ProcessInfo().operatingSystemVersion`
+    + **Application Extension**
+
+    
 ### tips
 -  Mixpanel is one of the mobile analytics platform which focuses on tracking user action rather than just their page views. 
 - UIViewContentMode
@@ -216,6 +229,9 @@ try? ?
 - `Bundle` 方法总结，获得各种地址
 - iOS 动画  QuartzCore
 - 多进程
+- 视频
+- 结构
+- 
 
 ### 学习来源
 - http://www.appcoda.com/
