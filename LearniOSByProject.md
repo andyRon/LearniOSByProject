@@ -220,6 +220,19 @@ try? ?
     + `ProcessInfo().operatingSystemVersion`
     + **Application Extension**
 
+### 44 AddSearchTableViewTutorial
+- 知识点
+    + `NSPredicate`
+    + `UISearchResultsUpdating`
+    + `UISearchController`
+    + 闭包的一种写法
+
+
+
+
+
+
+
     
 ### tips
 -  Mixpanel is one of the mobile analytics platform which focuses on tracking user action rather than just their page views. 
