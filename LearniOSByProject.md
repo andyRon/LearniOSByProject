@@ -239,6 +239,8 @@ try? ?
 
 ### 48 ActivityIndicatorStatusBarTutorial  状态栏中的菊花转
 
+### 49 TouchIDTutorial
+
 
 
 
