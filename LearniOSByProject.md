@@ -236,7 +236,9 @@ try? ?
     + `UIScrollView`
 
 ### 47 EmailTutorial
-    
+
+### 48 ActivityIndicatorStatusBarTutorial  状态栏中的菊花转
+
 
 
 
@@ -253,7 +255,7 @@ try? ?
 - 多进程
 - 视频
 - 结构
-- 
+- symbol files
 
 ### 学习来源
 - http://www.appcoda.com/
