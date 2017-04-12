@@ -253,6 +253,7 @@ https://www.ioscreator.com/tutorials/custom-fonts-interface-builder-tutorial-ios
     
 ### 52 CustomCollectionViewCellsTutorial
 
+### 53 SendSMSTutorial
 
 
 
