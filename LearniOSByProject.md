@@ -257,7 +257,7 @@ https://www.ioscreator.com/tutorials/custom-fonts-interface-builder-tutorial-ios
 - 知识点
     + `MessageUI` `MFMessageComposeViewControllerDelegate` `MFMessageComposeViewController`
 
-### 54 
+### 54 SwipeGestureTutorial
 
 
 
