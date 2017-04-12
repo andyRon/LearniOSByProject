@@ -251,6 +251,8 @@ https://www.ioscreator.com/tutorials/custom-fonts-interface-builder-tutorial-ios
     + Drag a Long Press Gesture Recognizer from the Object Library on top of the Button
     + 把按钮的**gestureRecognizers**的outlet关联到**Long Press Gesture Recognizer**
     
+### 52 CustomCollectionViewCellsTutorial
+
 
 
 
