@@ -241,6 +241,14 @@ try? ?
 
 ### 49 TouchIDTutorial
 
+### 50 CustomFontTutorial
+https://www.ioscreator.com/tutorials/custom-fonts-interface-builder-tutorial-ios8-swift
+
+### 51 LongPressGesturesTutorial
+
+- 步骤
+    + 按钮
+    + Drag a Long Press Gesture Recognizer from the Object Library on top of the Button
 
 
 
