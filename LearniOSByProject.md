@@ -259,7 +259,11 @@ https://www.ioscreator.com/tutorials/custom-fonts-interface-builder-tutorial-ios
 
 ### 54 SwipeGestureTutorial
 
-### 55
+### 55 BlurEffectTutorial
+
+
+
+
 - [参考](http://www.appcoda.com/bezier-paths-introduction/)
 - https://developer.apple.com/library/content/documentation/2DDrawing/Conceptual/DrawingPrintingiOS/BezierPaths/BezierPaths.html
 - 知识点

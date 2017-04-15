@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BlurEffectTutorial" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Apple_Swift_Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="H6W-Ab-2HM">
+                                <rect key="frame" x="67" y="61" width="256" height="256"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Avy-7a-3Md">
+                                <rect key="frame" x="180" y="377" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="7An-5G-qfH"/>
+                                </constraints>
+                                <state key="normal" title="Blur"/>
+                                <connections>
+                                    <action selector="blurImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QUN-zC-fyu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="H6W-Ab-2HM" firstAttribute="centerX" secondItem="Avy-7a-3Md" secondAttribute="centerX" id="0jb-5T-kkl"/>
+                            <constraint firstItem="H6W-Ab-2HM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="41" id="3Cs-42-d5V"/>
+                            <constraint firstItem="Avy-7a-3Md" firstAttribute="top" secondItem="H6W-Ab-2HM" secondAttribute="bottom" constant="60" id="8ac-LG-X1w"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Avy-7a-3Md" secondAttribute="bottom" constant="260" id="F5X-Lc-aBt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="H6W-Ab-2HM" secondAttribute="trailing" constant="36" id="eIR-a8-tGl"/>
+                            <constraint firstItem="H6W-Ab-2HM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="tqI-Qw-3JV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="H6W-Ab-2HM" id="VJn-8Q-BEn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Apple_Swift_Logo.png" width="128" height="128"/>
+    </resources>
+</document>
