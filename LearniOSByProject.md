@@ -261,7 +261,7 @@ https://www.ioscreator.com/tutorials/custom-fonts-interface-builder-tutorial-ios
 
 ### 55 BlurEffectTutorial
 
-
+### 56 SnapBehaviourTutorial
 
 
 - [参考](http://www.appcoda.com/bezier-paths-introduction/)
