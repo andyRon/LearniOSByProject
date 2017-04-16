@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF740F681EA3010C00913FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF740F671EA3010C00913FB3 /* AppDelegate.swift */; };
+		EF740F6A1EA3010C00913FB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF740F691EA3010C00913FB3 /* ViewController.swift */; };
+		EF740F6D1EA3010C00913FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF740F6B1EA3010C00913FB3 /* Main.storyboard */; };
+		EF740F6F1EA3010C00913FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF740F6E1EA3010C00913FB3 /* Assets.xcassets */; };
+		EF740F721EA3010C00913FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF740F701EA3010C00913FB3 /* LaunchScreen.storyboard */; };
+		EF740F7A1EA3015B00913FB3 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF740F791EA3015B00913FB3 /* CircleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF740F641EA3010C00913FB3 /* DrawingCirclesTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingCirclesTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF740F671EA3010C00913FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF740F691EA3010C00913FB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF740F6C1EA3010C00913FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF740F6E1EA3010C00913FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF740F711EA3010C00913FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF740F731EA3010C00913FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF740F791EA3015B00913FB3 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF740F611EA3010C00913FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF740F5B1EA3010C00913FB3 = {
+			isa = PBXGroup;
+			children = (
+				EF740F661EA3010C00913FB3 /* DrawingCirclesTutorial */,
+				EF740F651EA3010C00913FB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF740F651EA3010C00913FB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF740F641EA3010C00913FB3 /* DrawingCirclesTutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF740F661EA3010C00913FB3 /* DrawingCirclesTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				EF740F671EA3010C00913FB3 /* AppDelegate.swift */,
+				EF740F691EA3010C00913FB3 /* ViewController.swift */,
+				EF740F6B1EA3010C00913FB3 /* Main.storyboard */,
+				EF740F6E1EA3010C00913FB3 /* Assets.xcassets */,
+				EF740F701EA3010C00913FB3 /* LaunchScreen.storyboard */,
+				EF740F731EA3010C00913FB3 /* Info.plist */,
+				EF740F791EA3015B00913FB3 /* CircleView.swift */,
+			);
+			path = DrawingCirclesTutorial;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF740F631EA3010C00913FB3 /* DrawingCirclesTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF740F761EA3010C00913FB3 /* Build configuration list for PBXNativeTarget "DrawingCirclesTutorial" */;
+			buildPhases = (
+				EF740F601EA3010C00913FB3 /* Sources */,
+				EF740F611EA3010C00913FB3 /* Frameworks */,
+				EF740F621EA3010C00913FB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawingCirclesTutorial;
+			productName = DrawingCirclesTutorial;
+			productReference = EF740F641EA3010C00913FB3 /* DrawingCirclesTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF740F5C1EA3010C00913FB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = andyron;
+				TargetAttributes = {
+					EF740F631EA3010C00913FB3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = ZHNA975N38;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF740F5F1EA3010C00913FB3 /* Build configuration list for PBXProject "DrawingCirclesTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF740F5B1EA3010C00913FB3;
+			productRefGroup = EF740F651EA3010C00913FB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF740F631EA3010C00913FB3 /* DrawingCirclesTutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF740F621EA3010C00913FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF740F721EA3010C00913FB3 /* LaunchScreen.storyboard in Resources */,
+				EF740F6F1EA3010C00913FB3 /* Assets.xcassets in Resources */,
+				EF740F6D1EA3010C00913FB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF740F601EA3010C00913FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF740F7A1EA3015B00913FB3 /* CircleView.swift in Sources */,
+				EF740F6A1EA3010C00913FB3 /* ViewController.swift in Sources */,
+				EF740F681EA3010C00913FB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF740F6B1EA3010C00913FB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF740F6C1EA3010C00913FB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF740F701EA3010C00913FB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF740F711EA3010C00913FB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF740F741EA3010C00913FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF740F751EA3010C00913FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF740F771EA3010C00913FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHNA975N38;
+				INFOPLIST_FILE = DrawingCirclesTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.andyron.DrawingCirclesTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF740F781EA3010C00913FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHNA975N38;
+				INFOPLIST_FILE = DrawingCirclesTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.andyron.DrawingCirclesTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF740F5F1EA3010C00913FB3 /* Build configuration list for PBXProject "DrawingCirclesTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF740F741EA3010C00913FB3 /* Debug */,
+				EF740F751EA3010C00913FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF740F761EA3010C00913FB3 /* Build configuration list for PBXNativeTarget "DrawingCirclesTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF740F771EA3010C00913FB3 /* Debug */,
+				EF740F781EA3010C00913FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF740F5C1EA3010C00913FB3 /* Project object */;
+}
