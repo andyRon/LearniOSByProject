@@ -265,6 +265,8 @@ https://www.ioscreator.com/tutorials/custom-fonts-interface-builder-tutorial-ios
 
 ### 57 DrawingCirclesTutorial
 
+### 58 ShakeGestureTutorial  震动
+
 
 - [参考](http://www.appcoda.com/bezier-paths-introduction/)
 - https://developer.apple.com/library/content/documentation/2DDrawing/Conceptual/DrawingPrintingiOS/BezierPaths/BezierPaths.html
