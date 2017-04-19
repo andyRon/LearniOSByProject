@@ -274,13 +274,14 @@ https://www.ioscreator.com/tutorials/custom-fonts-interface-builder-tutorial-ios
 ### 61 AddRowsTableViewTutorial 
 https://www.ioscreator.com/tutorials/add-rows-table-view-tutorial-ios8-swift
 
-
+### 62 PathsNLayers
 
 - [参考](http://www.appcoda.com/bezier-paths-introduction/)
 - https://developer.apple.com/library/content/documentation/2DDrawing/Conceptual/DrawingPrintingiOS/BezierPaths/BezierPaths.html
 - 知识点
     + `UIBezierPath`  create vector-based paths
     + `CGContext`   `CAShapeLayer`
+- goal in this tutorial is to give you practical guidelines on how to create bezier paths and how to use shape layer objects along with them
 
 
 
