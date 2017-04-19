@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="g4x-PJ-oVl">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Cars-->
+        <scene sceneID="Ou6-RT-9gj">
+            <objects>
+                <tableViewController id="6Gi-G6-lRU" customClass="CarListViewController" customModule="AddRowsTableViewTutorial" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="OgG-zG-xdQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="carCell" id="Hm6-kZ-wnN">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Hm6-kZ-wnN" id="TIs-ta-SfC">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="6Gi-G6-lRU" id="TTq-ue-JnF"/>
+                            <outlet property="delegate" destination="6Gi-G6-lRU" id="MlQ-JQ-t81"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Cars" id="2CY-Y5-jc9">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="IsC-FO-0Gu">
+                            <connections>
+                                <segue destination="8NE-OU-4tx" kind="presentation" id="iG9-mC-uZ5"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zEM-AX-YhG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1060" y="44.527736131934034"/>
+        </scene>
+        <!--Car Detail View Controller-->
+        <scene sceneID="2LW-rz-YCO">
+            <objects>
+                <viewController id="8NE-OU-4tx" customClass="CarDetailViewController" customModule="AddRowsTableViewTutorial" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ngn-cP-kdg"/>
+                        <viewControllerLayoutGuide type="bottom" id="vde-h0-VJi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3ID-ck-YDu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rdx-R8-TNe">
+                                <rect key="frame" x="16" y="107" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fuw-3c-ibd">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Add Car" id="UJ2-BL-Dxk">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="MwQ-ed-L06">
+                                            <connections>
+                                                <segue destination="cuv-0G-cbj" kind="unwind" identifier="cancelSegue" unwindAction="cancelWithSegue:" id="YDD-ab-MhL"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="Rb5-FM-oR6">
+                                            <connections>
+                                                <segue destination="cuv-0G-cbj" kind="unwind" identifier="doneSegue" unwindAction="doneWithSegue:" id="iNQ-WA-i8x"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="carName" destination="rdx-R8-TNe" id="oRU-cg-Xw1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NfI-MG-n1Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="cuv-0G-cbj" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1830" y="38"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="aEN-Am-emy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="g4x-PJ-oVl" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PkW-5d-HVv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6Gi-G6-lRU" kind="relationship" relationship="rootViewController" id="kjx-mV-IkQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uiD-fW-NlX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="120.8" y="44.527736131934034"/>
+        </scene>
+    </scenes>
+</document>
