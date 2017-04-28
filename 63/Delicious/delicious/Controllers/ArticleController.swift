@@ -58,4 +58,66 @@ class ArticleController: UITableViewController {
         }
         return UITableViewAutomaticDimension
     }
+    
+    
+    func attributedContentFromText(text: String) -> NSMutableAttributedString {
+        let paraStyle = NSMutableParagraphStyle()
+        paraStyle.lineSpacing = 7
+        let attrs = [NSFontAttributeName: UIFont.systemFontOfSize(15),
+                     NSParagraphStyleAttributeName: paraStyle]
+        let attrContent = NSMutableAttributedString(string: text, attributes: attrs)
+        return attrContent
+    }
+    
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        var cellForRow: UITableViewCell!
+        
+        if indexPath.row == 0 {
+            let cell = tableView.dequeueReusableCellWithIdentifier("CoverPhotoCell", forIndexPath: indexPath) as! CoverPhotoTableViewCell
+            
+            if let imageName = currentArticle?.coverPhoto {
+                cell.coverImageView.image = UIImage(named: imageName)
+            }
+            
+            cellForRow = cell
+            
+        } else if indexPath.row == 1 {
+            let cell = tableView.dequeueReusableCellWithIdentifier("MainContentCell", forIndexPath: indexPath) as! MainContentTableViewCell
+            cell.titleLabel.text = currentArticle?.title
+            
+            cell.contentLabel.textAlignment = .Left
+            if let text = currentArticle?.mainContent {
+                cell.contentLabel.attributedText = attributedContentFromText(text)
+            }
+            
+            cellForRow = cell
+            
+        } else {
+            let cell = tableView.dequeueReusableCellWithIdentifier("SubContentCell", forIndexPath: indexPath) as! SubContentTableViewCell
+            
+            if let article = currentArticle {
+                let subContent = article.subContents[indexPath.row - 2]
+                
+                if let width = subContent.photoWidth, let height = subContent.photoHeight {
+                    let heightRatio = height / width
+                    cell.subImageViewHeight.constant = screenWidth * heightRatio
+                }
+                
+                if let imageName = subContent.photo {
+                    cell.subImageView.image = UIImage(named: imageName)
+                }
+                
+                cell.subContentLabel.textAlignment = .Left
+                if let text = subContent.text {
+                    cell.subContentLabel.attributedText = attributedContentFromText(text)
+                }
+                
+            }
+            
+            cellForRow = cell
+        }
+        
+        return cellForRow
+    }
 }
