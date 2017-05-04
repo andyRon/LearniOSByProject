@@ -293,7 +293,14 @@ https://www.ioscreator.com/tutorials/add-rows-table-view-tutorial-ios8-swift
     - AdMob notifications  cloud messaging and storage
     - 步骤
         + 设计UI
-        + 在Firebase中注册项目
+        + 在Firebase中创建项目
+            * 在iOS项目中添加 `GoogleService-Info.plist` 文件
+            * install pod
+            
+
+### 65 Intermediate iOS 10 Programming with Swift
+- appcoda 网站书籍[Intermediate iOS 10 Programming with Swift](https://www.appcoda.com/intermediate-swift-programming-book/)的学习笔记。**Intermediate**每一节是一个项目
+
 
 
 
