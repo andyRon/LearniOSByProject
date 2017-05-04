@@ -285,6 +285,15 @@ https://www.ioscreator.com/tutorials/add-rows-table-view-tutorial-ios8-swift
 ### 63 Building a Custom Content View with UITableView and MapKit
 - https://www.appcoda.com/custom-content-view/
 - 以 Cureo(http://curetoapp.com/) 应用的为例来展示
+?? 
+
+### 64 Firebase
+1. FirebaseTutorial
+    - [Introducing Firebase with Swift 3: Login and Sign Up](http://www.appcoda.com/firebase-login-signup/)
+    - AdMob notifications  cloud messaging and storage
+    - 步骤
+        + 设计UI
+        + 在Firebase中注册项目
 
 
 
@@ -306,6 +315,7 @@ https://www.ioscreator.com/tutorials/add-rows-table-view-tutorial-ios8-swift
 - 视频
 - 结构
 - symbol files
+- segues  “present modally”
 
 ### 学习来源
 - http://www.appcoda.com/
