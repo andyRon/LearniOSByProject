@@ -51,5 +51,25 @@ class ArticleTableViewController: UITableViewController {
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        // 透明到显示效果
+//        cell.alpha = 0
+//        UIView.animate(withDuration: 1.0, animations: { cell.alpha = 1 })
+        
+        // 转动显示效果
+//        let rotationAngleInRadians = 90.0 * CGFloat(M_PI/180.0)
+//        let rotationTransform = CATransform3DMakeRotation(rotationAngleInRadians, 0, 0, 1)
+//        cell.layer.transform = rotationTransform
+//        UIView.animate(withDuration: 1.0, animations: { cell.layer.transform = CATransform3DIdentity })
+        
+        //
+        let rotationTransform = CATransform3DTranslate(CATransform3DIdentity, -500, 100, 0)
+        cell.layer.transform = rotationTransform
+        UIView.animate(withDuration: 1.0, animations: { cell.layer.transform = CATransform3DIdentity })
+        
+    }
+    
+    
+    
 
 }
