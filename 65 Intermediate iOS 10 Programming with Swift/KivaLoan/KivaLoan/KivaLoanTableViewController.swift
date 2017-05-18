@@ -88,7 +88,7 @@ class KivaLoanTableViewController: UITableViewController {
                 let loan = Loan()
                 loan.name = jsonLoan["name"] as! String
                 loan.amount = jsonLoan["loan_amount"] as! Int
-                loan.use = jsonLoan["user"] as! String
+                loan.use = jsonLoan["use"] as! String
                 let location = jsonLoan["location"] as! [String: AnyObject]
                 loan.country = location["country"] as! String
                 loans.append(loan)
