@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F49890D31DA4F5C40064F982 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49890D21DA4F5C40064F982 /* AppDelegate.swift */; };
+		F49890D81DA4F5C40064F982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49890D61DA4F5C40064F982 /* Main.storyboard */; };
+		F49890DA1DA4F5C40064F982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49890D91DA4F5C40064F982 /* Assets.xcassets */; };
+		F49890DD1DA4F5C40064F982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49890DB1DA4F5C40064F982 /* LaunchScreen.storyboard */; };
+		F49890E51DA4F7140064F982 /* AttachmentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49890E41DA4F7140064F982 /* AttachmentTableViewController.swift */; };
+		F49890ED1DA4F78A0064F982 /* 10 Great iPhone Tips.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F49890E71DA4F78A0064F982 /* 10 Great iPhone Tips.pdf */; };
+		F49890EE1DA4F78A0064F982 /* camera-photo-tips.html in Resources */ = {isa = PBXBuildFile; fileRef = F49890E81DA4F78A0064F982 /* camera-photo-tips.html */; };
+		F49890EF1DA4F78A0064F982 /* foggy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F49890E91DA4F78A0064F982 /* foggy.jpg */; };
+		F49890F01DA4F78A0064F982 /* Hello World.ppt in Resources */ = {isa = PBXBuildFile; fileRef = F49890EA1DA4F78A0064F982 /* Hello World.ppt */; };
+		F49890F11DA4F78A0064F982 /* no more complaint.png in Resources */ = {isa = PBXBuildFile; fileRef = F49890EB1DA4F78A0064F982 /* no more complaint.png */; };
+		F49890F21DA4F78A0064F982 /* Why Appcoda.doc in Resources */ = {isa = PBXBuildFile; fileRef = F49890EC1DA4F78A0064F982 /* Why Appcoda.doc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F49890CF1DA4F5C40064F982 /* EmailAttachment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmailAttachment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49890D21DA4F5C40064F982 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F49890D71DA4F5C40064F982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F49890D91DA4F5C40064F982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F49890DC1DA4F5C40064F982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F49890DE1DA4F5C40064F982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49890E41DA4F7140064F982 /* AttachmentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentTableViewController.swift; sourceTree = "<group>"; };
+		F49890E71DA4F78A0064F982 /* 10 Great iPhone Tips.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "10 Great iPhone Tips.pdf"; sourceTree = "<group>"; };
+		F49890E81DA4F78A0064F982 /* camera-photo-tips.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "camera-photo-tips.html"; sourceTree = "<group>"; };
+		F49890E91DA4F78A0064F982 /* foggy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foggy.jpg; sourceTree = "<group>"; };
+		F49890EA1DA4F78A0064F982 /* Hello World.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hello World.ppt"; sourceTree = "<group>"; };
+		F49890EB1DA4F78A0064F982 /* no more complaint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no more complaint.png"; sourceTree = "<group>"; };
+		F49890EC1DA4F78A0064F982 /* Why Appcoda.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Why Appcoda.doc"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F49890CC1DA4F5C40064F982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F49890C61DA4F5C40064F982 = {
+			isa = PBXGroup;
+			children = (
+				F49890D11DA4F5C40064F982 /* EmailAttachment */,
+				F49890D01DA4F5C40064F982 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F49890D01DA4F5C40064F982 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F49890CF1DA4F5C40064F982 /* EmailAttachment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F49890D11DA4F5C40064F982 /* EmailAttachment */ = {
+			isa = PBXGroup;
+			children = (
+				F49890E61DA4F77F0064F982 /* Attachments */,
+				F49890D21DA4F5C40064F982 /* AppDelegate.swift */,
+				F49890D61DA4F5C40064F982 /* Main.storyboard */,
+				F49890D91DA4F5C40064F982 /* Assets.xcassets */,
+				F49890DB1DA4F5C40064F982 /* LaunchScreen.storyboard */,
+				F49890DE1DA4F5C40064F982 /* Info.plist */,
+				F49890E41DA4F7140064F982 /* AttachmentTableViewController.swift */,
+			);
+			path = EmailAttachment;
+			sourceTree = "<group>";
+		};
+		F49890E61DA4F77F0064F982 /* Attachments */ = {
+			isa = PBXGroup;
+			children = (
+				F49890E71DA4F78A0064F982 /* 10 Great iPhone Tips.pdf */,
+				F49890E81DA4F78A0064F982 /* camera-photo-tips.html */,
+				F49890E91DA4F78A0064F982 /* foggy.jpg */,
+				F49890EA1DA4F78A0064F982 /* Hello World.ppt */,
+				F49890EB1DA4F78A0064F982 /* no more complaint.png */,
+				F49890EC1DA4F78A0064F982 /* Why Appcoda.doc */,
+			);
+			name = Attachments;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F49890CE1DA4F5C40064F982 /* EmailAttachment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49890E11DA4F5C40064F982 /* Build configuration list for PBXNativeTarget "EmailAttachment" */;
+			buildPhases = (
+				F49890CB1DA4F5C40064F982 /* Sources */,
+				F49890CC1DA4F5C40064F982 /* Frameworks */,
+				F49890CD1DA4F5C40064F982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmailAttachment;
+			productName = EmailAttachment;
+			productReference = F49890CF1DA4F5C40064F982 /* EmailAttachment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F49890C71DA4F5C40064F982 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = AppCoda;
+				TargetAttributes = {
+					F49890CE1DA4F5C40064F982 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZHNA975N38;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F49890CA1DA4F5C40064F982 /* Build configuration list for PBXProject "EmailAttachment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F49890C61DA4F5C40064F982;
+			productRefGroup = F49890D01DA4F5C40064F982 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F49890CE1DA4F5C40064F982 /* EmailAttachment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F49890CD1DA4F5C40064F982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49890F01DA4F78A0064F982 /* Hello World.ppt in Resources */,
+				F49890F21DA4F78A0064F982 /* Why Appcoda.doc in Resources */,
+				F49890EF1DA4F78A0064F982 /* foggy.jpg in Resources */,
+				F49890DD1DA4F5C40064F982 /* LaunchScreen.storyboard in Resources */,
+				F49890DA1DA4F5C40064F982 /* Assets.xcassets in Resources */,
+				F49890D81DA4F5C40064F982 /* Main.storyboard in Resources */,
+				F49890ED1DA4F78A0064F982 /* 10 Great iPhone Tips.pdf in Resources */,
+				F49890EE1DA4F78A0064F982 /* camera-photo-tips.html in Resources */,
+				F49890F11DA4F78A0064F982 /* no more complaint.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F49890CB1DA4F5C40064F982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49890E51DA4F7140064F982 /* AttachmentTableViewController.swift in Sources */,
+				F49890D31DA4F5C40064F982 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F49890D61DA4F5C40064F982 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F49890D71DA4F5C40064F982 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F49890DB1DA4F5C40064F982 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F49890DC1DA4F5C40064F982 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F49890DF1DA4F5C40064F982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F49890E01DA4F5C40064F982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F49890E21DA4F5C40064F982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHNA975N38;
+				INFOPLIST_FILE = EmailAttachment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyron.EmailAttachment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F49890E31DA4F5C40064F982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHNA975N38;
+				INFOPLIST_FILE = EmailAttachment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyron.EmailAttachment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F49890CA1DA4F5C40064F982 /* Build configuration list for PBXProject "EmailAttachment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49890DF1DA4F5C40064F982 /* Debug */,
+				F49890E01DA4F5C40064F982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49890E11DA4F5C40064F982 /* Build configuration list for PBXNativeTarget "EmailAttachment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49890E21DA4F5C40064F982 /* Debug */,
+				F49890E31DA4F5C40064F982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F49890C71DA4F5C40064F982 /* Project object */;
+}
