@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="sBf-ew-Qho">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Social Demo-->
+        <scene sceneID="Qmr-SO-xff">
+            <objects>
+                <tableViewController id="p0F-ft-6WW" customClass="SocialTableViewController" customModule="SocialSharingDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="150" sectionHeaderHeight="28" sectionFooterHeight="28" id="q2w-4s-ezg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="Cell" rowHeight="150" id="bzb-Ut-HPY" customClass="SocialTableViewCell" customModule="SocialSharingDemo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="375" height="150"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bzb-Ut-HPY" id="opz-3A-wXz">
+                                    <frame key="frameInset" width="375" height="149"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5eA-Lp-igy"/>
+                                        <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KF8-dO-n87" userLabel="Mask View">
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obT-qD-2nd">
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="25"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ERj-b3-Yh8">
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="25" id="gHA-gH-YW5"/>
+                                                        <constraint firstAttribute="height" constant="25" id="jtS-zr-87t"/>
+                                                    </constraints>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <state key="normal" image="share">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="share:" destination="p0F-ft-6WW" eventType="touchUpInside" id="h16-HL-Fbi"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <constraints>
+                                                <constraint firstItem="ERj-b3-Yh8" firstAttribute="top" secondItem="KF8-dO-n87" secondAttribute="top" constant="8" id="5vM-6S-x0E"/>
+                                                <constraint firstItem="obT-qD-2nd" firstAttribute="centerY" secondItem="KF8-dO-n87" secondAttribute="centerY" id="Xug-g3-U9T"/>
+                                                <constraint firstAttribute="trailing" secondItem="ERj-b3-Yh8" secondAttribute="trailing" constant="8" id="mug-nn-75R"/>
+                                                <constraint firstItem="obT-qD-2nd" firstAttribute="centerX" secondItem="KF8-dO-n87" secondAttribute="centerX" id="xPS-zG-HSO"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="5eA-Lp-igy" firstAttribute="top" secondItem="opz-3A-wXz" secondAttribute="top" id="1YG-7B-Gtt"/>
+                                        <constraint firstAttribute="bottom" secondItem="KF8-dO-n87" secondAttribute="bottom" id="6XV-hA-JQi"/>
+                                        <constraint firstItem="KF8-dO-n87" firstAttribute="leading" secondItem="opz-3A-wXz" secondAttribute="leading" id="7Bk-Dl-1as"/>
+                                        <constraint firstAttribute="trailing" secondItem="5eA-Lp-igy" secondAttribute="trailing" id="8ou-yT-Hi8"/>
+                                        <constraint firstAttribute="trailing" secondItem="KF8-dO-n87" secondAttribute="trailing" id="CeA-Eo-9hO"/>
+                                        <constraint firstItem="KF8-dO-n87" firstAttribute="top" secondItem="opz-3A-wXz" secondAttribute="top" id="IMq-aD-DUg"/>
+                                        <constraint firstAttribute="bottom" secondItem="5eA-Lp-igy" secondAttribute="bottom" constant="1" id="Zef-gL-Tt6"/>
+                                        <constraint firstItem="5eA-Lp-igy" firstAttribute="leading" secondItem="opz-3A-wXz" secondAttribute="leading" id="eXw-75-wJj"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="featuredImageView" destination="5eA-Lp-igy" id="t7a-x0-RSA"/>
+                                    <outlet property="nameLabel" destination="obT-qD-2nd" id="W3c-LW-025"/>
+                                    <outlet property="shareButton" destination="ERj-b3-Yh8" id="fcX-I9-SXF"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="p0F-ft-6WW" id="CTp-ud-4mz"/>
+                            <outlet property="delegate" destination="p0F-ft-6WW" id="ggg-Av-XCD"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Social Demo" id="1iN-qv-mlW"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kVr-7X-eS3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1068" y="56.221889055472268"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nBO-HC-Try">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sBf-ew-Qho" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MfX-bU-7sb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="p0F-ft-6WW" kind="relationship" relationship="rootViewController" id="gwp-bY-PgR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yLc-Hy-qe4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="88.799999999999997" y="56.221889055472268"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="share" width="40" height="40"/>
+    </resources>
+</document>
