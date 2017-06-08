@@ -78,6 +78,9 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="iqU-Cm-wTL" kind="unwind" unwindAction="unwindToCameraViewWithSegue:" id="tj5-9U-TzE"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zvF-h9-iJo">
                                         <rect key="frame" x="321" y="15" width="46" height="30"/>
@@ -118,6 +121,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GWW-5G-4Rd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="iqU-Cm-wTL" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="896.79999999999995" y="37.331334332833585"/>
         </scene>
