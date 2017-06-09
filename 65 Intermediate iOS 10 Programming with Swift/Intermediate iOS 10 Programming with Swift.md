@@ -28,4 +28,23 @@ Intermediate iOS 10 Programming with Swift
 - 在Google AdMob中创建名为*GoogleAdMobDemo*的app
 https://apps.admob.com/v2/apps/5351885256/adunits/list     ??
 
+### Chapter 21 Building a Taday Widget
+- iOS and macOS define several types of app extensions, each of which is tied to a single, well-scoped area of the system, such as sharing, Notification Center, and the iOS keyboard. A system area that enables extensions is called an extension point. Each extension point defines usage policies and provides APIs that you use when you create an app extension for that area. You choose an extension point based on the functionality you want to provide.
+- https://developer.apple.com/library/content/documentation/General/Conceptual/ExtensibilityPG/index.html
+- iOS 中的 *extension point*
+    + **Today**
+    + **Share**
+    + **Action**
+    + **Photo Editing**
+    + **Document Provider**
+    + **Custom Keyboard**
+    + **iMessage**
+    + **Notifications**
+- **App Extensions**工作原理
+    + not standalone apps
+    + An extension is delivered via the App Store as part of an app bundle. **container app**  **host app**
+    + 每个扩展都有自己的进程，和 **container app** 不是同一个进程
+    + 不同扩展的进程也是不同的
+    + 
+
 
