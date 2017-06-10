@@ -302,7 +302,7 @@ https://www.ioscreator.com/tutorials/add-rows-table-view-tutorial-ios8-swift
 - appcoda 网站书籍[Intermediate iOS 10 Programming with Swift](https://www.appcoda.com/intermediate-swift-programming-book/)的学习笔记。**Intermediate**每一节是一个项目
 
 
-### 67 SpriteKit Introduction
+### 66 SpriteKit Introduction
 - SpriteKit
 Scenes
 Nodes
@@ -310,7 +310,9 @@ Labels
 Points
 Gesture recognisers
 Actions
-
+- *Game Technology*  **SpriteKit** **SceneKit** **OpenGL ES** **Metal**
+- 删除 GameScene.sks and Actions.sks；清空 GameViewController.swift GameScene.swift
+- 
 
 
 [iTunes Search API](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/)

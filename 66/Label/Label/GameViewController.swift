@@ -6,9 +6,7 @@
 //  Copyright © 2017年 andyron. All rights reserved.
 //
 
-//import UIKit
 import SpriteKit
-//import GameplayKit
 
 class GameViewController: UIViewController {
 
