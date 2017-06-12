@@ -303,6 +303,7 @@ https://www.ioscreator.com/tutorials/add-rows-table-view-tutorial-ios8-swift
 
 
 ### 66 SpriteKit Introduction
+- http://www.appcoda.com/spritekit-introduction/
 - SpriteKit
 Scenes
 Nodes
@@ -312,7 +313,14 @@ Gesture recognisers
 Actions
 - *Game Technology*  **SpriteKit** **SceneKit** **OpenGL ES** **Metal**
 - 删除 GameScene.sks and Actions.sks；清空 GameViewController.swift GameScene.swift
-- 
+- Creating the View Controller
+- Creating a Scene
+- Adding a Node to the Scene
+- Centering the Label
+- Adding a Gesture Recogniser to the Scene
+- Creating an SKAction
+- Working with Sequence
+- ?? 3
 
 
 [iTunes Search API](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/)

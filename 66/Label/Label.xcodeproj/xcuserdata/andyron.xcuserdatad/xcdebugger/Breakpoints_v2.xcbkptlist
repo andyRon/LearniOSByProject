@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Label/GameScene.swift"
-            timestampString = "518761990.094715"
+            timestampString = "518767753.630078"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "tap(recognizer:)"
             landmarkType = "7">
          </BreakpointContent>

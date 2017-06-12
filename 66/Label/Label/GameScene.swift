@@ -32,6 +32,8 @@ class GameScene: SKScene {
         print(sceneLocation)
         let moveToAction = SKAction.move(to: sceneLocation, duration: 1)
         label.run(moveToAction)
+        
+        
     }
     
     func tap2(recognizer: UIGestureRecognizer) {
@@ -49,5 +51,6 @@ class GameScene: SKScene {
         // 永远来回
         let moveRepeatForeverSequence = SKAction.repeatForever(moveSequence)
         label.run(moveRepeatForeverSequence)
+
     }
 }
