@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF9D49AE1F0946BE00E1E4BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9D49AD1F0946BE00E1E4BE /* AppDelegate.swift */; };
+		EF9D49B01F0946BE00E1E4BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9D49AF1F0946BE00E1E4BE /* ViewController.swift */; };
+		EF9D49B31F0946BE00E1E4BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF9D49B11F0946BE00E1E4BE /* Main.storyboard */; };
+		EF9D49B51F0946BE00E1E4BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9D49B41F0946BE00E1E4BE /* Assets.xcassets */; };
+		EF9D49B81F0946BE00E1E4BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF9D49B61F0946BE00E1E4BE /* LaunchScreen.storyboard */; };
+		EF9D49C01F0946EA00E1E4BE /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = EF9D49BF1F0946EA00E1E4BE /* PublicArt.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF9D49AA1F0946BE00E1E4BE /* HonoluluArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HonoluluArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9D49AD1F0946BE00E1E4BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF9D49AF1F0946BE00E1E4BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF9D49B21F0946BE00E1E4BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF9D49B41F0946BE00E1E4BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF9D49B71F0946BE00E1E4BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF9D49B91F0946BE00E1E4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF9D49BF1F0946EA00E1E4BE /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PublicArt.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF9D49A71F0946BE00E1E4BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF9D49A11F0946BE00E1E4BE = {
+			isa = PBXGroup;
+			children = (
+				EF9D49AC1F0946BE00E1E4BE /* HonoluluArt */,
+				EF9D49AB1F0946BE00E1E4BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF9D49AB1F0946BE00E1E4BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF9D49AA1F0946BE00E1E4BE /* HonoluluArt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF9D49AC1F0946BE00E1E4BE /* HonoluluArt */ = {
+			isa = PBXGroup;
+			children = (
+				EF9D49BF1F0946EA00E1E4BE /* PublicArt.json */,
+				EF9D49AD1F0946BE00E1E4BE /* AppDelegate.swift */,
+				EF9D49AF1F0946BE00E1E4BE /* ViewController.swift */,
+				EF9D49B11F0946BE00E1E4BE /* Main.storyboard */,
+				EF9D49B41F0946BE00E1E4BE /* Assets.xcassets */,
+				EF9D49B61F0946BE00E1E4BE /* LaunchScreen.storyboard */,
+				EF9D49B91F0946BE00E1E4BE /* Info.plist */,
+			);
+			path = HonoluluArt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF9D49A91F0946BE00E1E4BE /* HonoluluArt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF9D49BC1F0946BE00E1E4BE /* Build configuration list for PBXNativeTarget "HonoluluArt" */;
+			buildPhases = (
+				EF9D49A61F0946BE00E1E4BE /* Sources */,
+				EF9D49A71F0946BE00E1E4BE /* Frameworks */,
+				EF9D49A81F0946BE00E1E4BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HonoluluArt;
+			productName = HonoluluArt;
+			productReference = EF9D49AA1F0946BE00E1E4BE /* HonoluluArt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF9D49A21F0946BE00E1E4BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = andyron;
+				TargetAttributes = {
+					EF9D49A91F0946BE00E1E4BE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZHNA975N38;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF9D49A51F0946BE00E1E4BE /* Build configuration list for PBXProject "HonoluluArt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF9D49A11F0946BE00E1E4BE;
+			productRefGroup = EF9D49AB1F0946BE00E1E4BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF9D49A91F0946BE00E1E4BE /* HonoluluArt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF9D49A81F0946BE00E1E4BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9D49C01F0946EA00E1E4BE /* PublicArt.json in Resources */,
+				EF9D49B81F0946BE00E1E4BE /* LaunchScreen.storyboard in Resources */,
+				EF9D49B51F0946BE00E1E4BE /* Assets.xcassets in Resources */,
+				EF9D49B31F0946BE00E1E4BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF9D49A61F0946BE00E1E4BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9D49B01F0946BE00E1E4BE /* ViewController.swift in Sources */,
+				EF9D49AE1F0946BE00E1E4BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF9D49B11F0946BE00E1E4BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF9D49B21F0946BE00E1E4BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF9D49B61F0946BE00E1E4BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF9D49B71F0946BE00E1E4BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF9D49BA1F0946BE00E1E4BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF9D49BB1F0946BE00E1E4BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF9D49BD1F0946BE00E1E4BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHNA975N38;
+				INFOPLIST_FILE = HonoluluArt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.andyron.HonoluluArt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF9D49BE1F0946BE00E1E4BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHNA975N38;
+				INFOPLIST_FILE = HonoluluArt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.andyron.HonoluluArt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF9D49A51F0946BE00E1E4BE /* Build configuration list for PBXProject "HonoluluArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9D49BA1F0946BE00E1E4BE /* Debug */,
+				EF9D49BB1F0946BE00E1E4BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF9D49BC1F0946BE00E1E4BE /* Build configuration list for PBXNativeTarget "HonoluluArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9D49BD1F0946BE00E1E4BE /* Debug */,
+				EF9D49BE1F0946BE00E1E4BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF9D49A21F0946BE00E1E4BE /* Project object */;
+}

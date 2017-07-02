@@ -475,6 +475,8 @@ animationView.animationSpeed = 1
     }, completion: nil)
     ```
     + 由于`LOTAnimationView`是`UIView`的子类，所以也有`transform`属性
+
+### 72 
     
 
 
