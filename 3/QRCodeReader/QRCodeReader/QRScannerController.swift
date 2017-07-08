@@ -14,9 +14,9 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
     @IBOutlet var messageLabel:UILabel!
     @IBOutlet var topbar: UIView!
     
-    var captureSession:AVCaptureSession?
-    var videoPreviewLayer:AVCaptureVideoPreviewLayer?
-    var qrCodeFrameView:UIView?
+    var captureSession: AVCaptureSession?
+    var videoPreviewLayer: AVCaptureVideoPreviewLayer?
+    var qrCodeFrameView: UIView?
     
     let supportedCodeTypes = [AVMetadataObjectTypeUPCECode,
                               AVMetadataObjectTypeCode39Code,
@@ -33,11 +33,11 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Get an instance of the AVCaptureDevice class to initialize a device object and provide the video as the media type parameter.
+        // 初始化 AVCaptureDevice
         let captureDevice = AVCaptureDevice.defaultDevice(withMediaType: AVMediaTypeVideo)
         
         do {
-            // Get an instance of the AVCaptureDeviceInput class using the previous device object.
+            // 初始化 AVCaptureDeviceInput
             let input = try AVCaptureDeviceInput(device: captureDevice)
             
             // Initialize the captureSession object.
@@ -50,7 +50,7 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
             let captureMetadataOutput = AVCaptureMetadataOutput()
             captureSession?.addOutput(captureMetadataOutput)
             
-            // Set delegate and use the default dispatch queue to execute the call back
+            // 设置self作为captureMetadataOutput的代理
             captureMetadataOutput.setMetadataObjectsDelegate(self, queue: DispatchQueue.main)
             captureMetadataOutput.metadataObjectTypes = supportedCodeTypes
             
@@ -74,7 +74,6 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
             }
             
         } catch {
-            // If any error occurs, simply print it out and don't continue any more.
             print(error)
             return
         }
@@ -96,7 +95,7 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
             qrCodeFrameView?.frame = barCodeObject!.bounds
             
             if metadataObj.stringValue != nil {
-                print(metadataObj.stringValue)
+
                 messageLabel.text = metadataObj.stringValue
             }
         }

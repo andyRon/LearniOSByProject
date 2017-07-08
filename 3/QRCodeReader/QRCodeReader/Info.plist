@@ -29,7 +29,7 @@
 		<string>armv7</string>
 	</array>
 	<key>NSCameraUsageDescription</key>
-	<string>We need to access your camera for scanning QR code.</string>
+	<string>为了扫描二维码，需要使用你的相机。</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
