@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF76DFB01F1B68CA0036537E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF76DFAF1F1B68CA0036537E /* AppDelegate.swift */; };
+		EF76DFB21F1B68CA0036537E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF76DFB11F1B68CA0036537E /* ViewController.swift */; };
+		EF76DFB51F1B68CA0036537E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF76DFB31F1B68CA0036537E /* Main.storyboard */; };
+		EF76DFB71F1B68CA0036537E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF76DFB61F1B68CA0036537E /* Assets.xcassets */; };
+		EF76DFBA1F1B68CA0036537E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF76DFB81F1B68CA0036537E /* LaunchScreen.storyboard */; };
+		EF76DFC41F1BBAE90036537E /* RegionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF76DFC31F1BBAE90036537E /* RegionProtocol.swift */; };
+		EF76DFC61F1BBB3C0036537E /* RegionDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF76DFC51F1BBB3C0036537E /* RegionDelegateProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF76DFAC1F1B68CA0036537E /* GeoTargeting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoTargeting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF76DFAF1F1B68CA0036537E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF76DFB11F1B68CA0036537E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF76DFB41F1B68CA0036537E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF76DFB61F1B68CA0036537E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF76DFB91F1B68CA0036537E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF76DFBB1F1B68CA0036537E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF76DFC11F1BA6060036537E /* Shanghai.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Shanghai.gpx; sourceTree = "<group>"; };
+		EF76DFC21F1BB1230036537E /* Shanghai2.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Shanghai2.gpx; sourceTree = "<group>"; };
+		EF76DFC31F1BBAE90036537E /* RegionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegionProtocol.swift; sourceTree = "<group>"; };
+		EF76DFC51F1BBB3C0036537E /* RegionDelegateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegionDelegateProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF76DFA91F1B68CA0036537E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF76DFA31F1B68CA0036537E = {
+			isa = PBXGroup;
+			children = (
+				EF76DFAE1F1B68CA0036537E /* GeoTargeting */,
+				EF76DFAD1F1B68CA0036537E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF76DFAD1F1B68CA0036537E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF76DFAC1F1B68CA0036537E /* GeoTargeting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF76DFAE1F1B68CA0036537E /* GeoTargeting */ = {
+			isa = PBXGroup;
+			children = (
+				EF76DFAF1F1B68CA0036537E /* AppDelegate.swift */,
+				EF76DFB11F1B68CA0036537E /* ViewController.swift */,
+				EF76DFB31F1B68CA0036537E /* Main.storyboard */,
+				EF76DFB61F1B68CA0036537E /* Assets.xcassets */,
+				EF76DFB81F1B68CA0036537E /* LaunchScreen.storyboard */,
+				EF76DFBB1F1B68CA0036537E /* Info.plist */,
+				EF76DFC11F1BA6060036537E /* Shanghai.gpx */,
+				EF76DFC21F1BB1230036537E /* Shanghai2.gpx */,
+				EF76DFC31F1BBAE90036537E /* RegionProtocol.swift */,
+				EF76DFC51F1BBB3C0036537E /* RegionDelegateProtocol.swift */,
+			);
+			path = GeoTargeting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF76DFAB1F1B68CA0036537E /* GeoTargeting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF76DFBE1F1B68CA0036537E /* Build configuration list for PBXNativeTarget "GeoTargeting" */;
+			buildPhases = (
+				EF76DFA81F1B68CA0036537E /* Sources */,
+				EF76DFA91F1B68CA0036537E /* Frameworks */,
+				EF76DFAA1F1B68CA0036537E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoTargeting;
+			productName = GeoTargeting;
+			productReference = EF76DFAC1F1B68CA0036537E /* GeoTargeting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF76DFA41F1B68CA0036537E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = andyron;
+				TargetAttributes = {
+					EF76DFAB1F1B68CA0036537E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZHNA975N38;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF76DFA71F1B68CA0036537E /* Build configuration list for PBXProject "GeoTargeting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF76DFA31F1B68CA0036537E;
+			productRefGroup = EF76DFAD1F1B68CA0036537E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF76DFAB1F1B68CA0036537E /* GeoTargeting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF76DFAA1F1B68CA0036537E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF76DFBA1F1B68CA0036537E /* LaunchScreen.storyboard in Resources */,
+				EF76DFB71F1B68CA0036537E /* Assets.xcassets in Resources */,
+				EF76DFB51F1B68CA0036537E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF76DFA81F1B68CA0036537E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF76DFC61F1BBB3C0036537E /* RegionDelegateProtocol.swift in Sources */,
+				EF76DFB21F1B68CA0036537E /* ViewController.swift in Sources */,
+				EF76DFB01F1B68CA0036537E /* AppDelegate.swift in Sources */,
+				EF76DFC41F1BBAE90036537E /* RegionProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF76DFB31F1B68CA0036537E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF76DFB41F1B68CA0036537E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF76DFB81F1B68CA0036537E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF76DFB91F1B68CA0036537E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF76DFBC1F1B68CA0036537E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF76DFBD1F1B68CA0036537E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF76DFBF1F1B68CA0036537E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHNA975N38;
+				INFOPLIST_FILE = GeoTargeting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyron.GeoTargeting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF76DFC01F1B68CA0036537E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHNA975N38;
+				INFOPLIST_FILE = GeoTargeting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyron.GeoTargeting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF76DFA71F1B68CA0036537E /* Build configuration list for PBXProject "GeoTargeting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF76DFBC1F1B68CA0036537E /* Debug */,
+				EF76DFBD1F1B68CA0036537E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF76DFBE1F1B68CA0036537E /* Build configuration list for PBXNativeTarget "GeoTargeting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF76DFBF1F1B68CA0036537E /* Debug */,
+				EF76DFC01F1B68CA0036537E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF76DFA41F1B68CA0036537E /* Project object */;
+}
