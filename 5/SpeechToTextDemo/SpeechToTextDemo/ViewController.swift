@@ -77,6 +77,7 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate {
         } catch {
             print("audioSession的属性设置失败")
         }
+        
         recognitionRequest = SFSpeechAudioBufferRecognitionRequest()
         
         guard let inputNode = audioEngine.inputNode else {
