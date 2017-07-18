@@ -1,0 +1,6 @@
+Celebrating 4 Years of AppCoda
+
+
+Today is AppCoda’s birthday. It’s been four years since I published the very first post on AppCoda. The past 12 months have been filled with changes and milestones. We launched a new design of the website with a modern look & feel. We have more iOS developers (including Gregg Mojica, Maxime Defauw, and Hossam Ghareeb) join us to craft our weekly iOS programming tutorials. Earlier this year, we even organized a meetup at Taipei, and had a lot of fun with over 80 developers from Taiwan. It’s been amazing to meet our readers in person, and talk about Swift.
+
+We will continue to develop great learning materials and products that help you build great stuff. This is what we love to do. Hopefully, later this year, we can run some meetups in other cities.
