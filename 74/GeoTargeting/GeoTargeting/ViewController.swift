@@ -92,7 +92,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         
         monitoredRegions.removeValue(forKey: region.identifier)
     }
-    
+    // 位置变化
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
        updateRegions()
         print("位置变化了")

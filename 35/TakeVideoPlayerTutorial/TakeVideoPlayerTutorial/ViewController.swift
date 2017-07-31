@@ -8,14 +8,14 @@
 
 import UIKit
 import MobileCoreServices
-import AssetsLibrary
+import AssetsLibrary  // iOS 9后不用
 import Photos
 
 
 class ViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
 
     var controller = UIImagePickerController()
-    // var assetsLibrary = ALAssetsLibrary()
+     var assetsLibrary = ALAssetsLibrary()
     
     var photos = PHAsset()
     
@@ -30,14 +30,14 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         if UIImagePickerController.isSourceTypeAvailable(.camera) {
             
             controller.sourceType = .camera
-            controller.mediaTypes = [kUTTypeMovie as! String]
+            controller.mediaTypes = [kUTTypeMovie as String]
             controller.delegate = self
             controller.videoMaximumDuration = 10.0
             
             present(controller, animated: true, completion: nil)
             
         } else {
-            print("Camra is not available")
+            print("Camera is not available")
         }
     }
 
@@ -45,11 +45,13 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
     @IBAction func viewLibrary(_ sender: AnyObject) {
         
         controller.sourceType = .photoLibrary
-        controller.mediaTypes = [kUTTypeMovie as! String]
+        controller.mediaTypes = [kUTTypeMovie as String]
         controller.delegate = self
         
         present(controller, animated: true, completion: nil)
     }
+    
+    // MARK: UIImagePickerControllerDelegate
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         
@@ -58,20 +60,10 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         if let type = mediaType {
             if type is String {
                 let stringType = type as! String
-                if stringType == kUTTypeMovie as! String {
+                if stringType == kUTTypeMovie as String {
                     let urlOfVideo = info[UIImagePickerControllerMediaURL] as? URL
                     if let url = urlOfVideo {
                         // photos的使用
-                        // assetsLibrary.writeVideoAtPathToSavedPhotosAlbum(url,
-                        //         completionBlock: {(url: NSURL!, error: NSError!) in
-                        //                 if let theError = error{
-                        //                     println("Error saving video = \(theError)")
-                        //                 }
-                        //                 else {
-                        //                     println("no errors happened")
-                        //                 }
-                        //         })
-                        // }
                         
                     }
                 }
