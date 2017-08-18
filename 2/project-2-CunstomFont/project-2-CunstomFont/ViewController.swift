@@ -22,6 +22,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     @IBOutlet weak var fontTableView: UITableView!
     @IBOutlet weak var changeFontButton: UIButton!
+    
     @IBAction func changeFontDidTouch(_ sender: AnyObject) {
         fontRowIndex = (fontRowIndex + 1) % 5
         print(fontNames[fontRowIndex])
@@ -43,7 +44,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 35
+        return 50
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -62,7 +63,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cell.textLabel?.text = text
         cell.textLabel?.textColor = UIColor.white
 //        print(self.fontNames[fontRowIndex])
-        cell.textLabel?.font = UIFont(name: self.fontNames[fontRowIndex], size: 16)
+        cell.textLabel?.font = UIFont(name: self.fontNames[fontRowIndex], size: 36)
         
         return cell
     }
