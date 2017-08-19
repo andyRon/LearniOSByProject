@@ -168,67 +168,96 @@
     + `UITextChecker`  `rangeOfMisspelledWord()`
 
 ## 23 DraggingViewsTutorial
+> 参考：
+
 - 知识点
     + `UIPanGestureRecognizer`
     + `insetBy()`
 
 ## 24 VibrationTutorial   震动 
+> 参考：
 
 ## 25 XMLParserTutorial
+> 参考：
+
 - 知识点
     + `XMLParser`
 
 ## 26 DrawRouteMapKitTutorial ??
+> 参考：
+> 
 - 知识点
     + `` 
 - [参考](https://www.ioscreator.com/tutorials/draw-route-mapkit-tutorial)
 
 ## 27 MultipleOutletsTutorial
+> 参考：
+
 - 知识点
     + `UIView.subviews`
     + `UIControl.addTarget()`
 
 ## 28 SpriteKitPhysicsTutorial  ??
+> 参考：
+
 - [参考](https://www.ioscreator.com/tutorials/sprite-kit-physics-tutorial)
 
 ## 29 PlayMusicAVAudioPlayerTutorial
+> 参考：
 
 ## 30 CoreSpotlightTutorial 
+> 参考：
 
 ## 31 SwiftFileManagementTutorial  ?? 
+> 参考：
+
 try? ?
 - [参考](https://www.ioscreator.com/tutorials/file-management-tutorial-ios8-swift)
 
 
 ## 32 SwiftCoreImageTutorial  图片滤镜
+> 参考：
+
 - 知识点
     + `CIImage`   保存图像数据的类
     + `CIFilter`   滤镜类 图片属性进行细节处理的类 它对所有的像素进行操作 用键-值 （KVC）来设置
 
 ## 33 ContextMenuTableViewTutorial   table的 cut/copy/paste操作
+> 参考：
+
 - 知识点
     + `UIResponderStandardEditActions`
     +  `tableView:shouldShowMenuForRowAtIndexPath`    `tableView:canPerformAction:forRowAtIndexPath`   `tableView:performAction:forRowAtIndexPath:withSender` 
     + `textFieldShouldReturn`
 
 ## 34 TextFieldAlertControllerTutorial
+> 参考：
 
 ## 35 TakeVideoPlayerTutorial
+> 参考：
+
 - 知识点
     + `UIImagePickerControllerMediaType`
     + `Photos`框架 ??
 
 ## 36 SearchMapTutorial
+> 参考：
+
 - 知识点
     + `MKLocalSearchRequest`  `MKCoordinateSpan` `MKLocalSearch`
 
 ## 37 AirdropTutorial
+> 参考：
+
 - 知识点
     + `UIActivityViewController`
  
 ## 38 ReorderingCollectionViewTutorial
+> 参考：
 
 ## 39 ScaleImagesTutorial
+> 参考：
+
 - 知识点
     + `UIPinchGestureRecognizer`  `CGAffineTransform`
 
@@ -261,20 +290,26 @@ try? ?
 (https://www.ioscreator.com/tutorials/move-view-behind-keyboard-ios8-swift)
 
 
-## 46 ScrollViewTutorial
+## 46 ScrollViewTutorial 滚动视图
+> 参考：[Scroll View Tutorial in iOS8 with Swift](https://www.ioscreator.com/tutorials/scroll-view-tutorial-ios8-swift)
+![](./46/ScrollViewTutorial.jpg)
 - 知识点
     + `UIScrollView`
 
 ## 47 EmailTutorial
+> 参考：
 
 ## 48 ActivityIndicatorStatusBarTutorial  状态栏中的菊花转
+> 参考：
 
 ## 49 TouchIDTutorial
+> 参考：
 
 ## 50 CustomFontTutorial
 https://www.ioscreator.com/tutorials/custom-fonts-interface-builder-tutorial-ios8-swift
 
 ## 51 LongPressGesturesTutorial
+> 参考：
 
 - 步骤
     + 按钮
@@ -282,22 +317,31 @@ https://www.ioscreator.com/tutorials/custom-fonts-interface-builder-tutorial-ios
     + 把按钮的**gestureRecognizers**的outlet关联到**Long Press Gesture Recognizer**
     
 ## 52 CustomCollectionViewCellsTutorial
+> 参考：
 
 ## 53 SendSMSTutorial
+> 参考：
+
 - 知识点
     + `MessageUI` `MFMessageComposeViewControllerDelegate` `MFMessageComposeViewController`
 
 ## 54 SwipeGestureTutorial
+> 参考：
 
 ## 55 BlurEffectTutorial
+> 参考：
 
 ## 56 SnapBehaviourTutorial
+> 参考：
 
 ## 57 DrawingCirclesTutorial
+> 参考：
 
 ## 58 ShakeGestureTutorial  震动
+> 参考：
 
 ## 59 VolumeTutorial  
+> 参考：
 
 ## 60 ScrollViewPagingTutorial
 
