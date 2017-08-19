@@ -34,15 +34,19 @@
 - `Locale`的 identifier可参考 https://gist.github.com/jacobbubu/1836273
 - https://developer.apple.com/videos/play/wwdc2016/509/
 
-## 6 RequestingPermission 请求定位权限
+## 6 RequestingPermission 用户当前位置
 > 参考：[Requesting Permission in Core Location Tutorial](https://www.ioscreator.com/tutorials/requesting-permissions-core-location-tutorial)
+> 知识点：`CoreLocation` `CLLocationManager` `CLLocationManagerDelegate` `CLLocation`
 
-- `CoreLocation`
+
+
+
 
 ## 7 LocalNotification 本地通知
 > 参考：[Local Notification Tutorial](https://www.ioscreator.com/tutorials/local-notification-tutorial-ios10)
 > 知识点：`UNMutableNotificationContent`, `UNNotificationAttachment`, `UNNotificationRequest`, `UNUserNotificationCenter`, `UNTimeIntervalNotificationTrigger`
 
+![](https://github.com/andyRon/LearniOSByProject/tree/master/7/LocalNotification.jpg)
 - 新建项目
 - 添加按钮
 - 请求用户通知允许
@@ -634,9 +638,149 @@ animationView.animationSpeed = 1
 ## 74 QuickLookDemo
 
 ## 78 PlayLocalVideo
-**[30DaysofSwift](https://github.com/allenwong/30DaysofSwift)**
+![](http://upload-images.jianshu.io/upload_images/1678135-11352ad6a562b572.gif?imageMogr2/auto-orient/strip)
+
+> 参考： **[30DaysofSwift](https://github.com/allenwong/30DaysofSwift)**
+
+- 新建项目`PlayLocalVideo`
+- 在IB中使**View Controller**Embed In > Navigation Controller**,并在**View Controller**中添加`UITableView`和`UITableViewCell`。
+- 在上面的`UITableViewCell`的中添加一个`UIImageView`作为视频的预览图、一个`UIButton`作为开始播放、两个`UILabel`分别用于显示视频的名称和来源。并修改一定样式和添加一定约束
+- 添加几张图片和一个视频
+- 添加一个cell的类，并添加三个接口。
+```
+class VideoCell: UITableViewCell {
+
+    @IBOutlet var previewImageView: UIImageView!
+    @IBOutlet var nameLabel: UILabel!
+    @IBOutlet var sourceLabel: UILabel!
+```
+- 添加一个`video`枚举，用来存储视频信息。
+```
+struct video {
+    let image: String
+    let title: String
+    let source: String
+}
+```
+- 使`ViewController`符合table view代理和数据的协议，并实现所需方法：
+```
+   func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 220
+    }
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 2
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return data.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! VideoCell
+        
+        let video = data[indexPath.row]
+        
+        cell.previewImageView.image = UIImage(named: video.image)
+        cell.nameLabel.text = video.title
+        cell.sourceLabel.text = video.source
+        
+        return cell
+        
+    }
+```
+- 引入播放视频所需框架，并定义相关变量。
+```
+import AVFoundation
+import AVKit
+
+...
+
+    var playViewController : AVPlayerViewController?
+    var playerView : AVPlayer?
+```
+
+- 实现视频播放按钮方法。
+```
+    @IBAction func playVideo(_ sender: UIButton) {
+        let path = Bundle.main.path(forResource: "KL", ofType: "mp4")
+        
+        playerView = AVPlayer(url: URL(fileURLWithPath: path!))
+        
+        playViewController = AVPlayerViewController()
+        playViewController?.player = playerView
+        
+        present(playViewController!, animated: true, completion: {
+            self.playViewController?.player?.play()
+        })
+        
+    }
+```
+
+> 详细代码： [PlayLocalVideo](https://github.com/andyRon/LearniOSByProject/tree/master/78)
 
 
+## 79 Carousel Effect  照片横屏滑动
+> 参考：**[30DaysofSwift](https://github.com/allenwong/30DaysofSwift)**
+> 知识点： `UICollectionView` `UIVisualEffectView` `UICollectionViewDataSource`
+
+![]()
+
+- 新建项目Carousel Effect
+- 在IB构建UI。Collection View 里的 Scroll Direction 设置成水平滚动。`UIVisualEffectView`是用来添加模糊效果的，也可以使用类似如下的代码构建：
+```
+  let blurEffect = UIBlurEffect(style: .dark)
+  let blurEffectView = UIVisualEffectView(effect: blurEffect)
+  blurEffectView.frame = view.bounds
+  backgroundImageView.addSubview(blurEffectView)
+```
+
+- 创建数据类`Interest`
+- 创建`UICollectionViewCell`
+- 实现`UICollectionViewDataSource`的方法（有点类似UITableViewDataSource）。
+```
+class ViewController: UIViewController, UICollectionViewDataSource {
+
+    @IBOutlet weak var backgroundImageView: UIImageView!
+    @IBOutlet weak var collectionView: UICollectionView!
+    
+    var interests = Interest.createInterests()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        collectionView.dataSource = self
+        collectionView.dataSource = self
+    }
+    
+    override var preferredStatusBarStyle : UIStatusBarStyle {
+        return UIStatusBarStyle.lightContent
+    }
+
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 1
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return interests.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let CellIdentifier = "InterestCell"
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CellIdentifier, for: indexPath) as! InterestCollectionViewCell
+        
+        cell.interest = self.interests[indexPath.item]
+        
+        return cell
+        
+    }
+
+}
+```
+
+
+> 详细代码： [Carousel Effect](https://github.com/andyRon/LearniOSByProject/tree/master/79)
 
 
 
