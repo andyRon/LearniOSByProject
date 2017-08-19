@@ -33,18 +33,19 @@ class ViewController: UIViewController {
         content.body = "just test"
         
         // UNNotificationAttachment 对象包含有通知当中的媒体内容。
-        let imageName = "applelogo"
-        guard let imageUrl = Bundle.main.url(forResource: imageName, withExtension: "png") else { return }
+        let imageName = "Swift_Logo"
+        guard let imageUrl = Bundle.main.url(forResource: imageName, withExtension: "png")  else { return }
+        
         let attachment = try! UNNotificationAttachment(identifier: imageName, url: imageUrl, options: .none)
         
         content.attachments = [attachment]
         
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: true)
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
         let request = UNNotificationRequest(identifier: "notification.id.01", content: content, trigger: trigger)
         
         UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
         
-        print(12132)
+        print("已发送")
     }
 
 }

@@ -41,7 +41,53 @@
 
 ## 7 LocalNotification 本地通知
 > 参考：[Local Notification Tutorial](https://www.ioscreator.com/tutorials/local-notification-tutorial-ios10)
+> 知识点：`UNMutableNotificationContent`, `UNNotificationAttachment`, `UNNotificationRequest`, `UNUserNotificationCenter`, `UNTimeIntervalNotificationTrigger`
 
+- 新建项目
+- 添加按钮
+- 请求用户通知允许
+```
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert], completionHandler: {
+        (success, error) in
+            if success {
+                print("success")
+            } else {
+                print("error")
+            }
+        })
+    }
+```
+
+- 添加按钮点击Action，发送本地通知，主要发送通知后要进入主屏（在应用内，不能接受本地通知）：
+```
+    @IBAction func sendLocalNotification(_ sender: UIButton) {
+        // UNMutableNotificationContent 对象包含有通知当中的数据。
+        let content = UNMutableNotificationContent()
+        content.title = "通知"
+        content.subtitle = "来自andyron"
+        content.body = "just test"
+        
+        // UNNotificationAttachment 对象包含有通知当中的媒体内容。
+        let imageName = "Swift_Logo"
+        guard let imageUrl = Bundle.main.url(forResource: imageName, withExtension: "png")  else { return }
+        
+        let attachment = try! UNNotificationAttachment(identifier: imageName, url: imageUrl, options: .none)
+        
+        content.attachments = [attachment]
+        
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+        let request = UNNotificationRequest(identifier: "notification.id.01", content: content, trigger: trigger)
+        
+        UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
+        
+        print("已发送")
+    }
+```
+
+### 代码
+[ScrollViewTutorial](https://github.com/andyRon/LearniOSByProject/tree/master/7)
 
 ## 8 CAGradientLayer 颜色渐变
 > 参考： [Creating Gradient Colors Using CAGradientLayer](http://www.appcoda.com/cagradientlayer/)
@@ -292,9 +338,41 @@ try? ?
 
 ## 46 ScrollViewTutorial 滚动视图
 > 参考：[Scroll View Tutorial in iOS8 with Swift](https://www.ioscreator.com/tutorials/scroll-view-tutorial-ios8-swift)
-![](./46/ScrollViewTutorial.jpg)
-- 知识点
-    + `UIScrollView`
+> 知识点: `UIScrollView`
+
+![](https://github.com/andyRon/LearniOSByProject/blob/master/46/ScrollViewTutorial.jpg)  
+
+当视图超过屏幕大小时，可通过把视图放在`UIScrollView`中让视图可以上下滚动的功能。以一张大图片为例。
+
+- 新建项目 **ScrollViewTutorial**
+- 代码：
+```
+class ViewController: UIViewController {
+    
+    var imageView: UIImageView!
+    var scrollView: UIScrollView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        imageView = UIImageView(image: UIImage(named: "strandvagen.jpg"))
+        
+        scrollView = UIScrollView(frame: view.bounds)
+        scrollView.backgroundColor = UIColor.black
+        
+        scrollView.contentSize = imageView.bounds.size
+        
+        scrollView.addSubview(imageView)
+        
+        view.addSubview(scrollView)
+    }
+
+    
+}
+```
+
+### 代码
+[ScrollViewTutorial](https://github.com/andyRon/LearniOSByProject/tree/master/46)
 
 ## 47 EmailTutorial
 > 参考：
