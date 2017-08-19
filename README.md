@@ -1,60 +1,64 @@
 # LearniOSByProject
 -------
 
-> 学习iOS的一些小项目
-> 
-### 学习来源
+> 学习iOS的一些小项目，主要是Swift3
+
+
+## 学习一些来源
 - http://www.appcoda.com/
 - https://www.ioscreator.com/
 - https://www.raywenderlich.com/
 - **[30DaysofSwift](https://github.com/allenwong/30DaysofSwift)**
 
 
-### 1 StopWatch
+## 1 StopWatch
+> **[30DaysofSwift](https://github.com/allenwong/30DaysofSwift)**
 
-### 2 project-2-CunstomFont
+## 2 project-2-CunstomFont
 - 点击按钮然后改变字体
 
-### 3 QRCodeReader 
-- 扫描二维码or条形码，[原文](http://www.appcoda.com/barcode-reader-swift/)
+## 3 QRCodeReader 扫描二维码or条形码
+> 参考：[Building a Barcode and QR Code Reader in Swift 3 and Xcode 8](http://www.appcoda.com/barcode-reader-swift/)
+
 - **AVFoundation framework**
 
-### 4 Detector
-- [参考文章](http://www.appcoda.com/face-detection-core-image/)
-Face Detection in iOS Using Core Image
+## 4 Detector 用Core Image进行面部识别
+> [Face Detection in iOS Using Core Image](http://www.appcoda.com/face-detection-core-image/)
 
 -  Core Image and UIView (or UIKit) use two different coordinate systems
 
-### 5 SpeechToTextDemo
-- 语音识别[参考文章](http://www.appcoda.com/siri-speech-framework/)
+## 5 SpeechToTextDemo 语音识别
+> 参考： [Building a Speech-to-Text App Using Speech Framework in iOS 10](http://www.appcoda.com/siri-speech-framework/)
+
 - **Speech framework**
 - `Locale`的 identifier可参考 https://gist.github.com/jacobbubu/1836273
 - https://developer.apple.com/videos/play/wwdc2016/509/
 
-### 6 RequestingPermission
-- [请求定位权限](http://swift.gg/2017/02/13/requesting-permissions-core-location-tutorial/)
+## 6 RequestingPermission 请求定位权限
+> 参考：[Requesting Permission in Core Location Tutorial](https://www.ioscreator.com/tutorials/requesting-permissions-core-location-tutorial)
+
 - `CoreLocation`
 
-### 7 LocalNotification
-- http://swift.gg/2017/01/04/local-notification-tutorial-ios10/
-- iOS账号续费及证书更新流程 ??
-http://www.cnblogs.com/chimianduofangcong/p/5798657.html
-http://zltunes.com/ios-10-tong-zhi-geng-xin-xiang-jie/
+## 7 LocalNotification 本地通知
+> 参考：[Local Notification Tutorial](https://www.ioscreator.com/tutorials/local-notification-tutorial-ios10)
 
-### 8 CAGradientLayer 
-- [颜色渐变](http://www.appcoda.com/cagradientlayer/)
+
+## 8 CAGradientLayer 颜色渐变
+> 参考： [Creating Gradient Colors Using CAGradientLayer](http://www.appcoda.com/cagradientlayer/)
+
 - Core Graphics 功能复杂一点
 - CAGradientLayer 简单适合新手， radial gradient is not supported
 - Gradient Direction
     + 这边的坐标系比较特殊： 左上角点是(0.0, 0.0)，右下角是(1.0, 1.0).
     + Mac系统的是: 左下角点是(0.0, 0.0)，右上角是(1.0, 1.0)
 
-### 9 
-?? http://www.appcoda.com/healthkit-introduction/
+## 9 OneHourWalker ??
+ http://www.appcoda.com/healthkit-introduction/
 
 
-### 10 TwitterTutorial
-- [参考](https://www.ioscreator.com/tutorials/twitter-ios-tutorial-ios10)
+## 10 TwitterTutorial 分享到推特
+> 参考： [Twitter iOS Tutorial](https://www.ioscreator.com/tutorials/twitter-ios-tutorial-ios10)
+
 - 知识点
     + `Social`
     + `UIImagePickerController`, `UIImagePickerControllerSourceType`, `SLComposeViewController`
@@ -99,189 +103,208 @@ http://zltunes.com/ios-10-tong-zhi-geng-xin-xiang-jie/
     12. 实现代理方法`imagePickerController:didFinishPickingMediaWithInfo`
     13. 在**Inof.plist**中添加图库或相机使用key
 
-### 11 CustomizeNavBarTutorial 
+## 11 CustomizeNavBarTutorial 定制化Nav Bar
+> 参考：[Customizing Navigation Bar iOS Tutorial](https://www.ioscreator.com/tutorials/customizing-navigation-bar-ios-tutorial-ios10)
+
 - 知识点
     + `UINavigationBar` 
 
-### 12 ShadowButtonTutorial button的阴影
+## 12 ShadowButtonTutorial button的阴影
+> 参考：[Add Shadow to a Button iOS Tutorial](https://www.ioscreator.com/tutorials/add-shadow-to-a-button-ios-tutorial-ios10)
 
-### 13 FadeMusicTutorial  音乐的声音的渐变
+## 13 FadeMusicTutorial  音乐的声音的渐变
 - 知识点
     + `AVFoundation` `AVAudioPlayer`
 
-### 14 DatePickerTutorial 
+## 14 DatePickerTutorial 日期选择器使用
+
+> 参考：[Displaying Date with Date Picker in iOS8 with Swift](https://www.ioscreator.com/tutorials/display-date-date-picker-ios8-swift)
+
 - 知识点
     + `UIDatePicker`
     + `DateFormatter`
 
-### 15 UIStepperTutorial 
+## 15 UIStepperTutorial `UIStepper`的使用
+> 参考：[UIStepper Tutorial in iOS8 with Swift](https://www.ioscreator.com/tutorials/uistepper-tutorial-ios8-swift)
+
 - 知识点
     + `UIStepper`
 
-### 16 SpriteKitBackgroundTutorial
+## 16 SpriteKitBackgroundTutorial `SpriteKit`背景设置
+> 参考：[Display Background with SpriteKit iOS Tutorial](https://www.ioscreator.com/tutorials/display-background-with-spritekit-ios-tutorial-ios10)
 
-### 17 DrawShapesTutorial
+## 17 DrawShapesTutorial
+> 参考：[Drawing Shapes with Core Graphics Tutorial](https://www.ioscreator.com/tutorials/drawing-shapes-core-graphics-tutorial-ios10)
+
 - 知识点
     + `CGContext`   `UIGraphicsGetCurrentContext()`
 
-### 18 DrawGradientsTutorial
+## 18 DrawGradientsTutorial
+> 参考：
+
 - 知识点
     + `CGGradient`
 
-### 19 TabBarCustomizationTutorial
+## 19 TabBarCustomizationTutorial
+> 参考：[Tab Bar Customisation Tutorial](https://www.ioscreator.com/tutorials/tab-bar-customisation-tutorial-ios10)
+
 - 知识点
     + `UITabBarController`
 
-### 20 ChangeDisplayNameTutorial  改变app在Home screen时的显示名
+## 20 ChangeDisplayNameTutorial  改变app在Home screen时的显示名
+> 参考：
+
 - 知识点
     +  **info.plist**中 **Bundle display name**,
 
-### 21 OpenPDFTutorial
+## 21 OpenPDFTutorial
+> 参考：
 
+## 22 SpellingCheckerTutorial
+> 参考：
 
-### 22 SpellingCheckerTutorial
 - 知识点
     + Double-click on the Navigation Bar in The Table View Controller and set the title to "Choose the right spelling". 
     + `UITextChecker`  `rangeOfMisspelledWord()`
 
-### 23 DraggingViewsTutorial
+## 23 DraggingViewsTutorial
 - 知识点
     + `UIPanGestureRecognizer`
     + `insetBy()`
 
-### 24 VibrationTutorial   震动 
+## 24 VibrationTutorial   震动 
 
-### 25 XMLParserTutorial
+## 25 XMLParserTutorial
 - 知识点
     + `XMLParser`
 
-### 26 DrawRouteMapKitTutorial ??
+## 26 DrawRouteMapKitTutorial ??
 - 知识点
     + `` 
 - [参考](https://www.ioscreator.com/tutorials/draw-route-mapkit-tutorial)
 
-### 27 MultipleOutletsTutorial
+## 27 MultipleOutletsTutorial
 - 知识点
     + `UIView.subviews`
     + `UIControl.addTarget()`
 
-### 28 SpriteKitPhysicsTutorial  ??
+## 28 SpriteKitPhysicsTutorial  ??
 - [参考](https://www.ioscreator.com/tutorials/sprite-kit-physics-tutorial)
 
-### 29 PlayMusicAVAudioPlayerTutorial
+## 29 PlayMusicAVAudioPlayerTutorial
 
-### 30 CoreSpotlightTutorial 
+## 30 CoreSpotlightTutorial 
 
-### 31 SwiftFileManagementTutorial  ?? 
+## 31 SwiftFileManagementTutorial  ?? 
 try? ?
 - [参考](https://www.ioscreator.com/tutorials/file-management-tutorial-ios8-swift)
 
 
-### 32 SwiftCoreImageTutorial  图片滤镜
+## 32 SwiftCoreImageTutorial  图片滤镜
 - 知识点
     + `CIImage`   保存图像数据的类
     + `CIFilter`   滤镜类 图片属性进行细节处理的类 它对所有的像素进行操作 用键-值 （KVC）来设置
 
-### 33 ContextMenuTableViewTutorial   table的 cut/copy/paste操作
+## 33 ContextMenuTableViewTutorial   table的 cut/copy/paste操作
 - 知识点
     + `UIResponderStandardEditActions`
     +  `tableView:shouldShowMenuForRowAtIndexPath`    `tableView:canPerformAction:forRowAtIndexPath`   `tableView:performAction:forRowAtIndexPath:withSender` 
     + `textFieldShouldReturn`
 
-### 34 TextFieldAlertControllerTutorial
+## 34 TextFieldAlertControllerTutorial
 
-### 35 TakeVideoPlayerTutorial
+## 35 TakeVideoPlayerTutorial
 - 知识点
     + `UIImagePickerControllerMediaType`
     + `Photos`框架 ??
 
-### 36 SearchMapTutorial
+## 36 SearchMapTutorial
 - 知识点
     + `MKLocalSearchRequest`  `MKCoordinateSpan` `MKLocalSearch`
 
-### 37 AirdropTutorial
+## 37 AirdropTutorial
 - 知识点
     + `UIActivityViewController`
  
-### 38 ReorderingCollectionViewTutorial
+## 38 ReorderingCollectionViewTutorial
 
-### 39 ScaleImagesTutorial
+## 39 ScaleImagesTutorial
 - 知识点
     + `UIPinchGestureRecognizer`  `CGAffineTransform`
 
-### 40 UserDefaultsTutorial  程序被杀掉后数据还能保存
+## 40 UserDefaultsTutorial  程序被杀掉后数据还能保存
 - 知识点
     + `UserDefaults`
 
-### 41 ScreenEdgePanGesturesTutorial 屏幕边缘手势
+## 41 ScreenEdgePanGesturesTutorial 屏幕边缘手势
 - 知识点
     + `UIScreenEdgePanGestureRecognizer`
 
-### 42 AddEventTutorial
+## 42 AddEventTutorial
 - 知识点
     + `EventKit`  `EKEventStore`
     + 向日历中添加事件
 
-### 43 ToadyExtension
+## 43 ToadyExtension
 - 知识点
     + `ProcessInfo().operatingSystemVersion`
     + **Application Extension**
 
-### 44 AddSearchTableViewTutorial
+## 44 AddSearchTableViewTutorial
 - 知识点
     + `NSPredicate`
     + `UISearchResultsUpdating`
     + `UISearchController`
     + 闭包的一种写法
 
-### 45 MoveViewKeyboardTutorial  ??
+## 45 MoveViewKeyboardTutorial  ??
 (https://www.ioscreator.com/tutorials/move-view-behind-keyboard-ios8-swift)
 
 
-### 46 ScrollViewTutorial
+## 46 ScrollViewTutorial
 - 知识点
     + `UIScrollView`
 
-### 47 EmailTutorial
+## 47 EmailTutorial
 
-### 48 ActivityIndicatorStatusBarTutorial  状态栏中的菊花转
+## 48 ActivityIndicatorStatusBarTutorial  状态栏中的菊花转
 
-### 49 TouchIDTutorial
+## 49 TouchIDTutorial
 
-### 50 CustomFontTutorial
+## 50 CustomFontTutorial
 https://www.ioscreator.com/tutorials/custom-fonts-interface-builder-tutorial-ios8-swift
 
-### 51 LongPressGesturesTutorial
+## 51 LongPressGesturesTutorial
 
 - 步骤
     + 按钮
     + Drag a Long Press Gesture Recognizer from the Object Library on top of the Button
     + 把按钮的**gestureRecognizers**的outlet关联到**Long Press Gesture Recognizer**
     
-### 52 CustomCollectionViewCellsTutorial
+## 52 CustomCollectionViewCellsTutorial
 
-### 53 SendSMSTutorial
+## 53 SendSMSTutorial
 - 知识点
     + `MessageUI` `MFMessageComposeViewControllerDelegate` `MFMessageComposeViewController`
 
-### 54 SwipeGestureTutorial
+## 54 SwipeGestureTutorial
 
-### 55 BlurEffectTutorial
+## 55 BlurEffectTutorial
 
-### 56 SnapBehaviourTutorial
+## 56 SnapBehaviourTutorial
 
-### 57 DrawingCirclesTutorial
+## 57 DrawingCirclesTutorial
 
-### 58 ShakeGestureTutorial  震动
+## 58 ShakeGestureTutorial  震动
 
-### 59 VolumeTutorial  
+## 59 VolumeTutorial  
 
-### 60 ScrollViewPagingTutorial
+## 60 ScrollViewPagingTutorial
 
-### 61 AddRowsTableViewTutorial 
+## 61 AddRowsTableViewTutorial 
 https://www.ioscreator.com/tutorials/add-rows-table-view-tutorial-ios8-swift
 
-### 62 PathsNLayers
+## 62 PathsNLayers
 - [参考](http://www.appcoda.com/bezier-paths-introduction/)
 - https://developer.apple.com/library/content/documentation/2DDrawing/Conceptual/DrawingPrintingiOS/BezierPaths/BezierPaths.html
 - 知识点
@@ -289,12 +312,12 @@ https://www.ioscreator.com/tutorials/add-rows-table-view-tutorial-ios8-swift
     + `CGContext`   `CAShapeLayer`
 - goal in this tutorial is to give you practical guidelines on how to create bezier paths and how to use shape layer objects along with them
 
-### 63 Building a Custom Content View with UITableView and MapKit
+## 63 Building a Custom Content View with UITableView and MapKit
 - https://www.appcoda.com/custom-content-view/
 - 以 Cureo(http://curetoapp.com/) 应用的为例来展示
 ?? 
 
-### 64 Firebase
+## 64 Firebase
 1. FirebaseTutorial
     - [Introducing Firebase with Swift 3: Login and Sign Up](http://www.appcoda.com/firebase-login-signup/)
     - AdMob notifications  cloud messaging and storage
@@ -305,11 +328,11 @@ https://www.ioscreator.com/tutorials/add-rows-table-view-tutorial-ios8-swift
             * install pod
             
 
-### 65 Intermediate iOS 10 Programming with Swift
+## 65 Intermediate iOS 10 Programming with Swift
 - appcoda 网站书籍[Intermediate iOS 10 Programming with Swift](https://www.appcoda.com/intermediate-swift-programming-book/)的学习笔记。**Intermediate**每一节是一个项目
 
 
-### 66 SpriteKit Introduction
+## 66 SpriteKit Introduction
 - http://www.appcoda.com/spritekit-introduction/
 - SpriteKit
 Scenes
@@ -329,7 +352,7 @@ Actions
 - Working with Sequence
 - ?? 3
 
-### 67 UILabelDemo
+## 67 UILabelDemo
 - `UILabel` API 使用
 - 常用
     1. `text` 显示文本内容 
@@ -342,10 +365,10 @@ Actions
     8. `sizeToFit()` UILabel的高度自适应文本
     9. `attributedText` 富文本
 
-### 68 Exif
+## 68 Exif
 - 可交换图像文件格式常被简称为Exif（Exchangeable image file format），是专门为数码相机的照片设定的，可以记录数码照片的属性信息和拍摄数据。 
 
-### 69 UIButtonDemo
+## 69 UIButtonDemo
 - button类型
 - 
 ```
@@ -409,7 +432,7 @@ CGColorRef colorref = CGColorCreate(colorSpace,(CGFloat[]){ 1, 0, 0, 1 });
     right :为正数的时候往左偏移,为负数的时候往右偏移;
 
 
-### 70 A Beginner’s Guide to SiriKit in Swift
+## 70 A Beginner’s Guide to SiriKit in Swift
 - http://www.appcoda.com/sirikit-introduction/ 
 - ?? 证书问题 add the siri feature to your App ID
 - 目前SiriKit被限制在几个App
@@ -423,7 +446,7 @@ Car commands
 CarPlay (automotive vendors only)
 Restaurant reservations (requires additional support from Apple)
 
-### 71 A Beginning’s Guide to Lottie: Creating Amazing Animations in iOS Apps
+## 71 A Beginning’s Guide to Lottie: Creating Amazing Animations in iOS Apps
 https://www.lottiefiles.com
 - [Lottie](https://airbnb.design/lottie/)是Airbnb为 iOS，macOS, Android, React Native开发的动画库。对于开发者只需要加载不同动画的JSON文件就可以了，非常方便。[lottie-ios](https://github.com/airbnb/lottie-ios)
 - Lottie 动画文件可以从 [Lottie Files](http://www.lottiefiles.com/)网站获取
@@ -479,16 +502,16 @@ animationView.animationSpeed = 1
     ```
     + 由于`LOTAnimationView`是`UIView`的子类，所以也有`transform`属性
 
-### 72 MapKit Tutorial(iOS 11)
+## 72 MapKit Tutorial(iOS 11)
 - https://www.raywenderlich.com/160517/mapkit-tutorial-getting-started
 - HonoluluArt
 
 
-### 73 CALayerDemo
+## 73 CALayerDemo
 
-### 74 QuickLookDemo
+## 74 QuickLookDemo
 
-### 78 PlayLocalVideo
+## 78 PlayLocalVideo
 **[30DaysofSwift](https://github.com/allenwong/30DaysofSwift)**
 
 
@@ -498,7 +521,7 @@ animationView.animationSpeed = 1
 
 [iTunes Search API](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/)
  
-### tips
+## tips
 -  Mixpanel is one of the mobile analytics platform which focuses on tracking user action rather than just their page views. 
 - UIViewContentMode
 - CGColor UIColor
@@ -510,6 +533,9 @@ animationView.animationSpeed = 1
 - 结构
 - symbol files
 - segues  “present modally”
+- iOS账号续费及证书更新流程 ??
+http://www.cnblogs.com/chimianduofangcong/p/5798657.html
+http://zltunes.com/ios-10-tong-zhi-geng-xin-xiang-jie/
 
 
 
