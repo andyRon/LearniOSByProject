@@ -725,7 +725,7 @@ import AVKit
 > 参考：**[30DaysofSwift](https://github.com/allenwong/30DaysofSwift)**
 > 知识点： `UICollectionView` `UIVisualEffectView` `UICollectionViewDataSource`
 
-![]()
+![](https://github.com/andyRon/LearniOSByProject/blob/master/79/Carousel%20Effect.gif)
 
 - 新建项目Carousel Effect
 - 在IB构建UI。Collection View 里的 Scroll Direction 设置成水平滚动。`UIVisualEffectView`是用来添加模糊效果的，也可以使用类似如下的代码构建：
@@ -782,6 +782,11 @@ class ViewController: UIViewController, UICollectionViewDataSource {
 
 > 详细代码： [Carousel Effect](https://github.com/andyRon/LearniOSByProject/tree/master/79)
 
+## 80 BackgroundVideoDemo  视频背景
+
+> 参考：[BackgroundVideoiOS](https://github.com/Guzlan/BackgroundVideoiOS)
+
+![](https://github.com/andyRon/LearniOSByProject/tree/master/79/BackgroundVideoDemo.gif)
 
 
 
