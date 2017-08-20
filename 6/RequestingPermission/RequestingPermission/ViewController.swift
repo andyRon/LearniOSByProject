@@ -47,6 +47,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let currentLocation = locations.last!
         print("Current location: \(currentLocation)")
+        // CLLocation包含经纬度，海拔，移动速度等信息。可通过CLGeocoder把经纬度转变成具体的地址信息
         self.textView.text = "当前位置:\(currentLocation)"
     }
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {

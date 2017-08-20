@@ -95,4 +95,12 @@ class BackgroundVideo {
         self.player?.play()
     }
     
+    func pause() {
+        self.player?.pause()
+        
+    }
+    func play() {
+        self.player?.play()
+        
+    }
 }

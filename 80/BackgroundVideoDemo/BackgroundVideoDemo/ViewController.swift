@@ -17,10 +17,9 @@ class ViewController: UIViewController {
 
         backgroundPlayer = BackgroundVideo(on: self, withVideoURL: "test.mp4")
         //是否打开静音
-//        backgroundPlayer?.isMuted = false 
+//        backgroundPlayer?.isMuted = false
         
         backgroundPlayer?.setUpBackground()
-        
 
     }
 
