@@ -13,7 +13,6 @@
 		EFB02F551F49DF050013A9F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB02F531F49DF050013A9F9 /* Main.storyboard */; };
 		EFB02F571F49DF050013A9F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB02F561F49DF050013A9F9 /* Assets.xcassets */; };
 		EFB02F5A1F49DF050013A9F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB02F581F49DF050013A9F9 /* LaunchScreen.storyboard */; };
-		EFB02F621F49DF9A0013A9F9 /* KL-J.gif in Resources */ = {isa = PBXBuildFile; fileRef = EFB02F611F49DF9A0013A9F9 /* KL-J.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		EFB02F561F49DF050013A9F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFB02F591F49DF050013A9F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFB02F5B1F49DF050013A9F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EFB02F611F49DF9A0013A9F9 /* KL-J.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "KL-J.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +56,6 @@
 		EFB02F4E1F49DF050013A9F9 /* gifBackgroud */ = {
 			isa = PBXGroup;
 			children = (
-				EFB02F611F49DF9A0013A9F9 /* KL-J.gif */,
 				EFB02F4F1F49DF050013A9F9 /* AppDelegate.swift */,
 				EFB02F511F49DF050013A9F9 /* ViewController.swift */,
 				EFB02F531F49DF050013A9F9 /* Main.storyboard */,
@@ -133,7 +130,6 @@
 				EF7A06BE1F49E29F001353B3 /* BackgroundVideoDemo.gif in Resources */,
 				EFB02F5A1F49DF050013A9F9 /* LaunchScreen.storyboard in Resources */,
 				EFB02F571F49DF050013A9F9 /* Assets.xcassets in Resources */,
-				EFB02F621F49DF9A0013A9F9 /* KL-J.gif in Resources */,
 				EFB02F551F49DF050013A9F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
