@@ -788,6 +788,10 @@ class ViewController: UIViewController, UICollectionViewDataSource {
 
 ![](https://github.com/andyRon/LearniOSByProject/tree/master/79/BackgroundVideoDemo.gif)
 
+### 81 gifBackgroud  使用gif作为背景
+
+但大小不好控制？
+
 
 
 [iTunes Search API](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/)
