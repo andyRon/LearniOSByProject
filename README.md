@@ -793,6 +793,9 @@ class ViewController: UIViewController, UICollectionViewDataSource {
 但大小不好控制？
 
 ### 82 AnimatedSplash Twitter开启动画
+> 参考：**[30DaysofSwift](https://github.com/allenwong/30DaysofSwift)**
+
+![](https://github.com/andyRon/LearniOSByProject/tree/master/82/AnimatedSplash.gif)
 
 ### 83 GestureDemo  手势处理
 
