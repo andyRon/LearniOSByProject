@@ -792,6 +792,10 @@ class ViewController: UIViewController, UICollectionViewDataSource {
 
 但大小不好控制？
 
+### 82 AnimatedSplash Twitter开启动画
+
+### 83 GestureDemo  手势处理
+
 
 
 [iTunes Search API](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/)
