@@ -1,0 +1,6 @@
+framework module Pods_StreetView {
+  umbrella header "Pods-StreetView-umbrella.h"
+
+  export *
+  module * { export * }
+}

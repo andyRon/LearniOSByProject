@@ -804,6 +804,9 @@ class ViewController: UIViewController, UICollectionViewDataSource {
 > 参考：http://appcoda.com/coreml-introduction/
 
 [iTunes Search API](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/)
+
+### 87 StreetView
+> http://www.appcoda.com/google-street-view-ios/
  
 ## tips
 -  Mixpanel is one of the mobile analytics platform which focuses on tracking user action rather than just their page views. 
