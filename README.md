@@ -800,6 +800,8 @@ class ViewController: UIViewController, UICollectionViewDataSource {
 ### 83 GestureDemo  手势处理
 
 
+### 86 CoreMLDemo
+> 参考：http://appcoda.com/coreml-introduction/
 
 [iTunes Search API](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/)
  
