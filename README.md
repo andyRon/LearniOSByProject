@@ -3,7 +3,6 @@
 
 > - 学习iOS的一些小项目，Swift3，Swift4。  
 > - 以数字为目录只是为了记录项目数和排序，没有特殊意义。
-> - 
 > - 下载单个项目可以参考 [DownGit：怎么下载github中某个文件夹？](http://www.jianshu.com/p/ca46d0fa69ef)
 
 
@@ -49,7 +48,7 @@
 > 参考：[Local Notification Tutorial](https://www.ioscreator.com/tutorials/local-notification-tutorial-ios10)
 > 知识点：`UNMutableNotificationContent`, `UNNotificationAttachment`, `UNNotificationRequest`, `UNUserNotificationCenter`, `UNTimeIntervalNotificationTrigger`
 
-![](https://github.com/andyRon/LearniOSByProject/tree/master/7/LocalNotification.jpg)
+![](./7/LocalNotification.jpg)
 - 新建项目
 - 添加按钮
 - 请求用户通知允许
@@ -347,7 +346,7 @@ try? ?
 > 参考：[Scroll View Tutorial in iOS8 with Swift](https://www.ioscreator.com/tutorials/scroll-view-tutorial-ios8-swift)
 > 知识点: `UIScrollView`
 
-![](https://github.com/andyRon/LearniOSByProject/blob/master/46/ScrollViewTutorial.jpg)  
+![](./46/ScrollViewTutorial.jpg)  
 
 当视图超过屏幕大小时，可通过把视图放在`UIScrollView`中让视图可以上下滚动的功能。以一张大图片为例。
 
@@ -641,7 +640,7 @@ animationView.animationSpeed = 1
 ## 74 QuickLookDemo
 
 ## 78 PlayLocalVideo
-![](http://upload-images.jianshu.io/upload_images/1678135-11352ad6a562b572.gif?imageMogr2/auto-orient/strip)
+![](./78/PlayLocalVideo.gif)
 
 > 参考： **[30DaysofSwift](https://github.com/allenwong/30DaysofSwift)**
 
@@ -728,7 +727,7 @@ import AVKit
 > 参考：**[30DaysofSwift](https://github.com/allenwong/30DaysofSwift)**
 > 知识点： `UICollectionView` `UIVisualEffectView` `UICollectionViewDataSource`
 
-![](https://github.com/andyRon/LearniOSByProject/blob/master/79/Carousel%20Effect.gif)
+![](./79/Carousel%20Effect.gif)
 
 - 新建项目Carousel Effect
 - 在IB构建UI。Collection View 里的 Scroll Direction 设置成水平滚动。`UIVisualEffectView`是用来添加模糊效果的，也可以使用类似如下的代码构建：
@@ -789,7 +788,7 @@ class ViewController: UIViewController, UICollectionViewDataSource {
 
 > 参考：[BackgroundVideoiOS](https://github.com/Guzlan/BackgroundVideoiOS)
 
-![](https://github.com/andyRon/LearniOSByProject/tree/master/79/BackgroundVideoDemo.gif)
+![](./80/BackgroundVideoDemo.gif)
 
 ### 81 gifBackgroud  使用gif作为背景
 
@@ -798,7 +797,7 @@ class ViewController: UIViewController, UICollectionViewDataSource {
 ### 82 AnimatedSplash Twitter开启动画
 > 参考：**[30DaysofSwift](https://github.com/allenwong/30DaysofSwift)**
 
-![](https://github.com/andyRon/LearniOSByProject/tree/master/82/AnimatedSplash.gif)
+![](./82/AnimatedSplash.gif)
 
 ### 83 GestureDemo  手势处理
 
