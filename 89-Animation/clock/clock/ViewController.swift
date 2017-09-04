@@ -54,6 +54,7 @@ class ViewController: UIViewController {
         
         view.layer.addSublayer(dialLayer)
         
+        // 把秒针、分针、时针添加到view中
         secondHandView.center = view.center
         self.view.addSubview(secondHandView)
         minuteHandView.center = view.center
@@ -61,6 +62,7 @@ class ViewController: UIViewController {
         hourHandView.center = view.center
         self.view.addSubview(hourHandView)
         
+        // 创建CADisplayLink，并将其添加到主线程中
         let link = CADisplayLink(target: self, selector: #selector(ViewController.clockRunning))
         link.add(to: RunLoop.main, forMode: .defaultRunLoopMode)
         
@@ -75,6 +77,7 @@ class ViewController: UIViewController {
         
         let currentTime = calendar.dateComponents([Calendar.Component.hour, Calendar.Component.minute, Calendar.Component.second], from: currentDate)
         
+        // 根据当前秒、分、时数分别计算秒针、分针、时针偏转弧度
         let secondAngle = CGFloat ( Double(currentTime.second!) * (Double.pi * 2.0 / 60) )
         secondHandView.transform = CGAffineTransform(rotationAngle: secondAngle)
         
