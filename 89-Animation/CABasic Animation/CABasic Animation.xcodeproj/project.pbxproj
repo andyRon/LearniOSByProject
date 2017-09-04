@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF95E3D51F5D5FA30051EF88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF95E3D41F5D5FA30051EF88 /* AppDelegate.swift */; };
+		EF95E3D71F5D5FA30051EF88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF95E3D61F5D5FA30051EF88 /* ViewController.swift */; };
+		EF95E3DA1F5D5FA30051EF88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF95E3D81F5D5FA30051EF88 /* Main.storyboard */; };
+		EF95E3DC1F5D5FA30051EF88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF95E3DB1F5D5FA30051EF88 /* Assets.xcassets */; };
+		EF95E3DF1F5D5FA30051EF88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF95E3DD1F5D5FA30051EF88 /* LaunchScreen.storyboard */; };
+		EF95E3E71F5D7A700051EF88 /* BasicPostionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF95E3E61F5D7A700051EF88 /* BasicPostionViewController.swift */; };
+		EF95E3E91F5D819B0051EF88 /* BasicPostion2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF95E3E81F5D819B0051EF88 /* BasicPostion2ViewController.swift */; };
+		EF95E3EB1F5D88580051EF88 /* ScaleRotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF95E3EA1F5D88580051EF88 /* ScaleRotationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF95E3D11F5D5FA30051EF88 /* CABasic Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CABasic Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF95E3D41F5D5FA30051EF88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF95E3D61F5D5FA30051EF88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF95E3D91F5D5FA30051EF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF95E3DB1F5D5FA30051EF88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF95E3DE1F5D5FA30051EF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF95E3E01F5D5FA30051EF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF95E3E61F5D7A700051EF88 /* BasicPostionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicPostionViewController.swift; sourceTree = "<group>"; };
+		EF95E3E81F5D819B0051EF88 /* BasicPostion2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicPostion2ViewController.swift; sourceTree = "<group>"; };
+		EF95E3EA1F5D88580051EF88 /* ScaleRotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleRotationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF95E3CE1F5D5FA30051EF88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF95E3C81F5D5FA20051EF88 = {
+			isa = PBXGroup;
+			children = (
+				EF95E3D31F5D5FA30051EF88 /* CABasic Animation */,
+				EF95E3D21F5D5FA30051EF88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF95E3D21F5D5FA30051EF88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF95E3D11F5D5FA30051EF88 /* CABasic Animation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF95E3D31F5D5FA30051EF88 /* CABasic Animation */ = {
+			isa = PBXGroup;
+			children = (
+				EF95E3D41F5D5FA30051EF88 /* AppDelegate.swift */,
+				EF95E3D61F5D5FA30051EF88 /* ViewController.swift */,
+				EF95E3D81F5D5FA30051EF88 /* Main.storyboard */,
+				EF95E3DB1F5D5FA30051EF88 /* Assets.xcassets */,
+				EF95E3DD1F5D5FA30051EF88 /* LaunchScreen.storyboard */,
+				EF95E3E01F5D5FA30051EF88 /* Info.plist */,
+				EF95E3E61F5D7A700051EF88 /* BasicPostionViewController.swift */,
+				EF95E3E81F5D819B0051EF88 /* BasicPostion2ViewController.swift */,
+				EF95E3EA1F5D88580051EF88 /* ScaleRotationViewController.swift */,
+			);
+			path = "CABasic Animation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF95E3D01F5D5FA30051EF88 /* CABasic Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF95E3E31F5D5FA30051EF88 /* Build configuration list for PBXNativeTarget "CABasic Animation" */;
+			buildPhases = (
+				EF95E3CD1F5D5FA30051EF88 /* Sources */,
+				EF95E3CE1F5D5FA30051EF88 /* Frameworks */,
+				EF95E3CF1F5D5FA30051EF88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CABasic Animation";
+			productName = "CABasic Animation";
+			productReference = EF95E3D11F5D5FA30051EF88 /* CABasic Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF95E3C91F5D5FA20051EF88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = andyron;
+				TargetAttributes = {
+					EF95E3D01F5D5FA30051EF88 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF95E3CC1F5D5FA20051EF88 /* Build configuration list for PBXProject "CABasic Animation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF95E3C81F5D5FA20051EF88;
+			productRefGroup = EF95E3D21F5D5FA30051EF88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF95E3D01F5D5FA30051EF88 /* CABasic Animation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF95E3CF1F5D5FA30051EF88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF95E3DF1F5D5FA30051EF88 /* LaunchScreen.storyboard in Resources */,
+				EF95E3DC1F5D5FA30051EF88 /* Assets.xcassets in Resources */,
+				EF95E3DA1F5D5FA30051EF88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF95E3CD1F5D5FA30051EF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF95E3D71F5D5FA30051EF88 /* ViewController.swift in Sources */,
+				EF95E3EB1F5D88580051EF88 /* ScaleRotationViewController.swift in Sources */,
+				EF95E3E91F5D819B0051EF88 /* BasicPostion2ViewController.swift in Sources */,
+				EF95E3D51F5D5FA30051EF88 /* AppDelegate.swift in Sources */,
+				EF95E3E71F5D7A700051EF88 /* BasicPostionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF95E3D81F5D5FA30051EF88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF95E3D91F5D5FA30051EF88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF95E3DD1F5D5FA30051EF88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF95E3DE1F5D5FA30051EF88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF95E3E11F5D5FA30051EF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF95E3E21F5D5FA30051EF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF95E3E41F5D5FA30051EF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZHNA975N38;
+				INFOPLIST_FILE = "CABasic Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andyron.CABasic-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF95E3E51F5D5FA30051EF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZHNA975N38;
+				INFOPLIST_FILE = "CABasic Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andyron.CABasic-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF95E3CC1F5D5FA20051EF88 /* Build configuration list for PBXProject "CABasic Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF95E3E11F5D5FA30051EF88 /* Debug */,
+				EF95E3E21F5D5FA30051EF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF95E3E31F5D5FA30051EF88 /* Build configuration list for PBXNativeTarget "CABasic Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF95E3E41F5D5FA30051EF88 /* Debug */,
+				EF95E3E51F5D5FA30051EF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF95E3C91F5D5FA20051EF88 /* Project object */;
+}
