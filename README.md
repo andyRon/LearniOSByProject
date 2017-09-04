@@ -1,7 +1,10 @@
 # LearniOSByProject
 -------
 
-> 学习iOS的一些小项目，主要是Swift3
+> - 学习iOS的一些小项目，Swift3，Swift4。  
+> - 以数字为目录只是为了记录项目数和排序，没有特殊意义。
+> - 
+> - 下载单个项目可以参考 [DownGit：怎么下载github中某个文件夹？](http://www.jianshu.com/p/ca46d0fa69ef)
 
 
 ## 学习一些来源
@@ -800,29 +803,15 @@ class ViewController: UIViewController, UICollectionViewDataSource {
 ### 83 GestureDemo  手势处理
 
 
-### 86 CoreMLDemo
+### 86 CoreMLDemo  
+[Machine Learning](https://developer.apple.com/machine-learning/)
 > 参考：http://appcoda.com/coreml-introduction/
 
-[iTunes Search API](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/)
 
 ### 87 StreetView
 > http://www.appcoda.com/google-street-view-ios/
  
-## tips
--  Mixpanel is one of the mobile analytics platform which focuses on tracking user action rather than just their page views. 
-- UIViewContentMode
-- CGColor UIColor
-- 19 UITabBarController 的两个向上的tabBar样式怎么控制
-- `Bundle` 方法总结，获得各种地址
-- iOS 动画  QuartzCore
-- 多进程
-- 视频
-- 结构
-- symbol files
-- segues  “present modally”
-- iOS账号续费及证书更新流程 ??
-http://www.cnblogs.com/chimianduofangcong/p/5798657.html
-http://zltunes.com/ios-10-tong-zhi-geng-xin-xiang-jie/
+
 
 
 
