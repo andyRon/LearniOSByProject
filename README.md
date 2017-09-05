@@ -812,6 +812,9 @@ class ViewController: UIViewController, UICollectionViewDataSource {
 
 
 ### 89-Animation   动画基础项目 
+![](./89-Animation/clock.gif)
+![](./89-Animation/BasicPostionView.gif) 
+![](./89-Animation/BasicPostionView2.gif) 
 
  
 

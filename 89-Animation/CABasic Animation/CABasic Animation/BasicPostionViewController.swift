@@ -17,7 +17,6 @@ class BasicPostionViewController: UIViewController, CAAnimationDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        redLayer = createLayer()
         view.layer.addSublayer(redLayer)
         
         let basicAni = createCABasicAnimation()
@@ -49,20 +48,19 @@ class BasicPostionViewController: UIViewController, CAAnimationDelegate {
         basicAni.isRemovedOnCompletion = false
         
         basicAni.delegate = self
-        
+
         return basicAni
     }
 
     // MARK: - CAAnimationDelegate
-    func animationDidStart(_ anim: CAAnimation) {
-        self.redLayer.position = CGPoint(x: 300, y: 300)
-    }
-    
-    func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
-        self.redLayer.position = CGPoint(x: 300, y: 400)
-        
-        self.redLayer.removeAnimation(forKey: "basicPosition")
-        
-    }
+//    func animationDidStart(_ anim: CAAnimation) {
+//        self.redLayer.position = CGPoint(x: 300, y: 300)
+//    }
+//
+//    func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
+//        self.redLayer.position = CGPoint(x: 300, y: 400)
+//
+//        self.redLayer.removeAnimation(forKey: "basicPosition")
+//    }
 
 }

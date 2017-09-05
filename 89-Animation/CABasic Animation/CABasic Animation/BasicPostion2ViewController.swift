@@ -40,8 +40,6 @@ class BasicPostion2ViewController: UIViewController, CAAnimationDelegate{
         
         blueLayer.add(createBasicAnimation(fromValue: CGPoint(x: 0, y: 450), toValue: CGPoint(x: 300, y: 450), timingFunction: kCAMediaTimingFunctionEaseInEaseOut), forKey: "basicAnimation")
         view.layer.addSublayer(blueLayer)
-        
-
     }
 
     func createLayer(postion: CGPoint, backgroundColor: UIColor) -> CALayer {
@@ -70,11 +68,8 @@ class BasicPostion2ViewController: UIViewController, CAAnimationDelegate{
         basicAni.timingFunction = CAMediaTimingFunction(name: timingFunction)
         
         basicAni.delegate = self
-        
-        
-        
+
         return basicAni
-        
     }
 
 }
