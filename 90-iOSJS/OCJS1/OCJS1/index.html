@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8">
+        <script language="javascript">
+            function loadURL(url) {
+                window.location.href = url
+            }
+            
+            function locationClick() {
+                loadURL("scheme://getLocation");
+            }
+            
+            function shake() {
+                loadURL("scheme://shake");
+            }
+            
+            function setLocation(location) {
+                alert(location)
+                document.getElementById("returnValue").value = location;
+            }
+            
+        </script>
+    </head>
+    
+    <body>
+        <h1>这是按钮调用</h1>
+        <input type="button" value="获取定位" onclick="locationClick()" /><br><br>
+        <input type="button" value="震动一下" onclick="shake()" /><br><br>
+        
+        <h1>这是文件上传</h1>
+        <input type="file" /><br><br>
+        
+        <h1>这是回调结果展示区</h1>
+        <textarea id ="returnValue" type="value" rows="5" cols="50"></textarea>
+        
+    </body>
+</html>
+
