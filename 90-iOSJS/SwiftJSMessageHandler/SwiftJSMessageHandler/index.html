@@ -1,0 +1,49 @@
+
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8">
+            <script language="javascript">
+                var ctuapp_share_img="www.baidu.com";
+                
+                function locationClick() {
+                    window.webkit.messageHandlers.Location.postMessage(null);
+                }
+            
+            function shake() {
+                window.webkit.messageHandlers.Shake.postMessage(null);
+            }
+            
+            function payClick(){
+                window.webkit.messageHandlers.Pay.postMessage({order_no:'201511120981234',channel:'wx',amount:1,subject:'粉色外套'});
+            }
+            
+            function setLocation(location) {
+                alert(location)
+                document.getElementById("returnValue").value = location;
+            }
+            
+            function payResult(str) {
+                alert(str);
+                document.getElementById("returnValue").value = str;
+            }
+            
+                </script>
+            </head>
+    
+    <body>
+        <h1>这是按钮调用</h1>
+        <input type="button" value="获取定位" onclick="locationClick()" /><br><br>
+        <input type="button" value="震动一下" onclick="shake()" /><br><br>
+        <input type="button" value="支付" onclick="payClick()" /><br><br>
+        
+        
+        <h1>这是文件上传</h1>
+        <input type="file" /><br><br>
+        
+        <h1>这是回调结果展示区</h1>
+        <textarea id ="returnValue" type="value" rows="5" cols="50"></textarea>
+        
+    </body>
+</html>
+
