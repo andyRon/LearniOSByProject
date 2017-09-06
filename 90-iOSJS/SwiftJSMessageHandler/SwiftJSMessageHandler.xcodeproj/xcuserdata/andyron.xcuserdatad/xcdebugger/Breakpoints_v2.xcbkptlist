@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftJSMessageHandler/WKWebViewController.swift"
+            timestampString = "526388612.565841"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "getLocation()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftJSMessageHandler.WKWebViewController.getLocation() -&gt; ()"
+                  moduleName = "SwiftJSMessageHandler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andyron/myfield/github/LearniOSByProject/90-iOSJS/SwiftJSMessageHandler/SwiftJSMessageHandler/WKWebViewController.swift"
+                  timestampString = "526387697.404614"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Any&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SwiftJSMessageHandler.WKWebViewController.getLocation() -&gt; ()"
+                  moduleName = "SwiftJSMessageHandler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andyron/myfield/github/LearniOSByProject/90-iOSJS/SwiftJSMessageHandler/SwiftJSMessageHandler/WKWebViewController.swift"
+                  timestampString = "526387697.40615"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
