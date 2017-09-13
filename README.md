@@ -1,7 +1,7 @@
 # LearniOSByProject
 -------
 
-> - 学习iOS的一些小项目，Swift3，Swift4。  
+> - 学习iOS的一些小项目，主要是Swift3，Swift4，少部分OC。  
 > - 以数字为目录只是为了记录项目数和排序，没有特殊意义。
 > - 下载单个项目可以参考 [DownGit：怎么下载github中某个文件夹？](http://www.jianshu.com/p/ca46d0fa69ef)
 
@@ -820,6 +820,11 @@ class ViewController: UIViewController, UICollectionViewDataSource {
 ### 90-iOSJS    iOS和JS
 - **OCJS1**     使用URL拦截的方式进行JS与OC互相调用
 - OCJSMessageHandler  SwiftJSMessageHandler   
+
+
+### 91-network
+NSURLSession(delegate)
+NSURLSession(block)
  
 
 
