@@ -20,6 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+//    [self tongbu];
+//    [self yibu];
+    [self yibu_delegate];
 
 }
 
@@ -31,7 +34,7 @@
     NSLog(@"%@",data);
     NSLog(@"继续执行");
 }
-
+// block的异步
 - (void)yibu {
     NSURL * url = [NSURL URLWithString:@"https://www.baidu.com"];
     NSURLRequest * request = [NSURLRequest requestWithURL:url];
@@ -41,10 +44,10 @@
     }];
     NSLog(@"继续执行");
 }
-
+// 代理回调的异步
 - (void)yibu_delegate {
     _data = [[NSMutableData alloc]init];
-    NSURL * url = [NSURL URLWithString:@"http://www.baidu.com"];
+    NSURL * url = [NSURL URLWithString:@"https://www.baidu.com"];
     NSURLRequest * request = [NSURLRequest requestWithURL:url];
     [NSURLConnection connectionWithRequest:request delegate:self];
 }
@@ -52,10 +55,12 @@
 -(void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response{
     //开始接收数据
     [_data setLength:0];
+    NSLog(@"%s","开始接收数据");
 }
 -(void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data{
     //正在接收数据
     [_data appendData:data];
+    NSLog(@"%s","正在接收数据");
 }
 -(void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error{
     //接收数据失败
