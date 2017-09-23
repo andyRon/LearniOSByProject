@@ -20,7 +20,8 @@
 //    [self config1];
     
     [self config2];
-
+NSURLCache
+    
 }
 
 - (void)config1
