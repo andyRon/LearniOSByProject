@@ -830,6 +830,12 @@ NSURLSession(block)
 https://yq.aliyun.com/articles/39473?spm=5176.8091938.0.0.YHIb2U
 
 ### 93-sandbox
+
+### 94-MutipleThread
+
+### 95-Socket
+>参考：[深入浅出－iOS的TCP/IP协议族剖析&&Socket](http://www.jianshu.com/p/cc756016243b)
+
  
 
 
