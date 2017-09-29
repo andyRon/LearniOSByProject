@@ -494,6 +494,8 @@ Actions
     9. `attributedText` 富文本
 
 ## 68 Exif
+> http://www.jianshu.com/p/a542751d4ba3
+
 - 可交换图像文件格式常被简称为Exif（Exchangeable image file format），是专门为数码相机的照片设定的，可以记录数码照片的属性信息和拍摄数据。 
 
 ## 69 UIButtonDemo
@@ -832,6 +834,7 @@ https://yq.aliyun.com/articles/39473?spm=5176.8091938.0.0.YHIb2U
 ### 93-sandbox
 
 ### 94-MutipleThread
+https://www.kancloud.cn/digest/data/106700
 
 ### 95-Socket
 >参考：[深入浅出－iOS的TCP/IP协议族剖析&&Socket](http://www.jianshu.com/p/cc756016243b)

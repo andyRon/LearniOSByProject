@@ -312,6 +312,7 @@
 				EF0047B91F4BC658000E355B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

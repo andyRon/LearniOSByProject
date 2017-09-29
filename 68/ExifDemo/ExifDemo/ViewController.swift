@@ -16,25 +16,30 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-//        let fileUrl = Bundle.main.url(forResource: "IMG_0845", withExtension: "jpg")
-//        let imageData = fileUrl?.dataRepresentation
+
         
-//        let image = UIImage(named: <#T##String#>)
-//        let imageData = UIImageJPEGRepresentation(UIImage(named: "IMG_0845")!, 1)
-//        let source = CGImageSourceCreateWithData(imageData! as CFData, nil)
-//        let imageInfo = CGImageSourceCopyPropertiesAtIndex(source!, 0, nil)
-        
-        
-        let url = NSURL(string: "https://i.stack.imgur.com/jYGF4.png")
-        let imageSource = CGImageSourceCreateWithURL(url!, nil)
+        let url = Bundle.main.url(forResource: "IMG_0845", withExtension: "jpg") as! CFURL
+//        let url = NSURL(string: "http://jwphotographic.co.uk/Images/1.jpg")
+        let imageSource = CGImageSourceCreateWithURL(url as CFURL, nil)
         let imageProperties = CGImageSourceCopyPropertiesAtIndex(imageSource!, 0, nil) as Dictionary?
         let exifDict = imageProperties?[kCGImagePropertyExifDictionary]
         
-        
         let dateTimeOriginal = exifDict?[kCGImagePropertyExifDateTimeOriginal]
-        print("dateTimeOriginal: \(dateTimeOriginal)")
-//        print(exifDict)
         
+        let gps = imageProperties?[kCGImagePropertyGPSDictionary]!
+        let TIFF = imageProperties?[kCGImagePropertyTIFFDictionary]!
+        let GIF = imageProperties?[kCGImagePropertyGIFDictionary]
+        let ExifAux = imageProperties?[kCGImagePropertyExifAuxDictionary]
+        let Raw = imageProperties?[kCGImagePropertyRawDictionary]
+        let PNG = imageProperties?[kCGImagePropertyPNGDictionary]
+        let JFIF = imageProperties?[kCGImagePropertyJFIFDictionary]!
+        
+        print(exifDict,gps)
+        print("TIFF:", TIFF)
+        print("GIF:", GIF)
+        print("ExifAux:", ExifAux)
+        print("Raw:", Raw)
+        print("JFIF:", JFIF)
     }
 
     override func didReceiveMemoryWarning() {
@@ -42,6 +47,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    
 }
 

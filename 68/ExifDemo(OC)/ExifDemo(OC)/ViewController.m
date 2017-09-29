@@ -22,19 +22,16 @@
     // 创建CGImageSourceRef
     CGImageSourceRef imageSource = CGImageSourceCreateWithURL((CFURLRef)fileUrl, NULL);
     
+    // 利用imageSource获取全部ExifData
     CFDictionaryRef imageInfo = CGImageSourceCopyPropertiesAtIndex(imageSource, 0, NULL);
     
+    // 从全部ExifData中取出EXIF文件
     NSDictionary *exifDic = (__bridge NSDictionary *)CFDictionaryGetValue(imageInfo, kCGImagePropertyExifDictionary);
     
     
     NSLog(@"EXIF:%@",exifDic);
     
-}
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 
