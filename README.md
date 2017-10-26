@@ -839,6 +839,9 @@ https://www.kancloud.cn/digest/data/106700
 ### 95-Socket
 >参考：[深入浅出－iOS的TCP/IP协议族剖析&&Socket](http://www.jianshu.com/p/cc756016243b)
 
+### 96-gif
+> 参考：http://www.jianshu.com/p/da89d102f3a0
+
  
 
 
