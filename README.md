@@ -842,6 +842,8 @@ https://www.kancloud.cn/digest/data/106700
 ### 96-gif
 > 参考：http://www.jianshu.com/p/da89d102f3a0
 
+### 97-slideOutMenu
+> 参考：https://www.youtube.com/watch?v=mmSEidHEGL8&index=9&list=PL013GXaJjC-vTX1TvwtbT6E3_aEO67UYR&t=0s
  
 
 
