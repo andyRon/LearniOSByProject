@@ -845,6 +845,16 @@ https://www.kancloud.cn/digest/data/106700
 ### 97-slideOutMenu
 简单的滑动菜单
 > 参考：https://www.youtube.com/watch?v=mmSEidHEGL8&index=9&list=PL013GXaJjC-vTX1TvwtbT6E3_aEO67UYR&t=0s
+
+### 98-YouTubeEmbed
+播放youtube视频
+> 参考：
+
+### 99-
+> 参考：https://www.youtube.com/watch?v=YwE3_hMyDZA&t=94s
+
+### 100-dropDownMenu
+> 参考：https://www.youtube.com/watch?v=22zu-OTS-3M
  
 
 
