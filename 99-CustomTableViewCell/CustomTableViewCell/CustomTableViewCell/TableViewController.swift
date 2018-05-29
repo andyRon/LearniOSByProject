@@ -21,7 +21,7 @@ class TableViewController: UITableViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        data = [CellData.init(image: #imageLiteral(resourceName: "blue"), message: "How make ?"), CellData.init(image: #imageLiteral(resourceName: "blue"), message: "How make ?"), CellData.init(image: #imageLiteral(resourceName: "blue"), message: "How make ?")]
+        data = [CellData.init(image: #imageLiteral(resourceName: "blue"), message: "How make How make How make How make How make How make How make How make ?"), CellData.init(image: #imageLiteral(resourceName: "blue"), message: "How make ?"), CellData.init(image: #imageLiteral(resourceName: "blue"), message: "How make ?")]
         
         self.tableView.register(CustomCell.self, forCellReuseIdentifier: "custom")
     }

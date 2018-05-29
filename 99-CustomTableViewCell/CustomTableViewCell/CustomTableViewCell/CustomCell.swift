@@ -16,6 +16,7 @@ class CustomCell: UITableViewCell {
     var messageView: UITextView = {
         var textView = UITextView()
         textView.translatesAutoresizingMaskIntoConstraints = false
+        textView.isScrollEnabled = false
         return textView
     }()
     
