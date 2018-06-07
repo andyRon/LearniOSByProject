@@ -858,6 +858,12 @@ https://www.kancloud.cn/digest/data/106700
 
 ### 111-MasonryDemo
 Masonry学习
+
+
+### 112-SnapchatMenu 
+通过`UIScrollView`实现Snap聊天页面左右滑动
+![](112-SnapchatMenu/SnapchatMenu.gif)
+
  
 
 
