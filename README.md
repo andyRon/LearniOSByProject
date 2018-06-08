@@ -861,9 +861,13 @@ Masonry学习
 
 
 ### 112-SnapchatMenu 
-通过`UIScrollView`实现Snap聊天页面左右滑动
+通过`UIScrollView`实现Snap聊天页面左右滑动  
 ![](112-SnapchatMenu/SnapchatMenu.gif)
 
+
+### 113-QuoraDots
+学习 `CGAffineTransform`  
+![](113-QuoraDots/QuoraDots.gif)
  
 
 
