@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		EF5BDB442112029600417908 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5BDB432112029600417908 /* AppDelegate.swift */; };
-		EF5BDB462112029600417908 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5BDB452112029600417908 /* ViewController.swift */; };
+		EF5BDB462112029600417908 /* UsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5BDB452112029600417908 /* UsViewController.swift */; };
 		EF5BDB492112029600417908 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5BDB472112029600417908 /* Main.storyboard */; };
 		EF5BDB4B2112029800417908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5BDB4A2112029800417908 /* Assets.xcassets */; };
 		EF5BDB4E2112029800417908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5BDB4C2112029800417908 /* LaunchScreen.storyboard */; };
 		EF65F6962114AD0900852F0E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF65F6952114AD0900852F0E /* Product.swift */; };
+		EF65F69821155C4E00852F0E /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF65F69721155C4E00852F0E /* ProductsTableViewController.swift */; };
+		EF65F69A21155E4900852F0E /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF65F69921155E4900852F0E /* ProductViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EF5BDB402112029600417908 /* GoodAsOldPhones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodAsOldPhones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5BDB432112029600417908 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF5BDB452112029600417908 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF5BDB452112029600417908 /* UsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsViewController.swift; sourceTree = "<group>"; };
 		EF5BDB482112029600417908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF5BDB4A2112029800417908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF5BDB4D2112029800417908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF5BDB4F2112029800417908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF65F6952114AD0900852F0E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		EF65F69721155C4E00852F0E /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		EF65F69921155E4900852F0E /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				EF5BDB432112029600417908 /* AppDelegate.swift */,
-				EF5BDB452112029600417908 /* ViewController.swift */,
+				EF5BDB452112029600417908 /* UsViewController.swift */,
+				EF65F69721155C4E00852F0E /* ProductsTableViewController.swift */,
+				EF65F69921155E4900852F0E /* ProductViewController.swift */,
 				EF5BDB472112029600417908 /* Main.storyboard */,
 				EF65F6952114AD0900852F0E /* Product.swift */,
 				EF5BDB4A2112029800417908 /* Assets.xcassets */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF5BDB462112029600417908 /* ViewController.swift in Sources */,
+				EF5BDB462112029600417908 /* UsViewController.swift in Sources */,
+				EF65F69821155C4E00852F0E /* ProductsTableViewController.swift in Sources */,
 				EF5BDB442112029600417908 /* AppDelegate.swift in Sources */,
+				EF65F69A21155E4900852F0E /* ProductViewController.swift in Sources */,
 				EF65F6962114AD0900852F0E /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
