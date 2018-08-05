@@ -27,7 +27,6 @@ class DetailVC: UIViewController {
             self.title = "Edit Todo"
             if todo.image == "child-selected" {
                 childButton.isSelected = true
-                childButton.imageView?.image = UIImage(named: todo.image)
             } else if todo.image == "phone-selected" {
                 phoneButton.isSelected = true
             } else if todo.image == "shopping-cart-selected" {

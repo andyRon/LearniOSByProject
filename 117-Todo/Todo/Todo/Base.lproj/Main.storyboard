@@ -83,6 +83,7 @@
                                     <constraint firstAttribute="width" constant="50" id="r71-TZ-dt1"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="child"/>
+                                <state key="selected" backgroundImage="child-selected"/>
                                 <connections>
                                     <action selector="selectChild:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ekj-io-EGy"/>
                                 </connections>
@@ -94,6 +95,7 @@
                                     <constraint firstAttribute="width" constant="50" id="fis-50-ycV"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="phone"/>
+                                <state key="selected" backgroundImage="phone-selected"/>
                                 <connections>
                                     <action selector="selectPhone:" destination="BYZ-38-t0r" eventType="touchUpInside" id="37t-9K-Zng"/>
                                 </connections>
@@ -105,6 +107,7 @@
                                     <constraint firstAttribute="width" constant="50" id="vQN-G9-Q4c"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="shopping-cart"/>
+                                <state key="selected" backgroundImage="shopping-cart-selected"/>
                                 <connections>
                                     <action selector="selectShoppingCart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7HT-jX-mxr"/>
                                 </connections>
@@ -116,6 +119,7 @@
                                     <constraint firstAttribute="width" constant="50" id="wkj-40-TYT"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="travel"/>
+                                <state key="selected" backgroundImage="travel-selected"/>
                                 <connections>
                                     <action selector="selectTravel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BAn-gk-R28"/>
                                 </connections>
@@ -197,9 +201,13 @@
     </scenes>
     <resources>
         <image name="child" width="50" height="50"/>
+        <image name="child-selected" width="50" height="50"/>
         <image name="phone" width="50" height="50"/>
+        <image name="phone-selected" width="50" height="50"/>
         <image name="shopping-cart" width="50" height="50"/>
+        <image name="shopping-cart-selected" width="50" height="50"/>
         <image name="travel" width="50" height="50"/>
+        <image name="travel-selected" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="6aI-yf-r4O"/>

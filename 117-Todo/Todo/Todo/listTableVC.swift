@@ -8,88 +8,112 @@
 
 import UIKit
 
-class listTableVC: UITableViewController {
+var todos: [TodoItem] = []
+
+class ListTableVC: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.leftBarButtonItem = editButtonItem
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        todos = [TodoItem(id: "1", image: "child-selected", title: "Go to Disney", date: dateFromString("2017-10-20")!),
+                 TodoItem(id: "2", image: "shopping-cart-selected", title: "Cicso Shopping", date: dateFromString("2017-10-28")!),
+                 TodoItem(id: "3", image: "phone-selected", title: "Phone to Jobs", date: dateFromString("2018-4-30")!),
+                 TodoItem(id: "4", image: "travel-selected", title: "Plan to Europe", date: dateFromString("2018-5-31")!)]
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        tableView.reloadData()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "editTodo" {
+            let vc = segue.destination as! DetailVC
+            let indexPath = tableView.indexPathForSelectedRow
+            if let indexPath = indexPath {
+                vc.todo = todos[(indexPath as NSIndexPath).row]
+            }
+        }
     }
-
+    
+    func setMessageLabel(messageLabel: UILabel, frame: CGRect, text: String, textColor: UIColor, numberOfLines: Int, textAlignment: NSTextAlignment, font: UIFont) {
+        messageLabel.frame = frame
+        messageLabel.text = text
+        messageLabel.textColor = textColor
+        messageLabel.numberOfLines = numberOfLines
+        messageLabel.textAlignment = textAlignment
+        messageLabel.font = font
+        messageLabel.sizeToFit()
+    }
+    
+    func setCellWithTodoItem(cell: UITableViewCell, todo: TodoItem) {
+        let imageView: UIImageView = cell.viewWithTag(11) as! UIImageView
+        let titleLabel: UILabel = cell.viewWithTag(12) as! UILabel
+        let dateLabel: UILabel = cell.viewWithTag(13) as! UILabel
+        
+        imageView.image = UIImage(named: todo.image)
+        titleLabel.text = todo.title
+        dateLabel.text = stringFromDate(todo.date)
+    }
+    
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
+        
+        if todos.count != 0 {
+            return todos.count
+        } else {
+            let messageLabel: UILabel = UILabel()
+            
+            setMessageLabel(messageLabel: messageLabel, frame: CGRect(x: 0, y: 0, width: self.view.bounds.size.width, height: self.view.bounds.size.height), text: "No data is currently availabel.", textColor: .black, numberOfLines: 0, textAlignment: .center, font: UIFont(name: "Palatino-Italic", size: 20)!)
+            
+            self.tableView.backgroundView = messageLabel
+            self.tableView.separatorStyle = .none
+        }
+        
         return 0
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "todoCell", for: indexPath)
 
-        // Configure the cell...
-
+        setCellWithTodoItem(cell: cell, todo: todos[(indexPath as NSIndexPath).row])
+        
         return cell
     }
-    */
+    
 
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
+    // MARK: - Table view delegate
+    // Edit mode
+    override func setEditing(_ editing: Bool, animated: Bool) {
+        super.setEditing(editing, animated: animated)
+        tableView.setEditing(editing, animated: true)
     }
-    */
-
-    /*
-    // Override to support editing the table view.
+    
+    // Delete
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            // Delete the row from the data source
-            tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
+            todos.remove(at:(indexPath as NSIndexPath).row)
+            tableView.deleteRows(at: [indexPath], with: .automatic)
+        }
     }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
+    // Move
     override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
+        return self.isEditing
     }
-    */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+    override func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+        let todo = todos.remove(at:(sourceIndexPath as NSIndexPath).row)
+        todos.insert(todo, at: (destinationIndexPath as NSIndexPath).row)
     }
-    */
+    
 
 }
