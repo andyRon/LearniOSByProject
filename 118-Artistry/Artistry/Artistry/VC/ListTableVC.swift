@@ -10,17 +10,19 @@ import UIKit
 
 class ListTableVC: UITableViewController {
     
-    let artists = Artist.artistsFromBundle()
+    var artists = Artist.artistsFromBundle()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 140
         
         NotificationCenter.default.addObserver(forName: NSNotification.Name.UIContentSizeCategoryDidChange, object: .none, queue: OperationQueue.main) { [weak self] _ in
             self?.tableView.reloadData()
         }
+        
     }
 
     override func didReceiveMemoryWarning() {

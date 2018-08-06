@@ -17,6 +17,7 @@
 		EF1C1DF72116C7210057BA92 /* DetailTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C1DF62116C7210057BA92 /* DetailTableVC.swift */; };
 		EF1C1DF92116C9310057BA92 /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C1DF82116C9310057BA92 /* ArtistTableViewCell.swift */; };
 		EF1C1DFB2116C93B0057BA92 /* WorkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C1DFA2116C93B0057BA92 /* WorkTableViewCell.swift */; };
+		EF1C1DFF211867E60057BA92 /* artists.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1C1DEF2116BF3D0057BA92 /* artists.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -163,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF1C1DFF211867E60057BA92 /* artists.json in Resources */,
 				EF1C1DE82116BE290057BA92 /* LaunchScreen.storyboard in Resources */,
 				EF1C1DE52116BE290057BA92 /* Assets.xcassets in Resources */,
 				EF1C1DE32116BE280057BA92 /* Main.storyboard in Resources */,

@@ -24,6 +24,7 @@ struct Artist {
     static func artistsFromBundle() -> [Artist] {
         var artists = [Artist]()
         
+        
         guard let url = Bundle.main.url(forResource: "artists", withExtension: "json") else {
             return artists
         }
