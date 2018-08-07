@@ -85,9 +85,9 @@ class TimerViewController: UIViewController, CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if startLocation == nil {
-            startLocation = locations.first as CLLocation!
+            startLocation = locations.first as CLLocation?
         } else {
-            let lastDistance = lastLocation.distance(from: locations.last as CLLocation!)
+            let lastDistance = lastLocation.distance(from: locations.last as CLLocation?)
             distanceTraveled += lastDistance * 0.000621371
             
             let trimmedDistance = String(format: "%.2f", distanceTraveled)

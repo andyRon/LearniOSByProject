@@ -63,18 +63,19 @@ class ArticleController: UITableViewController {
     func attributedContentFromText(text: String) -> NSMutableAttributedString {
         let paraStyle = NSMutableParagraphStyle()
         paraStyle.lineSpacing = 7
-        let attrs = [NSFontAttributeName: UIFont.systemFontOfSize(15),
+        let attrs = [NSFontAttributeName: UIFont.systemFont(ofSize: 15),
                      NSParagraphStyleAttributeName: paraStyle]
         let attrContent = NSMutableAttributedString(string: text, attributes: attrs)
         return attrContent
     }
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         var cellForRow: UITableViewCell!
         
         if indexPath.row == 0 {
-            let cell = tableView.dequeueReusableCellWithIdentifier("CoverPhotoCell", forIndexPath: indexPath) as! CoverPhotoTableViewCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "CoverPhotoCell", for: indexPath as IndexPath) as! CoverPhotoTableViewCell
             
             if let imageName = currentArticle?.coverPhoto {
                 cell.coverImageView.image = UIImage(named: imageName)
@@ -83,18 +84,18 @@ class ArticleController: UITableViewController {
             cellForRow = cell
             
         } else if indexPath.row == 1 {
-            let cell = tableView.dequeueReusableCellWithIdentifier("MainContentCell", forIndexPath: indexPath) as! MainContentTableViewCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "MainContentCell", for: indexPath as IndexPath) as! MainContentTableViewCell
             cell.titleLabel.text = currentArticle?.title
             
-            cell.contentLabel.textAlignment = .Left
+            cell.contentLabel.textAlignment = .left
             if let text = currentArticle?.mainContent {
-                cell.contentLabel.attributedText = attributedContentFromText(text)
+                cell.contentLabel.attributedText = attributedContentFromText(text: text)
             }
             
             cellForRow = cell
             
         } else {
-            let cell = tableView.dequeueReusableCellWithIdentifier("SubContentCell", forIndexPath: indexPath) as! SubContentTableViewCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "SubContentCell", for: indexPath as IndexPath) as! SubContentTableViewCell
             
             if let article = currentArticle {
                 let subContent = article.subContents[indexPath.row - 2]
@@ -108,9 +109,9 @@ class ArticleController: UITableViewController {
                     cell.subImageView.image = UIImage(named: imageName)
                 }
                 
-                cell.subContentLabel.textAlignment = .Left
+                cell.subContentLabel.textAlignment = .left
                 if let text = subContent.text {
-                    cell.subContentLabel.attributedText = attributedContentFromText(text)
+                    cell.subContentLabel.attributedText = attributedContentFromText(text: text)
                 }
                 
             }
