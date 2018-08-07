@@ -876,6 +876,16 @@ UIViewControllerAnimatedTransitioning
 ### 115-GoodAsOldPhones
  tab bar controller, navigation controller, scoll view, table view and storyboard的基础使用
 
+### 116-LoveTweet
+UIKit controls such as UILabel, UITextField, UISegmentedControl, UIDatePicker, UISlider, UISwitch, UIButton and UITextView
+
+### 117-Todo
+ tableview add, edit and delete 
+
+### 118-Artistry
+set up height for table view cells dynamica
+lly based on its content
+
 
 
 
