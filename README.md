@@ -886,6 +886,8 @@ UIKit controls such as UILabel, UITextField, UISegmentedControl, UIDatePicker, U
 set up height for table view cells dynamica
 lly based on its content
 
+### 119-CandySearch
+UISearchController on a UItableView
 
 
 
