@@ -1,7 +1,7 @@
 # LearniOSByProject
 -------
 
-> - 学习iOS的一些小项目，主要是Swift3，Swift4，少部分OC。  
+> - 学习iOS的一些小项目，主要是Swift，少部分OC。  
 > - 以数字为目录只是为了记录项目数和排序，没有特殊意义。
 > - 下载单个项目可以参考 [DownGit：怎么下载github中某个文件夹？](http://www.jianshu.com/p/ca46d0fa69ef)
 
@@ -889,6 +889,14 @@ lly based on its content
 ### 119-CandySearch
 UISearchController on a UItableView
 https://www.raywenderlich.com/157864/uisearchcontroller-tutorial-getting-started
+
+
+### 120-FacebookMe
+模仿fb的个人页面
+
+
+### 121-PhotoScroll
+
 
 
 
