@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         if sender.isOn {
             player.setVolume(1, fadeDuration: 2)
         } else {
-            player.setVolume(0, fadeDuration: 10)  // 音乐逐渐消失的时间为10s
+            player.setVolume(0, fadeDuration: 5)  // 音乐逐渐消失的时间为10s
         }
         
     }

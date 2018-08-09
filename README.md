@@ -39,108 +39,39 @@
 ## 7 LocalNotification 
 本地通知
 
-
-## 8 CAGradientLayer 颜色渐变
-> 参考： [Creating Gradient Colors Using CAGradientLayer](http://www.appcoda.com/cagradientlayer/)
-
-- Core Graphics 功能复杂一点
-- CAGradientLayer 简单适合新手， radial gradient is not supported
-- Gradient Direction
-    + 这边的坐标系比较特殊： 左上角点是(0.0, 0.0)，右下角是(1.0, 1.0).
-    + Mac系统的是: 左下角点是(0.0, 0.0)，右上角是(1.0, 1.0)
+## 8 CAGradientLayer 
+颜色渐变
 
 ## 9 OneHourWalker ??
  http://www.appcoda.com/healthkit-introduction/
 
 
-## 10 TwitterTutorial 分享到推特
-> 参考： [Twitter iOS Tutorial](https://www.ioscreator.com/tutorials/twitter-ios-tutorial-ios10)
+## 10 TwitterTutorial   ??
+分享到推特
 
-- 知识点
-    + `Social`
-    + `UIImagePickerController`, `UIImagePickerControllerSourceType`, `SLComposeViewController`
-- 步骤
-    1. 建立类型为**Single View Application**， product name为****
-    2. 添加一个 **Image View**，属性**Content Mode**设置为*Aspect Fit*
-    3. 添加两个按钮，*title*分别为"Choose Image" and "Tweet"
-    4. 给**Image View**添加限制
-    5. 给两个按钮添加一定限制
-    6. 在**ViewController.swift**中，为**Image View**添加outlet，为两个按钮添加Action
-    7. 使用**Social framework** : `import Social`
-    8. `ViewController`  实现 `UINavigtionControllerDelegate` , `UiImagePickerControllerDelegate`
-    9. 定义 `var pickerController: UIImagePickerController = UIImagePickerController()`，用于获取图片
-    10. 实现方法`chooseImagePressed`
-    ```
-    @IBAction func chooseImagePressed(_ sender: UIButton) {
-        
-        pickerController.delegate = self
-        pickerController.sourceType = UIImagePickerControllerSourceType.photoLibrary
-        
-        present(pickerController, animated: true, completion: nil)
-    }
-    ```
-    11. 实现方法`tweetButtonPressed`
-    ```
-    @IBAction func tweetButtonPressed(_ sender: UIButton) {
-        
-        if SLComposeViewController.isAvailable(forServiceType: SLServiceTypeTwitter) {
-            
-            if let tweetSheet = SLComposeViewController(forServiceType: SLServiceTypeTwitter) {
-                
-                tweetSheet.setInitialText("看着漂亮的图片了")
-                tweetSheet.add(imageView.image)
-                
-                present(tweetSheet, animated: true, completion: nil)
-            }
-        } else {
-            print("error")
-        }
-    }
-    ```
-    12. 实现代理方法`imagePickerController:didFinishPickingMediaWithInfo`
-    13. 在**Inof.plist**中添加图库或相机使用key
+## 11 CustomizeNavBarTutorial 
+定制化导航栏
 
-## 11 CustomizeNavBarTutorial 定制化Nav Bar
-> 参考：[Customizing Navigation Bar iOS Tutorial](https://www.ioscreator.com/tutorials/customizing-navigation-bar-ios-tutorial-ios10)
+## 12 ShadowButtonTutorial 
+button的阴影
 
-- 知识点
-    + `UINavigationBar` 
+## 13 FadeMusicTutorial   ??
+音乐的声音的渐变
 
-## 12 ShadowButtonTutorial button的阴影
-> 参考：[Add Shadow to a Button iOS Tutorial](https://www.ioscreator.com/tutorials/add-shadow-to-a-button-ios-tutorial-ios10)
 
-## 13 FadeMusicTutorial  音乐的声音的渐变
-- 知识点
-    + `AVFoundation` `AVAudioPlayer`
+## 14 DatePickerTutorial 
+日期选择器使用
 
-## 14 DatePickerTutorial 日期选择器使用
 
-> 参考：[Displaying Date with Date Picker in iOS8 with Swift](https://www.ioscreator.com/tutorials/display-date-date-picker-ios8-swift)
+## 15 UIStepperTutorial 
+`UIStepper`的使用
 
-- 知识点
-    + `UIDatePicker`
-    + `DateFormatter`
+## 16 SpriteKitBackgroundTutorial 
+`SpriteKit`背景设置
 
-## 15 UIStepperTutorial `UIStepper`的使用
-> 参考：[UIStepper Tutorial in iOS8 with Swift](https://www.ioscreator.com/tutorials/uistepper-tutorial-ios8-swift)
+## 17 DrawShapesTutorial  
 
-- 知识点
-    + `UIStepper`
-
-## 16 SpriteKitBackgroundTutorial `SpriteKit`背景设置
-> 参考：[Display Background with SpriteKit iOS Tutorial](https://www.ioscreator.com/tutorials/display-background-with-spritekit-ios-tutorial-ios10)
-
-## 17 DrawShapesTutorial
-> 参考：[Drawing Shapes with Core Graphics Tutorial](https://www.ioscreator.com/tutorials/drawing-shapes-core-graphics-tutorial-ios10)
-
-- 知识点
-    + `CGContext`   `UIGraphicsGetCurrentContext()`
-
-## 18 DrawGradientsTutorial
-> 参考：
-
-- 知识点
-    + `CGGradient`
+## 18 DrawGradientsTutorial 
 
 ## 19 TabBarCustomizationTutorial
 > 参考：[Tab Bar Customisation Tutorial](https://www.ioscreator.com/tutorials/tab-bar-customisation-tutorial-ios10)
