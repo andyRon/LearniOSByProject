@@ -5,95 +5,40 @@
 > - 以数字为目录只是为了记录项目数和排序，没有特殊意义。
 > - 下载单个项目可以参考 [DownGit：怎么下载github中某个文件夹？](http://www.jianshu.com/p/ca46d0fa69ef)
 
+本来是自己学习iOS时的一些小项目，小例子，或者我个人博客[AndyRon's Blog](http://andyron.com)文章的代码。没有按照什么路线学习，就是学到什么就是什么了，看上去特别乱，然后看到道长前辈的项目[Swift-30-Projects](https://github.com/soapyigu/Swift-30-Projects)，就整理一下，这样看着清晰一点，找起来也方便。
+目的也是为了之后遇到某个知识点能快速找到例子代码！
+
+以为数字开始的目录没有什么特殊含义，只是先后顺序，方便寻找
 
 ## 学习一些来源
 - http://www.appcoda.com/
 - https://www.ioscreator.com/
 - https://www.raywenderlich.com/
 - **[30DaysofSwift](https://github.com/allenwong/30DaysofSwift)**
+- **[Swift-30-Projects](https://github.com/soapyigu/Swift-30-Projects)**
 
 
 ## 1 StopWatch
-> **[30DaysofSwift](https://github.com/allenwong/30DaysofSwift)**
+**StopWatch**是对`Timer`简单使用。
 
-## 2 project-2-CunstomFont
-- 点击按钮然后改变字体
+## 2 CunstomFont
+加载字体文件修改字体
 
-## 3 QRCodeReader 扫描二维码or条形码
-> 参考：[Building a Barcode and QR Code Reader in Swift 3 and Xcode 8](http://www.appcoda.com/barcode-reader-swift/)
+## 3 QRCodeReader 
+用`AVFoundation`来识别二维码or条形码
 
-- **AVFoundation framework**
+## 4 Detector 
+用**Core Image**进行面部识别
 
-## 4 Detector 用Core Image进行面部识别
-> [Face Detection in iOS Using Core Image](http://www.appcoda.com/face-detection-core-image/)
+## 5 SpeechToTextDemo 
+语音转换为文字
 
--  Core Image and UIView (or UIKit) use two different coordinate systems
+## 6 RequestingPermission 
+用户当前位置
 
-## 5 SpeechToTextDemo 语音识别
-> 参考： [Building a Speech-to-Text App Using Speech Framework in iOS 10](http://www.appcoda.com/siri-speech-framework/)
+## 7 LocalNotification 
+本地通知
 
-- **Speech framework**
-- `Locale`的 identifier可参考 https://gist.github.com/jacobbubu/1836273
-- https://developer.apple.com/videos/play/wwdc2016/509/
-
-## 6 RequestingPermission 用户当前位置
-> 参考：[Requesting Permission in Core Location Tutorial](https://www.ioscreator.com/tutorials/requesting-permissions-core-location-tutorial)
-> 知识点：`CoreLocation` `CLLocationManager` `CLLocationManagerDelegate` `CLLocation`
-
-
-
-
-
-## 7 LocalNotification 本地通知
-> 参考：[Local Notification Tutorial](https://www.ioscreator.com/tutorials/local-notification-tutorial-ios10)
-> 知识点：`UNMutableNotificationContent`, `UNNotificationAttachment`, `UNNotificationRequest`, `UNUserNotificationCenter`, `UNTimeIntervalNotificationTrigger`
-
-![](./7/LocalNotification.jpg)
-- 新建项目
-- 添加按钮
-- 请求用户通知允许
-```
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        UNUserNotificationCenter.current().requestAuthorization(options: [.alert], completionHandler: {
-        (success, error) in
-            if success {
-                print("success")
-            } else {
-                print("error")
-            }
-        })
-    }
-```
-
-- 添加按钮点击Action，发送本地通知，主要发送通知后要进入主屏（在应用内，不能接受本地通知）：
-```
-    @IBAction func sendLocalNotification(_ sender: UIButton) {
-        // UNMutableNotificationContent 对象包含有通知当中的数据。
-        let content = UNMutableNotificationContent()
-        content.title = "通知"
-        content.subtitle = "来自andyron"
-        content.body = "just test"
-        
-        // UNNotificationAttachment 对象包含有通知当中的媒体内容。
-        let imageName = "Swift_Logo"
-        guard let imageUrl = Bundle.main.url(forResource: imageName, withExtension: "png")  else { return }
-        
-        let attachment = try! UNNotificationAttachment(identifier: imageName, url: imageUrl, options: .none)
-        
-        content.attachments = [attachment]
-        
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
-        let request = UNNotificationRequest(identifier: "notification.id.01", content: content, trigger: trigger)
-        
-        UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
-        
-        print("已发送")
-    }
-```
-
-### 代码
-[ScrollViewTutorial](https://github.com/andyRon/LearniOSByProject/tree/master/7)
 
 ## 8 CAGradientLayer 颜色渐变
 > 参考： [Creating Gradient Colors Using CAGradientLayer](http://www.appcoda.com/cagradientlayer/)

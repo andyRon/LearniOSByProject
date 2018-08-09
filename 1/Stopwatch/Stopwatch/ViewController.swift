@@ -31,7 +31,7 @@ class ViewController: UIViewController {
             isStart = false
             startOrEndButton.setTitle("启动", for: UIControlState.normal)
         } else {
-            timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: "updateTimer", userInfo: nil, repeats: true)
+            timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(ViewController.updateTimer), userInfo: nil, repeats: true)
             isStart = true
             startOrEndButton.setTitle("停止", for: UIControlState.normal)
         }

@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EFB60CD9211C411B004C2D51 /* Swift_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB60CD8211C411A004C2D51 /* Swift_Logo.png */; };
 		EFD93EFB1E7A8FE800C6030E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD93EFA1E7A8FE800C6030E /* AppDelegate.swift */; };
 		EFD93EFD1E7A8FE800C6030E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD93EFC1E7A8FE800C6030E /* ViewController.swift */; };
 		EFD93F001E7A8FE800C6030E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD93EFE1E7A8FE800C6030E /* Main.storyboard */; };
 		EFD93F021E7A8FE800C6030E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD93F011E7A8FE800C6030E /* Assets.xcassets */; };
 		EFD93F051E7A8FE800C6030E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD93F031E7A8FE800C6030E /* LaunchScreen.storyboard */; };
-		EFF2133D1F485F5200F8BE64 /* Swift_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EFF2133C1F485F5200F8BE64 /* Swift_Logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EFB60CD8211C411A004C2D51 /* Swift_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Swift_Logo.png; sourceTree = "<group>"; };
 		EFD93EF71E7A8FE800C6030E /* LocalNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD93EFA1E7A8FE800C6030E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFD93EFC1E7A8FE800C6030E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		EFD93F011E7A8FE800C6030E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFD93F041E7A8FE800C6030E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFD93F061E7A8FE800C6030E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EFF2133C1F485F5200F8BE64 /* Swift_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Swift_Logo.png; path = ../../../../../../Downloads/iOS/Swift_Logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 				EFD93EFE1E7A8FE800C6030E /* Main.storyboard */,
 				EFD93F011E7A8FE800C6030E /* Assets.xcassets */,
 				EFD93F031E7A8FE800C6030E /* LaunchScreen.storyboard */,
+				EFB60CD8211C411A004C2D51 /* Swift_Logo.png */,
 				EFD93F061E7A8FE800C6030E /* Info.plist */,
-				EFF2133C1F485F5200F8BE64 /* Swift_Logo.png */,
 			);
 			path = LocalNotification;
 			sourceTree = "<group>";
@@ -129,7 +129,7 @@
 			files = (
 				EFD93F051E7A8FE800C6030E /* LaunchScreen.storyboard in Resources */,
 				EFD93F021E7A8FE800C6030E /* Assets.xcassets in Resources */,
-				EFF2133D1F485F5200F8BE64 /* Swift_Logo.png in Resources */,
+				EFB60CD9211C411B004C2D51 /* Swift_Logo.png in Resources */,
 				EFD93F001E7A8FE800C6030E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -300,6 +300,7 @@
 				EFD93ECF1E7A382900C6030E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
