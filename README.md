@@ -50,7 +50,7 @@
 分享到推特
 
 ## 11 CustomizeNavBarTutorial 
-定制化导航栏
+定制导航栏
 
 ## 12 ShadowButtonTutorial 
 button的阴影
@@ -74,33 +74,19 @@ button的阴影
 ## 18 DrawGradientsTutorial 
 
 ## 19 TabBarCustomizationTutorial
-> 参考：[Tab Bar Customisation Tutorial](https://www.ioscreator.com/tutorials/tab-bar-customisation-tutorial-ios10)
+定制TabBar
 
-- 知识点
-    + `UITabBarController`
-
-## 20 ChangeDisplayNameTutorial  改变app在Home screen时的显示名
-> 参考：
-
-- 知识点
-    +  **info.plist**中 **Bundle display name**,
+## 20 ChangeDisplayNameTutorial  
+改变app在Home screen时的显示名。修改**info.plist**中**Bundle display name**。
 
 ## 21 OpenPDFTutorial
-> 参考：
+通过`UIWebView`打开PDF文件
 
 ## 22 SpellingCheckerTutorial
-> 参考：
-
-- 知识点
-    + Double-click on the Navigation Bar in The Table View Controller and set the title to "Choose the right spelling". 
-    + `UITextChecker`  `rangeOfMisspelledWord()`
+检查英语单词拼写是否正确
 
 ## 23 DraggingViewsTutorial
-> 参考：
-
-- 知识点
-    + `UIPanGestureRecognizer`
-    + `insetBy()`
+视图拖动
 
 ## 24 VibrationTutorial   震动 
 > 参考：
