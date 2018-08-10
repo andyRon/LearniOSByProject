@@ -54,7 +54,7 @@ class ViewController: UIViewController {
                 let event = EKEvent(eventStore: store)
                 event.calendar = calendar
                 
-                event.title = "New Meeting"
+                event.title = "New Meeting(just test)"
                 event.startDate = startDate as Date
                 event.endDate = endDate as Date
                 

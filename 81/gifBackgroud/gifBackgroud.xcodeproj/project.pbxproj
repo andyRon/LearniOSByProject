@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF7A06BE1F49E29F001353B3 /* BackgroundVideoDemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = EF7A06BD1F49E29F001353B3 /* BackgroundVideoDemo.gif */; };
+		EF157CFD211DA88400E3A79B /* BackgroundVideoDemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = EF157CFC211DA88400E3A79B /* BackgroundVideoDemo.gif */; };
 		EFB02F501F49DF050013A9F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB02F4F1F49DF050013A9F9 /* AppDelegate.swift */; };
 		EFB02F521F49DF050013A9F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB02F511F49DF050013A9F9 /* ViewController.swift */; };
 		EFB02F551F49DF050013A9F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB02F531F49DF050013A9F9 /* Main.storyboard */; };
@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EF7A06BD1F49E29F001353B3 /* BackgroundVideoDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = BackgroundVideoDemo.gif; path = ../../../../../../Downloads/BackgroundVideoDemo.gif; sourceTree = "<group>"; };
+		EF157CFC211DA88400E3A79B /* BackgroundVideoDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = BackgroundVideoDemo.gif; path = ../../BackgroundVideoDemo.gif; sourceTree = "<group>"; };
 		EFB02F4C1F49DF050013A9F9 /* gifBackgroud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gifBackgroud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB02F4F1F49DF050013A9F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFB02F511F49DF050013A9F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 				EFB02F561F49DF050013A9F9 /* Assets.xcassets */,
 				EFB02F581F49DF050013A9F9 /* LaunchScreen.storyboard */,
 				EFB02F5B1F49DF050013A9F9 /* Info.plist */,
-				EF7A06BD1F49E29F001353B3 /* BackgroundVideoDemo.gif */,
+				EF157CFC211DA88400E3A79B /* BackgroundVideoDemo.gif */,
 			);
 			path = gifBackgroud;
 			sourceTree = "<group>";
@@ -127,10 +127,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF7A06BE1F49E29F001353B3 /* BackgroundVideoDemo.gif in Resources */,
 				EFB02F5A1F49DF050013A9F9 /* LaunchScreen.storyboard in Resources */,
 				EFB02F571F49DF050013A9F9 /* Assets.xcassets in Resources */,
 				EFB02F551F49DF050013A9F9 /* Main.storyboard in Resources */,
+				EF157CFD211DA88400E3A79B /* BackgroundVideoDemo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

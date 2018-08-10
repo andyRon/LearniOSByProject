@@ -13,7 +13,6 @@ private let reuseIdentifier = "Cell"
 class CollectionViewController: UICollectionViewController {
 
     var swiftLogo = UIImage(named: "Apple_Swift_Logo")
-    var dog = UIImage(named: "dog") // jpg不可以？
     var logo = UIImage(named: "Logo")
     
     override func viewDidLoad() {

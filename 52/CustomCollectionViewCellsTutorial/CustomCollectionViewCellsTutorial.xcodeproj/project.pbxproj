@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EF4400571E9E0EFF007E2B09 /* Apple_Swift_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4400561E9E0EFF007E2B09 /* Apple_Swift_Logo.png */; };
-		EF4400591E9E10E9007E2B09 /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF4400581E9E10E9007E2B09 /* dog.jpg */; };
 		EF44005B1E9E12A1007E2B09 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EF44005A1E9E12A1007E2B09 /* Logo.png */; };
 		EF6399CB1E9E0B7D00439F22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6399CA1E9E0B7D00439F22 /* AppDelegate.swift */; };
 		EF6399D01E9E0B7D00439F22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6399CE1E9E0B7D00439F22 /* Main.storyboard */; };
@@ -20,7 +19,6 @@
 
 /* Begin PBXFileReference section */
 		EF4400561E9E0EFF007E2B09 /* Apple_Swift_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apple_Swift_Logo.png; sourceTree = "<group>"; };
-		EF4400581E9E10E9007E2B09 /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
 		EF44005A1E9E12A1007E2B09 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 		EF6399C71E9E0B7D00439F22 /* CustomCollectionViewCellsTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCollectionViewCellsTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6399CA1E9E0B7D00439F22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				EF44005A1E9E12A1007E2B09 /* Logo.png */,
-				EF4400581E9E10E9007E2B09 /* dog.jpg */,
 				EF4400561E9E0EFF007E2B09 /* Apple_Swift_Logo.png */,
 				EF6399CA1E9E0B7D00439F22 /* AppDelegate.swift */,
 				EF6399CE1E9E0B7D00439F22 /* Main.storyboard */,
@@ -138,7 +135,6 @@
 			files = (
 				EF44005B1E9E12A1007E2B09 /* Logo.png in Resources */,
 				EF6399D51E9E0B7D00439F22 /* LaunchScreen.storyboard in Resources */,
-				EF4400591E9E10E9007E2B09 /* dog.jpg in Resources */,
 				EF4400571E9E0EFF007E2B09 /* Apple_Swift_Logo.png in Resources */,
 				EF6399D21E9E0B7D00439F22 /* Assets.xcassets in Resources */,
 				EF6399D01E9E0B7D00439F22 /* Main.storyboard in Resources */,

@@ -24,7 +24,7 @@ class ViewController: UIViewController,  MFMessageComposeViewControllerDelegate{
     @IBAction func sendMessage(_ sender: AnyObject) {
         let messageVC = MFMessageComposeViewController()
         
-        messageVC.body = "Enter a message"
+        messageVC.body = "信息内容"
         messageVC.recipients = ["10086"]  // 信息接受人的号码或在通讯录中的名字，可多个；如没有发送信息失败
         messageVC.messageComposeDelegate = self
         

@@ -1,27 +1,44 @@
-Intermediate iOS 10 Programming with Swift
+《Intermediate iOS 10 Programming with Swift》
 ---------
-###  XML Parsing and RSS                  
-
-### Animating Table View Cells
-
-### Working with JSON
-
-### How to Integrate Twitter and Facebook Sharing
-
-### Working with Email and Attachments
-
-<!-- ### Sending SMS and MMS Using MessageUI Framework -->
+ appcoda 网站书籍[Intermediate iOS 10 Programming with Swift](https://www.appcoda.com/intermediate-swift-programming-book/)的学习笔记。**Intermediate**每一节是一个项目
 
 
-### Chapter 10 Audio Recording and Playback
+
+###  SimpleRSSReader
+XML解析。
+
+![SimpleRSSReader](./SimpleRSSReader.jpg)                  
+
+### TableCellAnimation
+TableViewCell加载动画。
+
+![TableCellAnimation](./TableCellAnimation.gif)
+
+### KivaLoan
+JSON解析
+
+![KivaLoan](./KivaLoan.jpg)
+
+### SocialSharingDemo ??
+
+
+### EmailAttachment  ??
+
+
+
+### RecordPro   ??
+录音
 - `AV Foundation` 提供两个APIs `AVAudioPlayer` `AVAudioRecorder`
 - **RecordPro**
 
-<!-- ### Chapter 12 Working with URL Schemes -->
 
-### Chapter 13 Building a Full Screen Camera
+### SimpleCamera  ??
+
 - iOS 提高两种内置的照相使用方式：`UIImagePickerController`  和 **AVFoundation framework**。
 - ?? AVCaptureStillImageOutput iOS 10弃用，改用 AVCapturePhotoOutput
+
+
+
 
 ### Chapter 15 Displaying Banner Ads using Google AdMob
 - 注册Google AdMob账号
@@ -48,3 +65,4 @@ https://apps.admob.com/v2/apps/5351885256/adunits/list     ??
     + 
 
 
+### WeatherDemo ??
