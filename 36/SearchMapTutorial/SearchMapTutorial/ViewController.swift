@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet var segmentedControl: UISegmentedControl!
     
     // 121.508983,31.241492
-    let initiaLocation = CLLocation(latitude: 30.561504, longitude: 114.365484)
+    let initiaLocation = CLLocation(latitude: 31.241492, longitude: 121.508983)
     let searchRadius: CLLocationDistance = 2000
     
     override func viewDidLoad() {

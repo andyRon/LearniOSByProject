@@ -20,9 +20,9 @@ class ViewController: UIViewController {
     
     @IBAction func shareImage(_ sender: Any) {
         
-        let image = imageView.image!
+        let image = UIImage(named: "dog.jpg")
         // The Activity Controller is a standard View Controller that displays services that your application can use. This services includes Airdrop, Mail, Post to Twitter, etc.
-        let controller = UIActivityViewController(activityItems: [image], applicationActivities: nil)
+        let controller = UIActivityViewController(activityItems: ["分享小狗",image], applicationActivities: nil)
         // 不显示的类型（在more中也没有）
         controller.excludedActivityTypes = [UIActivityType.postToFacebook, UIActivityType.postToTwitter, UIActivityType.postToWeibo, UIActivityType.print, UIActivityType.copyToPasteboard, UIActivityType.assignToContact, UIActivityType.saveToCameraRoll, UIActivityType.postToFlickr, UIActivityType.postToTencentWeibo, UIActivityType.mail]
         

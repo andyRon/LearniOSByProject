@@ -88,83 +88,53 @@ button的阴影
 ## 23 DraggingViewsTutorial
 视图拖动
 
-## 24 VibrationTutorial   震动 
-> 参考：
+## 24 VibrationTutorial   
+震动 
+
 
 ## 25 XMLParserTutorial
-> 参考：
-
-- 知识点
-    + `XMLParser`
+XML文件解析。知识点：`XMLParser`
 
 ## 26 DrawRouteMapKitTutorial ??
-> 参考：
-> 
+在地图上划线
 - 知识点
-    + `` 
+
 - [参考](https://www.ioscreator.com/tutorials/draw-route-mapkit-tutorial)
 
 ## 27 MultipleOutletsTutorial
-> 参考：
-
-- 知识点
-    + `UIView.subviews`
-    + `UIControl.addTarget()`
+`UIView`的`tag`使用和事件添加
 
 ## 28 SpriteKitPhysicsTutorial  ??
-> 参考：
 
 - [参考](https://www.ioscreator.com/tutorials/sprite-kit-physics-tutorial)
 
 ## 29 PlayMusicAVAudioPlayerTutorial
-> 参考：
+音频的播放、暂停和停止。知识点：`AVFoundation`
 
 ## 30 CoreSpotlightTutorial 
-> 参考：
+应用内搜索框架`Core Spotlight`简单使用
 
 ## 31 SwiftFileManagementTutorial  ?? 
-> 参考：
-
 try? ?
 - [参考](https://www.ioscreator.com/tutorials/file-management-tutorial-ios8-swift)
 
+## 32 SwiftCoreImageTutorial  
+`CoreImage`的图片滤镜功能
 
-## 32 SwiftCoreImageTutorial  图片滤镜
-> 参考：
-
-- 知识点
-    + `CIImage`   保存图像数据的类
-    + `CIFilter`   滤镜类 图片属性进行细节处理的类 它对所有的像素进行操作 用键-值 （KVC）来设置
-
-## 33 ContextMenuTableViewTutorial   table的 cut/copy/paste操作
-> 参考：
-
-- 知识点
-    + `UIResponderStandardEditActions`
-    +  `tableView:shouldShowMenuForRowAtIndexPath`    `tableView:canPerformAction:forRowAtIndexPath`   `tableView:performAction:forRowAtIndexPath:withSender` 
-    + `textFieldShouldReturn`
+## 33 ContextMenuTableViewTutorial   
+table的cut/copy/paste操作
 
 ## 34 TextFieldAlertControllerTutorial
-> 参考：
+UIAlertController的简单使用
 
 ## 35 TakeVideoPlayerTutorial
-> 参考：
-
-- 知识点
-    + `UIImagePickerControllerMediaType`
-    + `Photos`框架 ??
+拍摄视频和查看图库
 
 ## 36 SearchMapTutorial
-> 参考：
-
-- 知识点
-    + `MKLocalSearchRequest`  `MKCoordinateSpan` `MKLocalSearch`
+搜索地图。知识点：`MapKit` `MKLocalSearchRequest`  `MKCoordinateSpan` `MKLocalSearch`
 
 ## 37 AirdropTutorial
-> 参考：
-
-- 知识点
-    + `UIActivityViewController`
+分享功能。 知识点：`UIActivityViewController`，`UIActivityType`
  
 ## 38 ReorderingCollectionViewTutorial
 > 参考：
