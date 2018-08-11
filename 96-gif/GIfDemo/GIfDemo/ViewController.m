@@ -17,11 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    //    [self loadGIFWithWebView];
     
-    [self loadGIFWithCGImage];
-    
+    [self loadGIFWithCGImage];    
 }
 
 -(void)loadGIFWithWebView

@@ -290,12 +290,14 @@ Twitter开启动画
 ### 85
 
 ### 86 CoreMLDemo  
-[Machine Learning](https://developer.apple.com/machine-learning/)
-> 参考：http://appcoda.com/coreml-introduction/
+CoreML的简单使用
 
 
-### 87 StreetView
-> http://www.appcoda.com/google-street-view-ios/
+### 87 StreetView ??
+http://www.appcoda.com/google-street-view-ios/
+
+### 88 CoreMLFlowers
+与86类似，只是model用的是识别花的`Flowers.mlmodel`
 
 
 ### 89-Animation   动画基础项目 
@@ -322,28 +324,25 @@ https://yq.aliyun.com/articles/39473?spm=5176.8091938.0.0.YHIb2U
 https://www.kancloud.cn/digest/data/106700
 
 ### 95-Socket
->参考：[深入浅出－iOS的TCP/IP协议族剖析&&Socket](http://www.jianshu.com/p/cc756016243b)
+参考：[深入浅出－iOS的TCP/IP协议族剖析&&Socket](http://www.jianshu.com/p/cc756016243b)
 
 ### 96-gif
-> 参考：http://www.jianshu.com/p/da89d102f3a0
+用`UIWebView`加载gif图片。
 
 ### 97-slideOutMenu
-简单的滑动菜单
-> 参考：https://www.youtube.com/watch?v=mmSEidHEGL8&index=9&list=PL013GXaJjC-vTX1TvwtbT6E3_aEO67UYR&t=0s
+简单的滑动菜单(NSLayoutConstraint)
 
 ### 98-YouTubeEmbed
-播放youtube视频
-> 参考：
+`WKWebView`播放在线视频
 
-### 99-
-> 参考：https://www.youtube.com/watch?v=YwE3_hMyDZA&t=94s
+### 99-CustomTableViewCell  ??
+参考：https://www.youtube.com/watch?v=YwE3_hMyDZA&t=94s
 
 ### 100-dropDownMenu
-> 参考：https://www.youtube.com/watch?v=22zu-OTS-3M
+简单的下拉菜单
 
-### 111-MasonryDemo
-Masonry学习
-
+### 101-MasonryDemo
+Masonry实现一个计算机界面
 
 ### 112-SnapchatMenu 
 通过`UIScrollView`实现Snap聊天页面左右滑动  
