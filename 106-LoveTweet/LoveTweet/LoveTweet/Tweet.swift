@@ -14,7 +14,7 @@ struct Tweet {
     var age: Int
     var work: String
     var salary: String
-    var isStraight: Bool
+    var isStraight: Bool   // 直男 直女
     
     var interestedGender: String {
         switch gender {

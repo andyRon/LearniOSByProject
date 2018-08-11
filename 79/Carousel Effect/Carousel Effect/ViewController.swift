@@ -20,6 +20,7 @@ class ViewController: UIViewController, UICollectionViewDataSource {
         
         collectionView.dataSource = self
         collectionView.dataSource = self
+
     }
     
     override var preferredStatusBarStyle : UIStatusBarStyle {

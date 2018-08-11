@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         scrollView = UIScrollView(frame: view.bounds)
         scrollView.backgroundColor = UIColor.black
         
+        
         scrollView.contentSize = imageView.bounds.size
         
         scrollView.addSubview(imageView)

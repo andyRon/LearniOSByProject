@@ -7,4 +7,4 @@ BackgroundVideoDemo
 
 参考：[BackgroundVideoiOS](https://github.com/Guzlan/BackgroundVideoiOS)
 
-![](./BackgroundVideoDemo.gif)
+![BackgroundVideoDemo](./BackgroundVideoDemo.gif)

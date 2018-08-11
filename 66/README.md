@@ -20,3 +20,7 @@ Actions
 - Creating an SKAction
 - Working with Sequence
 - ?? 3
+
+
+### 预览图
+![Label](./Label.gif)

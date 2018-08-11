@@ -2,8 +2,8 @@ SnapBehaviourTutorial
 --------------
 UISnapBehavior效果。
 
-知识点：`SnapBehaviourTutorial`, `UIDynamicAnimator`
+知识点：`UISnapBehavior`, `UIDynamicAnimator`, `UITapGestureRecognizer`
 
 ### 预览图
-![SnapBehaviourTutorial](SnapBehaviourTutorial.gif)
+![SnapBehaviourTutorial](./SnapBehaviourTutorial.gif)
 
