@@ -336,8 +336,8 @@ https://www.kancloud.cn/digest/data/106700
 ### 98-YouTubeEmbed         WebKit
 `WKWebView`播放在线视频
 
-### 99-CustomTableViewCell  ??
-参考：https://www.youtube.com/watch?v=YwE3_hMyDZA&t=94s
+### 99-CustomTableViewCell  UIKit&Foundation
+定制CustomTableViewCell 
 
 ### 100-dropDownMenu        Animations
 简单的下拉菜单

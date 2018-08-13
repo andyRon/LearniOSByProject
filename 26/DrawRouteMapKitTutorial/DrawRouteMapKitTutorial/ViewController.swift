@@ -26,7 +26,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let sourceLocation = CLLocationCoordinate2D(latitude: 40.759011, longitude: -73.984472)
         let destinationLocation = CLLocationCoordinate2D(latitude: 40.748441, longitude: -73.985564)
         
-        
+        // 创建MKPlacemark对象，包括了位置的坐标
         let sourcePlacemark = MKPlacemark(coordinate: sourceLocation, addressDictionary: nil)
         let destinationPlacemark = MKPlacemark(coordinate: destinationLocation, addressDictionary: nil)
         
@@ -55,25 +55,27 @@ class ViewController: UIViewController, MKMapViewDelegate {
         directionRequest.source = sourceMapItem
         directionRequest.destination = destinationMapItem
         directionRequest.transportType = .automobile
-        
+
         let directions = MKDirections(request: directionRequest)
-        
+
         directions.calculate { (response, error) in
-            
+
             guard let response = response else {
                 if let error = error {
                     print("MyError: \(error)")
                 }
                 return
             }
-            
+
             let route = response.routes[0]
             self.mapView.add(route.polyline, level: MKOverlayLevel.aboveRoads)
-            
+
             let rect = route.polyline.boundingMapRect
             self.mapView.setRegion(MKCoordinateRegionForMapRect(rect), animated: true)
         }
-    
+        
+        
+
     }
     
     //MARK: - MKMapViewDelegate

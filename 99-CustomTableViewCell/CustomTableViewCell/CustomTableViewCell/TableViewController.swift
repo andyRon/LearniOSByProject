@@ -21,9 +21,14 @@ class TableViewController: UITableViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        data = [CellData.init(image: #imageLiteral(resourceName: "blue"), message: "How make How make How make How make How make How make How make How make ?"), CellData.init(image: #imageLiteral(resourceName: "blue"), message: "How make ?"), CellData.init(image: #imageLiteral(resourceName: "blue"), message: "How make ?")]
+        data = [CellData.init(image: #imageLiteral(resourceName: "blue"), message: "How make How make How make How make How make How make How make How make ?How make How make ?How make How make ?How make How make ?"),
+                CellData.init(image: #imageLiteral(resourceName: "blue"), message: "How make ?How make How make ?How make How make ?How make How make ?How make How make ?How make How make ?How make How make ?How make How make ?How make How make ?How make How make ?How make How make ?"),
+                CellData.init(image: #imageLiteral(resourceName: "blue"), message: "How make ?")]
         
         self.tableView.register(CustomCell.self, forCellReuseIdentifier: "custom")
+        
+        self.tableView.rowHeight = UITableViewAutomaticDimension
+        self.tableView.estimatedRowHeight = 200
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,6 +40,8 @@ class TableViewController: UITableViewController {
         let cell = self.tableView.dequeueReusableCell(withIdentifier: "custom") as! CustomCell
         cell.mainImage = data[indexPath.row].image
         cell.message = data[indexPath.row].message
+        
+        cell.layoutSubviews()
         
         return cell
     }

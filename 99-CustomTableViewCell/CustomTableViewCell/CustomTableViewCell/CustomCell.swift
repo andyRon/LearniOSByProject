@@ -23,6 +23,7 @@ class CustomCell: UITableViewCell {
     var mainImageView: UIImageView = {
         var imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
+        imageView.contentMode = .scaleToFill
         return imageView
     }()
     
@@ -32,12 +33,13 @@ class CustomCell: UITableViewCell {
         self.addSubview(messageView)
         
         mainImageView.leftAnchor.constraint(equalTo: self.leftAnchor).isActive = true
+        mainImageView.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
         mainImageView.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
-        mainImageView.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
-        mainImageView.widthAnchor.constraint(equalTo: self.heightAnchor).isActive = true
+        mainImageView.bottomAnchor.constraint(equalTo: self.messageView.topAnchor).isActive = true
+        mainImageView.widthAnchor.constraint(equalToConstant: 100).isActive = true
+        mainImageView.heightAnchor.constraint(equalToConstant: 150).isActive = true
         
-        messageView.leftAnchor.constraint(equalTo: self.mainImageView.rightAnchor).isActive = true
-        messageView.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
+        messageView.leftAnchor.constraint(equalTo: self.leftAnchor).isActive = true
         messageView.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
         messageView.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
     }
@@ -51,6 +53,7 @@ class CustomCell: UITableViewCell {
             mainImageView.image = image
         }
     }
+    
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
