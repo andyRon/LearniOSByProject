@@ -22,9 +22,10 @@ JSON解析
 ### SocialSharingDemo ??
 
 
-### EmailAttachment  ??
+### EmailAttachment  
+发送带附件邮件。不能是模拟器。
 
-
+![EmailAttachment](./EmailAttachment.gif)
 
 ### RecordPro   ??
 录音
@@ -33,6 +34,7 @@ JSON解析
 
 
 ### SimpleCamera  ??
+13
 
 - iOS 提高两种内置的照相使用方式：`UIImagePickerController`  和 **AVFoundation framework**。
 - ?? AVCaptureStillImageOutput iOS 10弃用，改用 AVCapturePhotoOutput
