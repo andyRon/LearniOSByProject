@@ -13,7 +13,7 @@
 		EF2ED9B81EF9055C007213A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2ED9B71EF9055C007213A9 /* Assets.xcassets */; };
 		EF2ED9BB1EF9055C007213A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2ED9B91EF9055C007213A9 /* LaunchScreen.storyboard */; };
 		EF2ED9C31EF90595007213A9 /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF2ED9C21EF90595007213A9 /* apple.jpg */; };
-		EF2ED9C51EF906E3007213A9 /* IMG_0845.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF2ED9C41EF906E3007213A9 /* IMG_0845.jpg */; };
+		EFCC43D82125774F00058F86 /* IMG_3345.JPG in Resources */ = {isa = PBXBuildFile; fileRef = EFCC43D72125774F00058F86 /* IMG_3345.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		EF2ED9BA1EF9055C007213A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF2ED9BC1EF9055C007213A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF2ED9C21EF90595007213A9 /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpg; sourceTree = "<group>"; };
-		EF2ED9C41EF906E3007213A9 /* IMG_0845.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0845.jpg; sourceTree = "<group>"; };
+		EFCC43D72125774F00058F86 /* IMG_3345.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3345.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 		EF2ED9AF1EF9055C007213A9 /* ExifDemo */ = {
 			isa = PBXGroup;
 			children = (
-				EF2ED9C41EF906E3007213A9 /* IMG_0845.jpg */,
 				EF2ED9C21EF90595007213A9 /* apple.jpg */,
+				EFCC43D72125774F00058F86 /* IMG_3345.JPG */,
 				EF2ED9B01EF9055C007213A9 /* AppDelegate.swift */,
 				EF2ED9B21EF9055C007213A9 /* ViewController.swift */,
 				EF2ED9B41EF9055C007213A9 /* Main.storyboard */,
@@ -132,8 +132,8 @@
 			files = (
 				EF2ED9BB1EF9055C007213A9 /* LaunchScreen.storyboard in Resources */,
 				EF2ED9B81EF9055C007213A9 /* Assets.xcassets in Resources */,
+				EFCC43D82125774F00058F86 /* IMG_3345.JPG in Resources */,
 				EF2ED9C31EF90595007213A9 /* apple.jpg in Resources */,
-				EF2ED9C51EF906E3007213A9 /* IMG_0845.jpg in Resources */,
 				EF2ED9B61EF9055C007213A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +310,7 @@
 				EF2ED9C11EF9055C007213A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

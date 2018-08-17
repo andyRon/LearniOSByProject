@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "Masonry.h"
 
+#define kScreenHeight         [UIScreen mainScreen].bounds.size.height
+
 @interface ViewController ()
 
 @end
@@ -104,10 +106,11 @@
     UIView *keyboardView = [UIView new];
     [self.view addSubview:keyboardView];
     
-    //先按1：3分割 displView（显示结果区域）和 keyboardView（键盘区域）
+    //displView（显示结果区域）和 keyboardView（键盘区域）
     [displayView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.view.mas_top);
         make.left.and.right.equalTo(self.view);
+        // displView是keyboardView的0.3倍，也就是前者是3份，后者是10份。整个屏幕的占比是前者3/13,后者10/13
         make.height.equalTo(keyboardView).multipliedBy(0.3f);
     }];
     
@@ -143,8 +146,8 @@
     for (NSString *key in keys){
         //循环所有键
         indexOfKeys++;
-        int rowNum = indexOfKeys %4 ==0? indexOfKeys/4:indexOfKeys/4 +1;
-        int colNum = indexOfKeys %4 ==0? 4 :indexOfKeys %4;
+        int rowNum = (indexOfKeys % 4 == 0) ? indexOfKeys/4 : (indexOfKeys/4 + 1);
+        int colNum = (indexOfKeys % 4 == 0) ? 4 : indexOfKeys % 4;
         NSLog(@"index is:%d and row:%d,col:%d",indexOfKeys,rowNum,colNum);
         
         //键样式
@@ -167,7 +170,8 @@
                         make.height.equalTo(keyboardView.mas_height).with.multipliedBy(.2f);
                         make.width.equalTo(keyboardView.mas_width).multipliedBy(.5);
                         make.left.equalTo(keyboardView.mas_left);
-                        make.baseline.equalTo(keyboardView.mas_baseline).with.multipliedBy(.9f);
+                        make.baseline.equalTo(keyboardView.mas_baseline).with.multipliedBy(.92f);
+
                     }];
                 }if([key isEqualToString:@"?"]){
                     [keyView removeFromSuperview];
@@ -183,29 +187,28 @@
                 switch (rowNum) {
                     case 1:
                     {
-                        make.baseline.equalTo(keyboardView.mas_baseline).with.multipliedBy(.1f);
+                        make.baseline.equalTo(keyboardView.mas_baseline).with.multipliedBy(.12f);
                         keyView.backgroundColor = [UIColor colorWithRed:205 green:205 blue:205 alpha:1];
-                        
                     }
                         break;
                     case 2:
                     {
-                        make.baseline.equalTo(keyboardView.mas_baseline).with.multipliedBy(.3f);
+                        make.baseline.equalTo(keyboardView.mas_baseline).with.multipliedBy(.32f);
                     }
                         break;
                     case 3:
                     {
-                        make.baseline.equalTo(keyboardView.mas_baseline).with.multipliedBy(.5f);
+                        make.baseline.equalTo(keyboardView.mas_baseline).with.multipliedBy(.52f);
                     }
                         break;
                     case 4:
                     {
-                        make.baseline.equalTo(keyboardView.mas_baseline).with.multipliedBy(.7f);
+                        make.baseline.equalTo(keyboardView.mas_baseline).with.multipliedBy(.72f);
                     }
                         break;
                     case 5:
                     {
-                        make.baseline.equalTo(keyboardView.mas_baseline).with.multipliedBy(.9f);
+                        make.baseline.equalTo(keyboardView.mas_baseline).with.multipliedBy(.92f);
                     }
                         break;
                     default:

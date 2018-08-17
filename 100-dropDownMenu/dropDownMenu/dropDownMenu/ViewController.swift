@@ -43,7 +43,6 @@ protocol dropDownProtocol {
     func dropDownPressed(string: String)
 }
 
-
 class dropDownBtn: UIButton, dropDownProtocol {
     func dropDownPressed(string: String) {
         self.setTitle(string, for: .normal)
@@ -56,7 +55,6 @@ class dropDownBtn: UIButton, dropDownProtocol {
     var height = NSLayoutConstraint()
     
     
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -65,11 +63,9 @@ class dropDownBtn: UIButton, dropDownProtocol {
         dropView = dropDownView.init(frame: CGRect.init(x: 0, y: 0, width: 0, height: 0))
         dropView.translatesAutoresizingMaskIntoConstraints = false
         dropView.delegate = self
-        
-        
-        
     }
     
+    // 本视图被添加到父视图上时调用
     override func didMoveToSuperview() {
         self.superview?.addSubview(dropView)
         self.superview?.bringSubview(toFront: dropView)
@@ -81,6 +77,7 @@ class dropDownBtn: UIButton, dropDownProtocol {
     }
     
     var isOpen = false
+    // 刚触摸时调用
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if isOpen == false {
             isOpen = true
@@ -173,7 +170,7 @@ class dropDownView: UIView, UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = UITableViewCell()
+        let cell = UITableViewCell()
         
         cell.textLabel?.text = dropDownOptions[indexPath.row]
         cell.backgroundColor = UIColor.darkGray

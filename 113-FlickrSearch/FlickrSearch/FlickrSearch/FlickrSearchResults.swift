@@ -1,5 +1,5 @@
 //
-//  Flickr.swift
+//  FlickrSearchResults.swift
 //  FlickrSearch
 //
 //  Created by Andy Ron on 2018/8/15.
@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct FlickrSearchResults {
+    let searchTerm : String
+    let searchResults : [FlickrPhoto]
+}
