@@ -95,7 +95,7 @@
     
 }
 
-//高级布局练习 iOS自带计算器布局
+// iOS自带计算器布局
 -(void)exp4{
     
     //申明区域，displayView是显示区域，keyboardView是键盘区域
@@ -188,7 +188,6 @@
                     case 1:
                     {
                         make.baseline.equalTo(keyboardView.mas_baseline).with.multipliedBy(.12f);
-                        keyView.backgroundColor = [UIColor colorWithRed:205 green:205 blue:205 alpha:1];
                     }
                         break;
                     case 2:
@@ -236,7 +235,6 @@
                     case 4:
                     {
                         make.right.equalTo(keyboardView.mas_right);
-                        [keyView setBackgroundColor:[UIColor colorWithRed:243 green:127 blue:38 alpha:1]];
                     }
                         break;
                     default:
