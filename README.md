@@ -264,6 +264,7 @@ CALayer学习
 `QuickLook`的使用
 
 ### 76 localizationsDemo
+本地化
 
 ### 77 FancyButton          UIKit&Foundation
 IBDesignable和IBInspectable的使用
@@ -388,6 +389,8 @@ UICollectionViewController学习
 SnapKit实现一个计算器界面
 
 
+### 115-PersistData
+数据持久化的几个例子
 
 ## 一些项目的预览图
 
