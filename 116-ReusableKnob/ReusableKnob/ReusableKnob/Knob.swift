@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import UIKit.UIGestureRecognizerSubclass
+//import UIKit.UIGestureRecognizerSubclass
 
 class Knob: UIControl {
 
@@ -60,7 +60,9 @@ class Knob: UIControl {
     let gestrueRecognizer = RotationGestureRecognizer(target: self, action: #selector(Knob.handleGesture(_:)))
     addGestureRecognizer(gestrueRecognizer)
   }
-  
+  /*
+   
+  */
   func setValue(_ newValue: Float, animated: Bool = false) {
     value = min(maximumValue, max(minimumValue, newValue))
     
@@ -104,8 +106,12 @@ class Knob: UIControl {
   }
 }
 
+
+
 private class KnobRenderer {
+  /// 圆圈图层
   let trackLayer = CAShapeLayer()
+  /// 指示线图层
   let pointerLayer = CAShapeLayer()
   
   private (set) var pointerAngle: CGFloat = CGFloat(-Double.pi) * 11 / 8
@@ -137,7 +143,7 @@ private class KnobRenderer {
       updateTrackLayerPath()
     }
   }
-  
+  /// 指示线的长度
   var pointerLength: CGFloat = 6 {
     didSet {
       updateTrackLayerPath()
@@ -165,6 +171,7 @@ private class KnobRenderer {
   }
   
   init() {
+    // 初始化两个图层的填充颜色为透明
     trackLayer.fillColor = UIColor.clear.cgColor
     pointerLayer.fillColor = UIColor.clear.cgColor
   }
@@ -185,10 +192,11 @@ private class KnobRenderer {
     
     let pointer = UIBezierPath()
     pointer.move(to: CGPoint(x: bounds.width - CGFloat(pointerLength) - CGFloat(lineWidth)/2, y: bounds.midY))
+    
     pointer.addLine(to: CGPoint(x: bounds.width, y: bounds.midY))
     pointerLayer.path = pointer.cgPath
   }
-  
+  /// 调整图层大小以匹配并定位图层在边界矩形的中心。 更改影响路径的属性时，必须手动调用updateBounds（_ :)
   func updateBounds(_ bounds: CGRect) {
     trackLayer.bounds = bounds
     trackLayer.position = CGPoint(x: bounds.midX, y: bounds.midY)
@@ -200,7 +208,10 @@ private class KnobRenderer {
   }
 }
 
+
+
 private class RotationGestureRecognizer: UIPanGestureRecognizer {
+  
   private(set) var touchAngle: CGFloat = 0
   
   override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent) {
