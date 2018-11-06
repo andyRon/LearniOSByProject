@@ -226,14 +226,6 @@ Building a Custom Content View with UITableView and MapKit
 - 以 Cureo(http://curetoapp.com/) 应用的为例来展示
 
 ### 64 Firebase  ??
-1. FirebaseTutorial
-    - [Introducing Firebase with Swift 3: Login and Sign Up](http://www.appcoda.com/firebase-login-signup/)
-    - AdMob notifications  cloud messaging and storage
-    - 步骤
-        + 设计UI
-        + 在Firebase中创建项目
-            * 在iOS项目中添加 `GoogleService-Info.plist` 文件
-            * install pod
             
 
 ### 65 
