@@ -20,7 +20,7 @@ TravelVlogs项目是介绍如何使用AVKit和AVFoundation框架构建简单的�
 
 AVKit位于AVFoundation之上，提供与视频交互所需的所有UI。
 
-![](https://upload-images.jianshu.io/upload_images/1678135-eda4146499c11dab.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://ws4.sinaimg.cn/large/006tNbRwgy1fwzofp3hnrj30i2074aa4.jpg)
 
 ### AVFoundation介绍
 
