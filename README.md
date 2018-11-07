@@ -16,12 +16,26 @@ LearniOSByProject
 ![LearniOSByProject](LearniOSByProject.png)
 
 
-## 学习一些来源
-- http://www.appcoda.com/
-- https://www.ioscreator.com/
-- https://www.raywenderlich.com/
-- **[30DaysofSwift](https://github.com/allenwong/30DaysofSwift)**
-- **[Swift-30-Projects](https://github.com/soapyigu/Swift-30-Projects)**
+
+## 一些项目的预览图
+
+![QRCodeReader](./3/QRCodeReader.gif)
+![CoreSpotlightTutorial](./30/CoreSpotlightTutorial.gif)
+![SnapBehaviourTutorial](./56/SnapBehaviourTutorial.gif)
+![ScrollViewPagingTutorial](./60/ScrollViewPagingTutorial.gif)
+![TableCellAnimation](./65/TableCellAnimation.gif)
+![Label](./66/Label.gif)
+![FancyButton](./77/FancyButton.jpg)
+![](./79/Carousel%20Effect.gif)
+![AnimatedSplash](./82/AnimatedSplash.gif)
+![slideOutMenu](./97-slideOutMenu/slideOutMenu.gif)
+![dropDownMenu](./100-dropDownMenu/dropDownMenu.gif)
+![MasonryDemo](./101-MasonryDemo/MasonryDemo.jpg)
+![SnapchatMenu](./102-SnapchatMenu/SnapchatMenu.gif)
+![QuoraDots](./103-QuoraDots/QuoraDots.gif)
+![GoodAsOldPhones](./105-GoodAsOldPhones/GoodAsOldPhones.gif)
+![CandySearch](./109-CandySearch/CandySearch.gif)
+
 
 ## 详细列表
 
@@ -53,7 +67,6 @@ LearniOSByProject
 
 ### 9 OneHourWalker ??
  http://www.appcoda.com/healthkit-introduction/
-
 
 ### 10 TwitterTutorial   ??
 分享到推特
@@ -389,25 +402,18 @@ SnapKit实现一个计算器界面
 ### 116-ReusableKnob
 
 
-## 一些项目的预览图
+### 118-TravelVlogs     🏷️ AVFoundation
 
-![QRCodeReader](./3/QRCodeReader.gif)
-![CoreSpotlightTutorial](./30/CoreSpotlightTutorial.gif)
-![SnapBehaviourTutorial](./56/SnapBehaviourTutorial.gif)
-![ScrollViewPagingTutorial](./60/ScrollViewPagingTutorial.gif)
-![TableCellAnimation](./65/TableCellAnimation.gif)
-![Label](./66/Label.gif)
-![FancyButton](./77/FancyButton.jpg)
-![](./79/Carousel%20Effect.gif)
-![AnimatedSplash](./82/AnimatedSplash.gif)
-![slideOutMenu](./97-slideOutMenu/slideOutMenu.gif)
-![dropDownMenu](./100-dropDownMenu/dropDownMenu.gif)
-![MasonryDemo](./101-MasonryDemo/MasonryDemo.jpg)
-![SnapchatMenu](./102-SnapchatMenu/SnapchatMenu.gif)
-![QuoraDots](./103-QuoraDots/QuoraDots.gif)
-![GoodAsOldPhones](./105-GoodAsOldPhones/GoodAsOldPhones.gif)
-![CandySearch](./109-CandySearch/CandySearch.gif)
 
+### 119-DrawPad     🏷️
+简单的绘图应用
+
+## 学习一些来源
+- http://www.appcoda.com/
+- https://www.ioscreator.com/
+- https://www.raywenderlich.com/
+- **[30DaysofSwift](https://github.com/allenwong/30DaysofSwift)**
+- **[Swift-30-Projects](https://github.com/soapyigu/Swift-30-Projects)**
 
 
 
