@@ -18,6 +18,7 @@ class NetworkingService {
     
     var task: URLSessionTask?
     
+    /// 通过两个参数query和page进行网络请求，并且提供回调函数
     func fetchRecordings(matching query: String?, page: Int, onCompletion: @escaping(RecordingsResult) -> Void) {
         
         func fireErrorCompletion(_ error: Error?) {
@@ -66,7 +67,7 @@ class NetworkingService {
                     
                     let first50 =  result.recordings.prefix(50)
                     
-                    onCompletion(RecordingsResult.init(recordings: Array(first50), error: nil, currentPage: result.page, pageCount: result.numPages))
+                    onCompletion(RecordingsResult(recordings: Array(first50), error: nil, currentPage: result.page, pageCount: result.numPages))
                 } catch {
                     fireErrorCompletion(error)
                 }

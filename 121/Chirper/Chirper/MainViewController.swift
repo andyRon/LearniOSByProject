@@ -23,7 +23,14 @@ class MainViewController: UIViewController {
     let darkGreen = UIColor(red: 11/255, green: 86/255, blue: 14/255, alpha: 1)
     var recordings: [Recording]?
     var error: Error?
-    var isLoading = false
+//    var isLoading = false
+    
+    var state = State.loading {
+        didSet {
+            setFooterView()
+            tableView.reloadData()
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,38 +50,29 @@ class MainViewController: UIViewController {
     }
     
     @objc func loadRecordings() {
-        isLoading = true
-        tableView.tableFooterView = loadingView
-        recordings = []
-        tableView.reloadData()
-        
-        let query = searchController.searchBar.text
-        networkingService.fetchRecordings(matching: query, page: 1) { [weak self] response in
-            guard let `self` = self else {
-                return
-            }
-            
-            self.searchController.searchBar.endEditing(true)
-            self.isLoading = false
-            self.update(response: response)
-        }
+        state = .loading
+        loadPage(1)
     }
     
     func update(response: RecordingsResult) {
-        if let recordings = response.recordings, !recordings.isEmpty {
-            tableView.tableFooterView = nil
-        } else if let error = response.error {
-            errorLabel.text = error.localizedDescription
-            tableView.tableFooterView = errorView
-            tableView.reloadData()
+
+        if let error = response.error {
+            state = .error(error)
             return
-        } else {
-            tableView.tableFooterView = emptyView
         }
         
-        recordings = response.recordings
-        error = response.error
-        tableView.reloadData()
+        guard let newRecordings = response.recordings, !newRecordings.isEmpty else {
+            state = .empty
+            return
+        }
+        
+        var allRecordings = state.currentRecordings
+        allRecordings.append(contentsOf: newRecordings)
+        if response.hasMorePages {
+            state = .paging(allRecordings, next: response.nextPage)
+        } else {
+            state = .populated(allRecordings)
+        }
     }
     
     func prepareSearchBar() {
@@ -106,13 +104,45 @@ class MainViewController: UIViewController {
         let nib = UINib(nibName: BirdSoundTableViewCell.NibName, bundle: .main)
         tableView.register(nib, forCellReuseIdentifier: BirdSoundTableViewCell.ReuseIdentifier)
     }
+    
+    func setFooterView() {
+        switch state {
+        case .loading:
+            tableView.tableFooterView = loadingView
+        case .error(let error):
+            errorLabel.text = error.localizedDescription
+            tableView.tableFooterView = errorView
+        case .empty:
+            tableView.tableFooterView = emptyView
+        case .populated:
+            tableView.tableFooterView = nil
+        case .paging:
+            tableView.tableFooterView = loadingView
+        }
+    }
+    
+    func loadPage(_ page: Int) {
+        setFooterView()
+        recordings = []
+        tableView.reloadData()
+        
+        let query = searchController.searchBar.text
+        networkingService.fetchRecordings(matching: query, page: page) { [weak self] response in
+            
+            guard let `self` = self else {
+                return
+            }
+            
+            self.searchController.searchBar.endEditing(true)
+            self.update(response: response)
+        }
+    }
 }
 
 
 extension MainViewController: UISearchBarDelegate {
     
     func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
-        
     }
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
@@ -125,7 +155,7 @@ extension MainViewController: UISearchBarDelegate {
 extension MainViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return recordings?.count ?? 0
+        return state.currentRecordings.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -133,10 +163,34 @@ extension MainViewController: UITableViewDataSource {
             return UITableViewCell()
         }
         
-        if let recordings = recordings {
-            cell.load(recording: recordings[indexPath.row])
+//        if let recordings = recordings {
+//            cell.load(recording: recordings[indexPath.row])
+//        }
+        cell.load(recording: state.currentRecordings[indexPath.row])
+        
+        if case .paging(_, let nextPage) = state, indexPath.row == state.currentRecordings.count - 1 {
+            loadPage(nextPage)
         }
         
         return cell
+    }
+}
+
+enum State {
+    case loading
+    case populated([Recording])
+    case empty
+    case error(Error)
+    case paging([Recording], next: Int)
+    
+    var currentRecordings: [Recording] {
+        switch self {
+        case .populated(let recordings):
+            return recordings
+        case .paging(let recordings, next: _):
+            return recordings
+        default:
+            return []
+        }
     }
 }

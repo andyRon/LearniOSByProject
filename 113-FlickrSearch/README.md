@@ -16,6 +16,6 @@ learn a lot about custom layouts, how to calculate and cache layout attributes, 
 collection view 的cell size设置大小时，Setting this size doesn’t affect the cells in your app, because you’ve implemented the delegate method to give a size for each cell, which overwrites anything set in the storyboard.
 
 
-参考：
+### 参考
 https://www.raywenderlich.com/975-uicollectionview-tutorial-getting-started
 https://www.raywenderlich.com/1404-uicollectionview-tutorial-reusable-views-selection-and-reordering

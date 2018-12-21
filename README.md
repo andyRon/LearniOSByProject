@@ -5,7 +5,7 @@ LearniOSByProject
 ## 介绍
 
 
-**[LearniOSByProject](https://github.com/andyRon/LearniOSByProject)**本来是自己学习iOS时的一些非常简单小例子，小项目，或者我个人博客[AndyRon's Blog](http://andyron.com)文章的代码集合。没有按照什么路线学习，就是学到什么就是什么了，看上去特别乱，我自己有时候也非常懵逼，然后看到道长前辈的项目[Swift-30-Projects](https://github.com/soapyigu/Swift-30-Projects)，就整理、筛选一下，这样看着清晰一点，找起来也方便。  
+[LearniOSByProject](https://github.com/andyRon/LearniOSByProject)本来是自己学习iOS时的一些非常简单小例子，小项目，或者我个人博客[AndyRon's Blog](http://andyron.com)文章的代码集合。没有按照什么路线学习，就是学到什么就是什么了，看上去特别乱，我自己有时候也非常懵逼，然后看到道长前辈的项目[Swift-30-Projects](https://github.com/soapyigu/Swift-30-Projects)，就整理、筛选一下，这样看着清晰一点，找起来也方便。  
 
 - 语言方面大部分是Swift，个别项目是OC。
 - 以数字为目录只是为了记录项目数和排序，没有特殊意义。
@@ -19,27 +19,40 @@ LearniOSByProject
 
 ## 一些项目的预览图
 
-![QRCodeReader](./3/QRCodeReader.gif)
-![CoreSpotlightTutorial](./30/CoreSpotlightTutorial.gif)
-![SnapBehaviourTutorial](./56/SnapBehaviourTutorial.gif)
-![ScrollViewPagingTutorial](./60/ScrollViewPagingTutorial.gif)
-![TableCellAnimation](./65/TableCellAnimation.gif)
-![Label](./66/Label.gif)
-![FancyButton](./77/FancyButton.jpg)
-![](./79/Carousel%20Effect.gif)
-![AnimatedSplash](./82/AnimatedSplash.gif)
-![slideOutMenu](./97-slideOutMenu/slideOutMenu.gif)
-![dropDownMenu](./100-dropDownMenu/dropDownMenu.gif)
-![MasonryDemo](./101-MasonryDemo/MasonryDemo.jpg)
-![SnapchatMenu](./102-SnapchatMenu/SnapchatMenu.gif)
-![QuoraDots](./103-QuoraDots/QuoraDots.gif)
-![GoodAsOldPhones](./105-GoodAsOldPhones/GoodAsOldPhones.gif)
-![CandySearch](./109-CandySearch/CandySearch.gif)
+
+|  项目名      |  [QRCodeReader](./3/)    |  [CoreSpotlightTutorial](./30/)    |  [SnapBehaviourTutorial](./56/) |
+| ---- 		| :----: | :----: | :--------------------------------------------: |
+| 预览图     |  ![QRCodeReader](./3/QRCodeReader.gif)  |  ![CoreSpotlightTutorial](./30/CoreSpotlightTutorial.gif) |  ![SnapBehaviourTutorial](./56/SnapBehaviourTutorial.gif)  |
+
+|  项目名      | [ScrollViewPagingTutorial](./60/)  |  [TableCellAnimation](./65/)   |  [Label](./66/) |
+| ---- 		| :----: | :----: | :--------------------------------------------: |
+| 预览图     | ![ScrollViewPagingTutorial](./60/ScrollViewPagingTutorial.gif)   | ![TableCellAnimation](./65/TableCellAnimation.gif)  |   ![Label](./66/Label.gif)  |
+
+|  项目名      | [FancyButton](./77/)  | [AnimatedSplash](./82/)   | [slideOutMenu](./97-slideOutMenu/)  |
+| ---- 		| :----: | :----: | :--------------------------------------------: |
+| 预览图     |  ![FancyButton](./77/FancyButton.jpg)  |  ![AnimatedSplash](./82/AnimatedSplash.gif)  |  ![slideOutMenu](./97-slideOutMenu/slideOutMenu.gif) |
+
+
+|  项目名      |  [dropDownMenu](./100-dropDownMenu/) |  [MasonryDemo](./101-MasonryDemo/)  |  [SnapchatMenu](./102-SnapchatMenu/) |
+| ---- 		| :----: | :----: | :--------------------------------------------: |
+| 预览图     |  ![dropDownMenu](./100-dropDownMenu/dropDownMenu.gif)  |  ![MasonryDemo](./101-MasonryDemo/MasonryDemo.jpg)  |  ![SnapchatMenu](./102-SnapchatMenu/SnapchatMenu.gif) |
+
+|  项目名      | [QuoraDots](./103-QuoraDots/)  |  [GoodAsOldPhones](./105-GoodAsOldPhones/)  | [CandySearch](./109-CandySearch/)  |
+| ---- 		| :----: | :----: | :--------------------------------------------: |
+| 预览图     | ![QuoraDots](./103-QuoraDots/QuoraDots.gif)   |  ![GoodAsOldPhones](./105-GoodAsOldPhones/GoodAsOldPhones.gif)  | ![CandySearch](./109-CandySearch/CandySearch.gif)  |
+
+|  项目名      | [Carousel Effect](./79/)  |    |   |
+| ---- 		| :----: | :----: | :--------------------------------------------: |
+| 预览图     |  ![](./79/Carousel%20Effect.gif)  |    |   |
+
+
 
 
 ## 详细列表
 
 `??`表示有疑问的还没完成的项目。题目后面的如**UIKit&Foundation**，**AVFoundation**是分类名。
+
+
 
 ### 1 StopWatch             UIKit&Foundation
 **StopWatch**是对`Timer`简单使用。
@@ -226,25 +239,15 @@ UICollectionViewController的简单使用
 TableView添加行。
 
 ### 62 PathsNLayers  ??
-- [参考](http://www.appcoda.com/bezier-paths-introduction/)
-- https://developer.apple.com/library/content/documentation/2DDrawing/Conceptual/DrawingPrintingiOS/BezierPaths/BezierPaths.html
-- 知识点
-    + `UIBezierPath`  create vector-based paths
-    + `CGContext`   `CAShapeLayer`
-- goal in this tutorial is to give you practical guidelines on how to create bezier paths and how to use shape layer objects along with them
+
 
 ### 63 Delicious  ??
-Building a Custom Content View with UITableView and MapKit
-- https://www.appcoda.com/custom-content-view/
-- 以 Cureo(http://curetoapp.com/) 应用的为例来展示
+
 
 ### 64 Firebase  ??
             
 
-### 65 
-《Intermediate iOS 10 Programming with Swift》
-- appcoda 网站书籍[Intermediate iOS 10 Programming with Swift](https://www.appcoda.com/intermediate-swift-programming-book/)的学习笔记。**Intermediate**每一节是一个项目
-
+### 65 《Intermediate iOS 10 Programming with Swift》
 
 ### 66 Label        SpriteKit
 SpriteKit学习
@@ -259,7 +262,7 @@ SpriteKit学习
 
 ### 71 A Beginning’s Guide to Lottie: Creating Amazing Animations in iOS Apps 
 
-### 72  ??
+### 72  HonoluluArt ??
 
 ### 73 CALayerDemo      QuartzCore
 CALayer学习
@@ -324,15 +327,12 @@ NSURLSession(delegate)
 NSURLSession(block)
 
 ### 92 
-https://yq.aliyun.com/articles/39473?spm=5176.8091938.0.0.YHIb2U
 
 ### 93-sandbox
 
 ### 94-MutipleThread
-https://www.kancloud.cn/digest/data/106700
 
 ### 95-Socket
-参考：[深入浅出－iOS的TCP/IP协议族剖析&&Socket](http://www.jianshu.com/p/cc756016243b)
 
 ### 96-gif
 用`UIWebView`加载gif图片。
@@ -376,12 +376,9 @@ lly based on its content
 
 ### 109-CandySearch     UIKit&Foundation
 UISearchController和UISplitViewController的使用
-https://www.raywenderlich.com/157864/uisearchcontroller-tutorial-getting-started
-
 
 ### 110-FacebookMe  ??
 模仿fb的个人页面
-
 
 ### 111-PhotoScroll  ??
 
@@ -408,7 +405,11 @@ SnapKit实现一个计算器界面
 ### 119-DrawPad     🏷️
 简单的绘图应用
 
+### 121-Chirper
+
+
 ## 学习一些来源
+
 - http://www.appcoda.com/
 - https://www.ioscreator.com/
 - https://www.raywenderlich.com/

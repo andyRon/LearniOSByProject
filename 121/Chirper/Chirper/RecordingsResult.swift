@@ -8,9 +8,7 @@
 
 import Foundation
 
-/*
- 查询
- */
+/// 调用结果
 struct RecordingsResult {
     let recordings: [Recording]?
     let error: Error?
