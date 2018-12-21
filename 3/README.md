@@ -10,4 +10,4 @@ QRCodeReader
 
 
 ### 预览图
-![QRCodeReader](./3/QRCodeReader.gif)
+![QRCodeReader](./QRCodeReader.gif)
