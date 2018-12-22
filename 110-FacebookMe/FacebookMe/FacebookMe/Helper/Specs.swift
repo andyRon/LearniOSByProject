@@ -9,6 +9,7 @@
 import UIKit
 /*
  这样定义一些常量和参数，很明了
+ Specs  specification  说明书, 详细的计划书
  */
 public struct Specs {
     public struct Color {

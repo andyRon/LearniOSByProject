@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FBMeVC: UITableViewController {
+class FBMeVC: UIViewController {
 
     typealias RowModel = [String: String]
     
@@ -24,28 +24,27 @@ class FBMeVC: UITableViewController {
         }
     }
     
+    let tableView: UITableView = {
+        let view = UITableView(frame: .zero, style: .grouped)
+        view.register(FBMeBaseCell.self, forCellReuseIdentifier: FBMeBaseCell.identifier)
+        return view
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        tableView = {
-            let view = UITableView(frame: .zero, style: .grouped)
-            view.register(FBMeBaseCell.self, forCellReuseIdentifier: FBMeBaseCell.identifier)
-            return view
-        }()
-        
-       super.view.backgroundColor = Specs.color.mygray
+        super.view.backgroundColor = Specs.color.mygray
         
         title = "Facebook"
         navigationController?.navigationBar.barTintColor = Specs.color.tint
         
         tableView.delegate = self
         tableView.dataSource = self
-//        view.addSubview(tableView)
+        view.addSubview(tableView)
         
-        // Set layout for tableView.
+        // 设置tableView的布局
         tableView.translatesAutoresizingMaskIntoConstraints = false
-//        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-0-[tableView]-0-|", options: .directionLeadingToTrailing, metrics: nil, views: ["tableView": tableView]))
-//        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-0-[tableView]-0-|", options: .directionLeadingToTrailing, metrics: nil, views: ["tableView": tableView]))
+        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-0-[tableView]-0-|", options: .directionLeadingToTrailing, metrics: nil, views: ["tableView": tableView]))
+        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-0-[tableView]-0-|", options: .directionLeadingToTrailing, metrics: nil, views: ["tableView": tableView]))
     }
     
     func rows(at section: Int) -> [Any] {
@@ -60,29 +59,23 @@ class FBMeVC: UITableViewController {
         return rows(at: indexPath.section)[indexPath.row] as! RowModel
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+}
 
-    // MARK: - Table view data source
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
+// MARK: - Table view data source
+extension FBMeVC: UITableViewDataSource {
+    func numberOfSections(in tableView: UITableView) -> Int {
         return tableViewDataSource.count
     }
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return rows(at: section).count
     }
     
-    override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return title(at: section)
     }
-
     
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let modelForRow = rowModel(at: indexPath)
         var cell = UITableViewCell()
         
@@ -110,9 +103,11 @@ class FBMeVC: UITableViewController {
         
         return cell
     }
- 
+}
 
-    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+// MARK: - Table view delegate
+extension FBMeVC:UITableViewDelegate {
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         let modelForRow = rowModel(at: indexPath)
         
         guard let title = modelForRow[TableKeys.Title] else {
@@ -126,7 +121,7 @@ class FBMeVC: UITableViewController {
         }
     }
     
-    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         let modelForRow = rowModel(at: indexPath)
         
         guard let title = modelForRow[TableKeys.Title] else {
@@ -145,5 +140,4 @@ class FBMeVC: UITableViewController {
             cell.accessoryType = .disclosureIndicator
         }
     }
-
 }
