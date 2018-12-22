@@ -20,392 +20,95 @@ LearniOSByProject
 ## 一些项目的预览图
 
 
-|  项目名      |  [QRCodeReader](./3/)    |  [CoreSpotlightTutorial](./30/)    |  [SnapBehaviourTutorial](./56/) |
+|  项目名      |  [QRCodeReader](./P003-QRCodeReader/)    |  [CoreSpotlightTutorial](./P030-CoreSpotlightTutorial/)    |  [SnapBehaviourTutorial](./P056-SnapBehaviourTutorial/) |
 | ---- 		| :----: | :----: | :--------------------------------------------: |
-| 预览图     |  ![QRCodeReader](./3/QRCodeReader.gif)  |  ![CoreSpotlightTutorial](./30/CoreSpotlightTutorial.gif) |  ![SnapBehaviourTutorial](./56/SnapBehaviourTutorial.gif)  |
+| 预览图     |  ![QRCodeReader](./P003-QRCodeReader/QRCodeReader.gif)  |  ![CoreSpotlightTutorial](./P030-CoreSpotlightTutorial/CoreSpotlightTutorial.gif) |  ![SnapBehaviourTutorial](./P056-SnapBehaviourTutorial/SnapBehaviourTutorial.gif)  |
 
-|  项目名      | [ScrollViewPagingTutorial](./60/)  |  [TableCellAnimation](./65/)   |  [Label](./66/) |
+|  项目名      | [ScrollViewPagingTutorial](./P060-ScrollViewPagingTutorial/)  |  [TableCellAnimation](./65/)   |  [Label](./P066-Label/) |
 | ---- 		| :----: | :----: | :--------------------------------------------: |
-| 预览图     | ![ScrollViewPagingTutorial](./60/ScrollViewPagingTutorial.gif)   | ![TableCellAnimation](./65/TableCellAnimation.gif)  |   ![Label](./66/Label.gif)  |
+| 预览图     | ![ScrollViewPagingTutorial](./P060-ScrollViewPagingTutorial/ScrollViewPagingTutorial.gif)   | ![TableCellAnimation](./65/TableCellAnimation.gif)  |   ![Label](./P066-Label/Label.gif)  |
 
-|  项目名      | [FancyButton](./77/)  | [AnimatedSplash](./82/)   | [slideOutMenu](./97-slideOutMenu/)  |
+|  项目名      | [FancyButton](./P077-FancyButton/)  | [AnimatedSplash](./P082-AnimatedSplash/)   | [slideOutMenu](./P097-slideOutMenu/)  |
 | ---- 		| :----: | :----: | :--------------------------------------------: |
-| 预览图     |  ![FancyButton](./77/FancyButton.jpg)  |  ![AnimatedSplash](./82/AnimatedSplash.gif)  |  ![slideOutMenu](./97-slideOutMenu/slideOutMenu.gif) |
+| 预览图     |  ![FancyButton](./P077-FancyButton/FancyButton.jpg)  |  ![AnimatedSplash](./P082-AnimatedSplash/AnimatedSplash.gif)  |  ![slideOutMenu](./P097-slideOutMenu/slideOutMenu.gif) |
 
 
-|  项目名      |  [dropDownMenu](./100-dropDownMenu/) |  [MasonryDemo](./101-MasonryDemo/)  |  [SnapchatMenu](./102-SnapchatMenu/) |
+|  项目名      |  [dropDownMenu](./P100-dropDownMenu/) |  [MasonryDemo](./P101-MasonryDemo/)  |  [SnapchatMenu](./P102-SnapchatMenu/) |
 | ---- 		| :----: | :----: | :--------------------------------------------: |
-| 预览图     |  ![dropDownMenu](./100-dropDownMenu/dropDownMenu.gif)  |  ![MasonryDemo](./101-MasonryDemo/MasonryDemo.jpg)  |  ![SnapchatMenu](./102-SnapchatMenu/SnapchatMenu.gif) |
+| 预览图     |  ![dropDownMenu](./P100-dropDownMenu/dropDownMenu.gif)  |  ![MasonryDemo](./P101-MasonryDemo/MasonryDemo.jpg)  |  ![SnapchatMenu](./P102-SnapchatMenu/SnapchatMenu.gif) |
 
-|  项目名      | [QuoraDots](./103-QuoraDots/)  |  [GoodAsOldPhones](./105-GoodAsOldPhones/)  | [CandySearch](./109-CandySearch/)  |
+|  项目名      | [QuoraDots](./P103-ARQuoraDots/)  |  [GoodAsOldPhones](./P105-GoodAsOldPhones/)  | [CandySearch](./P109-CandySearch/)  |
 | ---- 		| :----: | :----: | :--------------------------------------------: |
-| 预览图     | ![QuoraDots](./103-QuoraDots/QuoraDots.gif)   |  ![GoodAsOldPhones](./105-GoodAsOldPhones/GoodAsOldPhones.gif)  | ![CandySearch](./109-CandySearch/CandySearch.gif)  |
+| 预览图     | ![QuoraDots](./P103-ARQuoraDots/ARQuoraDots.gif)   |  ![GoodAsOldPhones](./P105-GoodAsOldPhones/GoodAsOldPhones.gif)  | ![CandySearch](./P109-CandySearch/CandySearch.gif)  |
 
-|  项目名      | [Carousel Effect](./79/)  |    |   |
+|  项目名      | [Carousel Effect](./P079-CarouselEffect/)  | [FacebookMe](P110-FacebookMe/)   |  [CoreSpotlightTutorial](P030-CoreSpotlightTutorial/) |
 | ---- 		| :----: | :----: | :--------------------------------------------: |
-| 预览图     |  ![](./79/Carousel%20Effect.gif)  |    |   |
-
+| 预览图     |  ![](./P079-CarouselEffect/CarouselEffect.gif)  | ![](P110-FacebookMe/FacebookMe.jpg)   | ![](P030-CoreSpotlightTutorial/CoreSpotlightTutorial.gif)  |
 
 
 
 ## 详细列表
 
-`??`表示有疑问的还没完成的项目。题目后面的如**UIKit&Foundation**，**AVFoundation**是分类名。
 
 
+| 编号  | 项目名称 | 分类     | 介绍 		  | 备注 |
+| ---- | :----: | :-----: | :-----------: | :----: |
+| P001  | [StopWatch](P001-StopWatch/) | UIKit&Foundation | `Timer`简单使用 |        | 
+| P002 | [CunstomFont](P002-CunstomFont/) | UIKit&Foundation | 加载字体文件修改字体 |  |
+| P003 | [QRCodeReader](P003-QRCodeReader/) | AVFoundation | 用`AVFoundation`来识别二维码or条形码 | |
+| P004 | [Detector](P004-Detector/) | CoreImage | 用**CoreImage**进行面部识别 | |
+| P005 | [SpeechToTextDemo](P005-SpeechToTextDemo/) | Speech | 语音转换为文字 | |
+| P007 | [LocalNotification](P007-LocalNotification/) | UserNotifications | 本地通知 | |
+| P008 | [CAGradientLayer](P008-CAGradientLayer/) | QuartzCore | 颜色渐变 | |
+| P011 | [CustomizeNavBarTutorial](P011-CustomizeNavBarTutorial/) | UIKit&Foundation | 定制导航栏 | |
+| P012 | [ShadowButtonTutorial](P012-ShadowButtonTutorial/) | QuartzCore | button的阴影 | |
+| P014 | [DatePickerTutorial](P014-DatePickerTutorial/) | UIKit&Foundation | 日期选择器使用 | |
+| P015 | [UIStepperTutorial](P015-UIStepperTutorial/) | UIKit&Foundation | `UIStepper`的使用 | |
+| P016 | [SpriteKitBackgroundTutorial](P016-SpriteKitBackgroundTutorial/) | SpriteKit | `SpriteKit`背景设置 | |
+| P017 | [DrawShapesTutorial](P017-DrawShapesTutorial/) | UIGraphics | UIGraphics 基本使用 | |
+| P018 | [DrawGradientsTutorial](P018-DrawGradientsTutorial/) | CoreGraphics | `CGGradient`制作渐变色 | |
+| P019 | [TabBarCustomizationTutorial](P019-TabBarCustomizationTutorial/) | UIKit&Foundation/UITabBarController | 定制TabBar | |
+| P022 | [SpellingCheckerTutorial](P022-SpellingCheckerTutorial/) | UIKit&Foundation | 通过`UITextChecker`检查英语单词拼写是否正确 | |
+| P023 | [DraggingViewsTutorial](P023-DraggingViewsTutorial/) | UIKit&Foundation | 视图拖动 | |
+| P024 | [VibrationTutorial](P024-VibrationTutorial/) | AudioToolbox | 震动 | |
+| P025 | [XMLParserTutorial](P025-XMLParserTutorial/) | UIKit&Foundation | XML文件解析 | |
+| P027 | [MultipleOutletsTutorial](P027-MultipleOutletsTutorial/) | UIKit&Foundation | `UIView`的`tag`使用和事件添加 | |
+| P029 | [PlayMusicAVAudioPlayerTutorial](P029-PlayMusicAVAudioPlayerTutorial/) | AVFoundation | 音频的播放、暂停和停止。 | |
+| P030 | [CoreSpotlightTutorial](P030-CoreSpotlightTutorial/) | CoreSpotlight | CoreSpotlight的使用 | |
+| P032 | [SwiftCoreImageTutorial](P032-SwiftCoreImageTutorial/) | CoreImage | `CoreImage`的图片滤镜功能 | |
+| P033 | [ContextMenuTableViewTutorial](P033-ContextMenuTableViewTutorial/) | UIKit&Foundation | TableView的的cut/copy/paste操作 | |
+| P034 | [TextFieldAlertControllerTutorial](P034-TextFieldAlertControllerTutorial/) | UIKit&Foundation | UIAlertController的简单使用 | |
+| P035 | [TakeVideoPlayerTutorial](P035-TakeVideoPlayerTutorial/) | Photos | 拍摄视频和查看图库 | |
+| P036 | [SearchMapTutorial](P036-SearchMapTutorial/) | MapKit | 地图搜索 | |
+| P037 | [AirdropTutorial](P037-AirdropTutorial/) | UIKit&Foundation | UIActivityViewController 分享| |
+| P038 | [ReorderingCollectionViewTutorial](P038-ReorderingCollectionViewTutorial/) | UIKit&Foundation | `UICollectionViewController`的基本使用 | |
+| P042 | [AddEventTutorial](P042-AddEventTutorial/) | EventKit | 向日历中添加提醒 | |
+| P046 | [ScrollViewTutorial](P046-ScrollViewTutorial/) | | `UIScrollView`的简单使用 | |
+| P049 | [TouchIDTutorial](P049-TouchIDTutorial/) | LocalAuthentication | TouchID的简单使用 | |
+| P052 | [CustomCollectionViewCellsTutorial](P052-CustomCollectionViewCellsTutorial/) | UIKit&Foundation | UICollectionViewController的简单使用 | |
+| P053 | [SendSMSTutorial](P053-SendSMSTutorial/) | MessageUI | 调用**信息**APP发送短信 | |
+| P056 | [SnapBehaviourTutorial](P056-SnapBehaviourTutorial/) | UISnapBehavior | | |
+| P060 | [ScrollViewPagingTutorial](P060-ScrollViewPagingTutorial/) | UIKit&Foundation | 用`UIScrollView`做左右翻页效果 | |
+| P066 | [Label](P060-Label/) | SpriteKit | SpriteKit学习 | |
+| P073 | [CALayerDemo](P073-CALayerDemo/) | QuartzCore | CALayer基础 | |
+| P074 | [GeoTargeting](P074-GeoTargeting/) | | | |
+| P075 | [QuickLookDemo](P075-QuickLookDemo/) | QuickLook | `QuickLook`的使用 | |
+| P077 | [FancyButton](P077-FancyButton/) | UIKit&Foundation | IBDesignable和IBInspectable的使用 | |
+| P078 | [PlayLocalVideo](P078-PlayLocalVideo/) | AVFoundation | 本地视频播放 | |
+| P079 | [CarouselEffect](P079-CarouselEffect/) | UIKit&Foundation | 用`UICollectionView`实现照片横屏滑动 | |
+| P080 | [BackgroundVideoDemo](P080-BackgroundVideoDemo/) | AVFoundation | 视频背景 | |
+| P083 | [GestureDemo](P083-GestureDemo/) | UIKit&Foundation | 手势处理示例集合 | |
+| P100 | [dropDownMenu](P100-dropDownMenu/) | Animations | 简单的下拉菜单 | |
+| P101 | [MasonryDemo](P101-MasonryDemo/) | Open Source | Masonry实现一个计算器界面 | |
+| P105 | [GoodAsOldPhones](P105-GoodAsOldPhones/) | UIKit&Foundation | | |
+| P106 | [LoveTweet](P106-LoveTweet/) | UIKit&Foundation | | |
+| P107 | [Todo](P107-Todo/) | UIKit&Foundation | | |
+| P109 | [CandySearch](P109-CandySearch/) | UIKit&Foundation | UISearchController和UISplitViewController的使用 | |
+| P110 | [FacebookMe](P110-FacebookMe/) | UIKit&Foundation/UITableView | 模仿Facebook个人页面 |  |
+| P114 | [SnapKitDemo](P114-SnapKitDemo/) | Open Source | SnapKit实现一个计算器界面 | |
+| P115 | [PersistData](P115-PersistData) | | 数据持久化的几个例子| |
 
-### 1 StopWatch             UIKit&Foundation
-**StopWatch**是对`Timer`简单使用。
 
-### 2 CunstomFont           UIKit&Foundation
-加载字体文件修改字体
-
-### 3 QRCodeReader          AVFoundation
-用`AVFoundation`来识别二维码or条形码
-
-### 4 Detector      CoreImage
-用**CoreImage**进行面部识别
-
-### 5 SpeechToTextDemo     Speech
-语音转换为文字
-
-### 6 RequestingPermission  CoreLocation
-用户当前位置
-
-### 7 LocalNotification     UserNotifications
-本地通知
-
-### 8 CAGradientLayer       QuartzCore
-颜色渐变
-
-### 9 OneHourWalker ??
- http://www.appcoda.com/healthkit-introduction/
-
-### 10 TwitterTutorial   ??
-分享到推特
-
-### 11 CustomizeNavBarTutorial      UIKit&Foundation
-定制导航栏
-
-### 12 ShadowButtonTutorial         QuartzCore
-button的阴影
-
-### 13 FadeMusicTutorial   ??
-音乐的声音的渐变
-
-### 14 DatePickerTutorial       UIKit&Foundation
-日期选择器使用
-
-
-### 15 UIStepperTutorial        UIKit&Foundation
-`UIStepper`的使用
-
-### 16 SpriteKitBackgroundTutorial      SpriteKit
-`SpriteKit`背景设置
-
-### 17 DrawShapesTutorial  
-
-### 18 DrawGradientsTutorial 
-
-### 19 TabBarCustomizationTutorial      UIKit&Foundation
-定制TabBar
-
-### 20 ChangeDisplayNameTutorial  
-改变app在Home screen时的显示名。修改**info.plist**中**Bundle display name**。
-
-### 21 OpenPDFTutorial      UIKit&Foundation
-通过`UIWebView`打开PDF文件
-
-### 22 SpellingCheckerTutorial      UIKit&Foundation 
-检查英语单词拼写是否正确(UITextChecker)
-
-### 23 DraggingViewsTutorial        UIKit&Foundation
-视图拖动
-
-### 24 VibrationTutorial        AudioToolbox
-震动 
-
-### 25 XMLParserTutorial       UIKit&Foundation
-XML文件解析。知识点：`XMLParser`
-
-### 26 DrawRouteMapKitTutorial ??
-在地图上划线。知识点[参考](https://www.ioscreator.com/tutorials/draw-route-mapkit-tutorial)
-
-### 27 MultipleOutletsTutorial      UIKit&Foundation
-`UIView`的`tag`使用和事件添加
-
-### 28 SpriteKitPhysicsTutorial  ??
-
-- [参考](https://www.ioscreator.com/tutorials/sprite-kit-physics-tutorial)
-
-### 29 PlayMusicAVAudioPlayerTutorial       AVFoundation
-音频的播放、暂停和停止。知识点：`AVFoundation`
-
-### 30 CoreSpotlightTutorial            CoreSpotlight 
-应用内搜索框架`Core Spotlight`简单使用
-
-### 31 SwiftFileManagementTutorial  ?? 
-try? ?
-- [参考](https://www.ioscreator.com/tutorials/file-management-tutorial-ios8-swift)
-
-### 32 SwiftCoreImageTutorial       CoreImage
-`CoreImage`的图片滤镜功能
-
-### 33 ContextMenuTableViewTutorial         UIKit&Foundation   
-table的cut/copy/paste操作
-
-### 34 TextFieldAlertControllerTutorial     UIKit&Foundation
-UIAlertController的简单使用
-
-### 35 TakeVideoPlayerTutorial          Photos
-拍摄视频和查看图库
-
-### 36 SearchMapTutorial            MapKit
-搜索地图。知识点：`MapKit` `MKLocalSearchRequest`  `MKCoordinateSpan` `MKLocalSearch`
-
-### 37 AirdropTutorial         UIKit&Foundation 
-分享功能。 知识点：`UIActivityViewController`，`UIActivityType`
- 
-### 38 ReorderingCollectionViewTutorial     UIKit&Foundation 
-`UICollectionViewController`的基本使用
-
-### 39 ScaleImagesTutorial          UIKit&Foundation
-`UIPinchGestureRecognizer`的使用。知识点`UIPinchGestureRecognizer` ， `CGAffineTransform`。
-
-### 40 UserDefaultsTutorial     UIKit&Foundation  
-UserDefaults的基本使用。程序被杀掉后数据还能保存。
-
-### 41 ScreenEdgePanGesturesTutorial        UIKit&Foundation
-屏幕边缘手势`UIScreenEdgePanGestureRecognizer`的使用
-
-### 42 AddEventTutorial     EventKit
-向日历中添加提醒。知识点：`EventKit` ， `EKEventStore`。
-
-### 43 ToadyExtension  ??
-- 知识点
-    + `ProcessInfo().operatingSystemVersion`
-    + **Application Extension**
-
-### 44 AddSearchTableViewTutorial       UIKit&Foundation
-为TableView添加搜索栏。知识点：`UISearchController`, `NSPredicate`
-
-### 45 MoveViewKeyboardTutorial  ??
-(https://www.ioscreator.com/tutorials/move-view-behind-keyboard-ios8-swift)
-
-### 46 ScrollViewTutorial 
-`UIScrollView`的简单使用
-
-### 47 EmailTutorial  ??
-
-### 48 ActivityIndicatorStatusBarTutorial       UIKit&Foundation
-状态栏中的菊花转
-
-### 49 TouchIDTutorial          LocalAuthentication
-TouchID的简单使用
-
-### 50 CustomFontTutorial
-类似2
-
-### 51 LongPressGesturesTutorial        UIKit&Foundation
-长按手势
-    
-### 52 CustomCollectionViewCellsTutorial        UIKit&Foundation
-UICollectionViewController的简单使用
-
-### 53 SendSMSTutorial          MessageUI
-调用**信息**APP发送短信。知识点：`MessageUI` `MFMessageComposeViewControllerDelegate` `MFMessageComposeViewController`。
-
-### 54 SwipeGestureTutorial         UIKit&Foundation
-`UISwipeGestureRecognizer`（某个方向上的滑动）手势使用
-
-### 55 BlurEffectTutorial           UIKit&Foundation
-模糊效果。知识点：`UIBlurEffect`，`UIVisualEffectView`。
-
-### 56 SnapBehaviourTutorial        UIKit&Foundation
-`UISnapBehavior`效果。
-
-### 57 DrawingCirclesTutorial       QuartzCore
-画圆
-
-### 58 ShakeGestureTutorial         UIKit&Foundation
-检测震动事件。知识点：`UIEventSubtype`, `UIEvent`.
-
-### 59 VolumeTutorial  ??
-
-### 60 ScrollViewPagingTutorial     UIKit&Foundation
-用`UIScrollView`做左右翻页效果。
-
-### 61 AddRowsTableViewTutorial     UIKit&Foundation 
-TableView添加行。
-
-### 62 PathsNLayers  ??
-
-
-### 63 Delicious  ??
-
-
-### 64 Firebase  ??
-            
-
-### 65 《Intermediate iOS 10 Programming with Swift》
-
-### 66 Label        SpriteKit
-SpriteKit学习
-
-### 67 UILabelDemo
-
-### 68 Exif ??
- 
-### 69 UIButtonDemo
-
-### 70 
-
-### 71 A Beginning’s Guide to Lottie: Creating Amazing Animations in iOS Apps 
-
-### 72  HonoluluArt ??
-
-### 73 CALayerDemo      QuartzCore
-CALayer学习
-
-### 74 GeoTargeting  !!
-
-### 75 QuickLookDemo        QuickLook
-`QuickLook`的使用
-
-### 76 localizationsDemo
-本地化
-
-### 77 FancyButton          UIKit&Foundation
-IBDesignable和IBInspectable的使用
-
-### 78 PlayLocalVideo       AVFoundation
-本地视频播放
-
-### 79 Carousel Effect      UIKit&Foundation
-用`UICollectionView`实现照片横屏滑动
-
-### 80 BackgroundVideoDemo          AVFoundation
-视频背景
-
-### 81 gifBackgroud  
-使用gif作为背景。但大小不好控制！！
-
-### 82 AnimatedSplash           Animations
-Twitter开启动画
-
-### 83 GestureDemo          UIKit&Foundation
-手势处理集合
-
-### 84 ?? 
-
-### 85
-
-### 86 CoreMLDemo           Machine Learning and Vision
-CoreML的简单使用
-
-
-### 87 StreetView ??
-http://www.appcoda.com/google-street-view-ios/
-
-### 88 CoreMLFlowers        Machine Learning and Vision
-与86类似，只是model用的是识别花的`Flowers.mlmodel`
-
-
-### 89-Animation            Animations
-CABasic Animation
-clock
-基础动画 
-
-
-### 90-iOSJS    iOS和JS
-- **OCJS1**     使用URL拦截的方式进行JS与OC互相调用
-- OCJSMessageHandler  SwiftJSMessageHandler   
-
-
-### 91-network   iOS网络编程
-NSURLSession(delegate)
-NSURLSession(block)
-
-### 92 
-
-### 93-sandbox
-
-### 94-MutipleThread
-
-### 95-Socket
-
-### 96-gif
-用`UIWebView`加载gif图片。
-
-### 97-slideOutMenu         Animations
-简单的滑动菜单(NSLayoutConstraint)
-
-### 98-YouTubeEmbed         WebKit
-`WKWebView`播放在线视频
-
-### 99-CustomTableViewCell  UIKit&Foundation
-定制CustomTableViewCell 
-
-### 100-dropDownMenu        Animations
-简单的下拉菜单
-
-### 101-MasonryDemo         Open Source
-Masonry实现一个计算器界面
-
-### 102-SnapchatMenu        UIKit&Foundation
-通过`UIScrollView`实现Snap聊天页面左右滑动  
-
-### 103-QuoraDots       Animations
-Quora启动的加载动画
-
-### 104-Tumblr  ??
-Tumblr添加操作时的动画
-
-### 105-GoodAsOldPhones        UIKit&Foundation 
-tab bar controller, navigation controller, scoll view, table view and storyboard的使用
-
-### 106-LoveTweet           UIKit&Foundation
-UILabel, UITextField, UISegmentedControl, UIDatePicker, UISlider, UISwitch, UIButton and UITextView等**UIKit controls**的使用
-
-### 107-Todo            UIKit&Foundation
-tableview add, edit and delete
-
-### 108-Artistry  ??
-set up height for table view cells dynamica
-lly based on its content
-
-### 109-CandySearch     UIKit&Foundation
-UISearchController和UISplitViewController的使用
-
-### 110-FacebookMe  ??
-模仿fb的个人页面
-
-### 111-PhotoScroll  ??
-
-### 112-ClassicPhotos
-Operation 和 OperationQueue 使用
-
-### 113-FlickrSearch
-UICollectionViewController学习
-
-### 114-SnapKitDemo             Open Source
-SnapKit实现一个计算器界面
-
-
-### 115-PersistData
-数据持久化的几个例子
-
-
-### 116-ReusableKnob
-
-
-### 118-TravelVlogs     🏷️ AVFoundation
-
-
-### 119-DrawPad     🏷️
-简单的绘图应用
-
-### 121-Chirper
 
 
 ## 学习一些来源
