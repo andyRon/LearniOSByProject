@@ -1,8 +1,8 @@
-《Intermediate iOS 10 Programming with Swift》
+《Intermediate iOS Programming with Swift》
 ---------
 
 
- appcoda 网站书籍 [Intermediate iOS 10 Programming with Swift](https://www.appcoda.com/intermediate-swift-programming-book/) 的学习笔记。
+ appcoda 网站书籍 [Intermediate iOS Programming with Swift](https://www.appcoda.com/intermediate-swift-programming-book/) 的学习笔记。
 
  每一节是一个项目
 

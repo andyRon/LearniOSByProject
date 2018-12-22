@@ -89,7 +89,7 @@ LearniOSByProject
 | P053 | [SendSMSTutorial](P053-SendSMSTutorial/) | MessageUI | 调用**信息**APP发送短信 | |
 | P056 | [SnapBehaviourTutorial](P056-SnapBehaviourTutorial/) | UISnapBehavior | | |
 | P060 | [ScrollViewPagingTutorial](P060-ScrollViewPagingTutorial/) | UIKit&Foundation | 用`UIScrollView`做左右翻页效果 | |
-| P066 | [Label](P060-Label/) | SpriteKit | SpriteKit学习 | |
+| P066 | [Label](P066-Label/) | SpriteKit | SpriteKit学习 | |
 | P073 | [CALayerDemo](P073-CALayerDemo/) | QuartzCore | CALayer基础 | |
 | P074 | [GeoTargeting](P074-GeoTargeting/) | | | |
 | P075 | [QuickLookDemo](P075-QuickLookDemo/) | QuickLook | `QuickLook`的使用 | |

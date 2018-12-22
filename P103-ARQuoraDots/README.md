@@ -7,4 +7,4 @@ Quora启动的加载动画  Animations
 
 
 ### 预览图 
-![QuoraDots](./QuoraDots.gif)
+![](ARQuoraDots.gif)

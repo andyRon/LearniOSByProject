@@ -61,5 +61,6 @@ class ViewController: UIViewController, UICollectionViewDataSource {
 }
 ```
 
+### 预览图
 
-![](./Carousel%20Effect.gif)
+![](CarouselEffect.gif)
