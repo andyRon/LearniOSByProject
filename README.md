@@ -26,7 +26,7 @@ LearniOSByProject
 
 |  项目名      | [ScrollViewPagingTutorial](./P060-ScrollViewPagingTutorial/)  |  [TableCellAnimation](./65/)   |  [Label](./P066-Label/) |
 | ---- 		| :----: | :----: | :--------------------------------------------: |
-| 预览图     | ![ScrollViewPagingTutorial](./P060-ScrollViewPagingTutorial/ScrollViewPagingTutorial.gif)   | ![TableCellAnimation](./65/TableCellAnimation.gif)  |   ![Label](./P066-Label/Label.gif)  |
+| 预览图     | ![ScrollViewPagingTutorial](./P060-ScrollViewPagingTutorial/ScrollViewPagingTutorial.gif)   | ![TableCellAnimation](./P065-IntermediateiOSProgrammingwithSwift/TableCellAnimation.gif)  |   ![Label](./P066-Label/Label.gif)  |
 
 |  项目名      | [FancyButton](./P077-FancyButton/)  | [AnimatedSplash](./P082-AnimatedSplash/)   | [slideOutMenu](./P097-slideOutMenu/)  |
 | ---- 		| :----: | :----: | :--------------------------------------------: |
@@ -108,6 +108,8 @@ LearniOSByProject
 | P110 | [FacebookMe](P110-FacebookMe/) | UIKit&Foundation/UITableView | 模仿Facebook个人页面 |  |
 | P114 | [SnapKitDemo](P114-SnapKitDemo/) | Open Source | SnapKit实现一个计算器界面 | |
 | P115 | [PersistData](P115-PersistData) | | 数据持久化的几个例子| |
+| P118 | [TravelVlogs](P115-TravelVlogs) | AVKit&AVFoundation | 使用AVKit和AVFoundation框架构建简单的视频流 | |
+| P119 | [DrawPad](P115-DrawPad) | UIGraphics | 简单的绘图应用 | |
 
 
 
