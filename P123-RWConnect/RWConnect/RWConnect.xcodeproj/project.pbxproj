@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17B217342242888C007D69A4 /* EditFriendTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B217332242888C007D69A4 /* EditFriendTableViewController.swift */; };
+		2021C6B91B67CD5D0072F4C5 /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2021C6B81B67CD5D0072F4C5 /* FriendCell.swift */; };
+		202D14031B3F748E0012E77B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202D14021B3F748E0012E77B /* AppDelegate.swift */; };
+		202D14081B3F748E0012E77B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202D14061B3F748E0012E77B /* Main.storyboard */; };
+		202D14151B3F74EE0012E77B /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202D14141B3F74EE0012E77B /* FriendsViewController.swift */; };
+		202D14171B3F75070012E77B /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202D14161B3F75070012E77B /* Friend.swift */; };
+		209086B11B88DDB400B7C189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209086B01B88DDB400B7C189 /* LaunchScreen.storyboard */; };
+		20E8D13F1B3F766A00A0ACE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E8D13E1B3F766A00A0ACE9 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17B217332242888C007D69A4 /* EditFriendTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFriendTableViewController.swift; sourceTree = "<group>"; };
+		2021C6B81B67CD5D0072F4C5 /* FriendCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
+		202D13FF1B3F748E0012E77B /* RWConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RWConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		202D14021B3F748E0012E77B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		202D14071B3F748E0012E77B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		202D140E1B3F748E0012E77B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		202D14141B3F74EE0012E77B /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
+		202D14161B3F75070012E77B /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		209086B01B88DDB400B7C189 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20E8D13E1B3F766A00A0ACE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		202D13FC1B3F748E0012E77B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		202D13F61B3F748E0012E77B = {
+			isa = PBXGroup;
+			children = (
+				202D14011B3F748E0012E77B /* RWConnect */,
+				202D14001B3F748E0012E77B /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		202D14001B3F748E0012E77B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				202D13FF1B3F748E0012E77B /* RWConnect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		202D14011B3F748E0012E77B /* RWConnect */ = {
+			isa = PBXGroup;
+			children = (
+				202D14021B3F748E0012E77B /* AppDelegate.swift */,
+				202D14141B3F74EE0012E77B /* FriendsViewController.swift */,
+				17B217332242888C007D69A4 /* EditFriendTableViewController.swift */,
+				202D14161B3F75070012E77B /* Friend.swift */,
+				2021C6B81B67CD5D0072F4C5 /* FriendCell.swift */,
+				202D14061B3F748E0012E77B /* Main.storyboard */,
+				209086B01B88DDB400B7C189 /* LaunchScreen.storyboard */,
+				202D140E1B3F748E0012E77B /* Info.plist */,
+				20E8D13E1B3F766A00A0ACE9 /* Assets.xcassets */,
+			);
+			path = RWConnect;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		202D13FE1B3F748E0012E77B /* RWConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 202D14111B3F748E0012E77B /* Build configuration list for PBXNativeTarget "RWConnect" */;
+			buildPhases = (
+				202D13FB1B3F748E0012E77B /* Sources */,
+				202D13FC1B3F748E0012E77B /* Frameworks */,
+				202D13FD1B3F748E0012E77B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RWConnect;
+			productName = RWConnect;
+			productReference = 202D13FF1B3F748E0012E77B /* RWConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		202D13F71B3F748E0012E77B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Razeware, LLC";
+				TargetAttributes = {
+					202D13FE1B3F748E0012E77B = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = ZHNA975N38;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 202D13FA1B3F748E0012E77B /* Build configuration list for PBXProject "RWConnect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 202D13F61B3F748E0012E77B;
+			productRefGroup = 202D14001B3F748E0012E77B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				202D13FE1B3F748E0012E77B /* RWConnect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		202D13FD1B3F748E0012E77B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209086B11B88DDB400B7C189 /* LaunchScreen.storyboard in Resources */,
+				20E8D13F1B3F766A00A0ACE9 /* Assets.xcassets in Resources */,
+				202D14081B3F748E0012E77B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		202D13FB1B3F748E0012E77B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202D14171B3F75070012E77B /* Friend.swift in Sources */,
+				202D14151B3F74EE0012E77B /* FriendsViewController.swift in Sources */,
+				17B217342242888C007D69A4 /* EditFriendTableViewController.swift in Sources */,
+				202D14031B3F748E0012E77B /* AppDelegate.swift in Sources */,
+				2021C6B91B67CD5D0072F4C5 /* FriendCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		202D14061B3F748E0012E77B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				202D14071B3F748E0012E77B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		202D140F1B3F748E0012E77B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		202D14101B3F748E0012E77B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		202D14121B3F748E0012E77B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHNA975N38;
+				INFOPLIST_FILE = RWConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyron.RWConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		202D14131B3F748E0012E77B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHNA975N38;
+				INFOPLIST_FILE = RWConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyron.RWConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		202D13FA1B3F748E0012E77B /* Build configuration list for PBXProject "RWConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202D140F1B3F748E0012E77B /* Debug */,
+				202D14101B3F748E0012E77B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		202D14111B3F748E0012E77B /* Build configuration list for PBXNativeTarget "RWConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202D14121B3F748E0012E77B /* Debug */,
+				202D14131B3F748E0012E77B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 202D13F71B3F748E0012E77B /* Project object */;
+}
