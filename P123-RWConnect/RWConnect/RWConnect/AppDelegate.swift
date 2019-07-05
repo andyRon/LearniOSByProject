@@ -27,6 +27,7 @@
 /// THE SOFTWARE.
 
 import UIKit
+import Contacts
 
 extension UIColor {
   static let appBlue = UIColor(red: 0, green: 155.0 / 255.0, blue: 255.0 / 255.0, alpha: 1)
@@ -45,6 +46,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     UINavigationBar.appearance().isOpaque = true
     UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.white]
 		UITabBar.appearance().tintColor = .appBlue
+    
+    CNContactStore().requestAccess(for: .contacts) { (access, error) in
+      print("Access: \(access)")
+    }
     
 		return true
 	}

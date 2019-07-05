@@ -43,6 +43,29 @@ class FriendsViewController: UITableViewController {
   }
 
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    if segue.identifier == "EditFriendSegue",
+      // 1
+      let cell = sender as? FriendCell,
+      let indexPath = tableView.indexPath(for: cell),
+      let editViewController = segue.destination as? EditFriendTableViewController {
+      let friend = friendsList[indexPath.row]
+      // 2
+      let store = CNContactStore()
+      // 3
+      let predicate = CNContact.predicateForContacts(matchingEmailAddress: friend.workEmail)
+      // 4
+      let keys = [CNContactPhoneNumbersKey as CNKeyDescriptor]
+      // 5
+      if let contacts = try? store.unifiedContacts(matching: predicate, keysToFetch: keys),
+        let contact = contacts.first,
+        let contactPhone = contact.phoneNumbers.first {
+        // 6
+        friend.storedContact = contact.mutableCopy() as? CNMutableContact
+        friend.phoneNumberField = contactPhone
+        friend.identifier = contact.identifier
+      }
+      editViewController.friend = friend
+    }
   }
   
   @IBAction private func addFriends(sender: UIBarButtonItem) {
