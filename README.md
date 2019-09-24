@@ -60,6 +60,7 @@ LearniOSByProject
 | P005 | [SpeechToTextDemo](P005-SpeechToTextDemo/) | Speech | 语音转换为文字 | |
 | P007 | [LocalNotification](P007-LocalNotification/) | UserNotifications | 本地通知 | |
 | P008 | [CAGradientLayer](P008-CAGradientLayer/) | QuartzCore | 颜色渐变 | |
+| P010 | [TwitterTutorial](P010-TwitterTutorial/) | Social | 分享 | |
 | P011 | [CustomizeNavBarTutorial](P011-CustomizeNavBarTutorial/) | UIKit&Foundation | 定制导航栏 | |
 | P012 | [ShadowButtonTutorial](P012-ShadowButtonTutorial/) | QuartzCore | button的阴影 | |
 | P014 | [DatePickerTutorial](P014-DatePickerTutorial/) | UIKit&Foundation | 日期选择器使用 | |

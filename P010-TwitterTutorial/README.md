@@ -17,32 +17,8 @@ TwitterTutorial
     8. `ViewController`  实现 `UINavigtionControllerDelegate` , `UiImagePickerControllerDelegate`
     9. 定义 `var pickerController: UIImagePickerController = UIImagePickerController()`，用于获取图片
     10. 实现方法`chooseImagePressed`
-    ```
-    @IBAction func chooseImagePressed(_ sender: UIButton) {
-        
-        pickerController.delegate = self
-        pickerController.sourceType = UIImagePickerControllerSourceType.photoLibrary
-        
-        present(pickerController, animated: true, completion: nil)
-    }
-    ```
+   
     11. 实现方法`tweetButtonPressed`
-    ```
-    @IBAction func tweetButtonPressed(_ sender: UIButton) {
-        
-        if SLComposeViewController.isAvailable(forServiceType: SLServiceTypeTwitter) {
-            
-            if let tweetSheet = SLComposeViewController(forServiceType: SLServiceTypeTwitter) {
-                
-                tweetSheet.setInitialText("看着漂亮的图片了")
-                tweetSheet.add(imageView.image)
-                
-                present(tweetSheet, animated: true, completion: nil)
-            }
-        } else {
-            print("error")
-        }
-    }
-    ```
+    
     12. 实现代理方法`imagePickerController:didFinishPickingMediaWithInfo`
     13. 在**Inof.plist**中添加图库或相机使用key
