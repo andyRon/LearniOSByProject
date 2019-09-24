@@ -63,6 +63,7 @@ LearniOSByProject
 | P010 | [TwitterTutorial](P010-TwitterTutorial/) | Social | 分享 | |
 | P011 | [CustomizeNavBarTutorial](P011-CustomizeNavBarTutorial/) | UIKit&Foundation | 定制导航栏 | |
 | P012 | [ShadowButtonTutorial](P012-ShadowButtonTutorial/) | QuartzCore | button的阴影 | |
+| P013 | [FadeMusicTutorial](P013-FadeMusicTutorial/) | AVFoundation | 音乐声音大小的渐变 | |
 | P014 | [DatePickerTutorial](P014-DatePickerTutorial/) | UIKit&Foundation | 日期选择器使用 | |
 | P015 | [UIStepperTutorial](P015-UIStepperTutorial/) | UIKit&Foundation | `UIStepper`的使用 | |
 | P016 | [SpriteKitBackgroundTutorial](P016-SpriteKitBackgroundTutorial/) | SpriteKit | `SpriteKit`背景设置 | |
